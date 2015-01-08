@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+git checkout stable
+git merge test
+cd site
+git checkout stable
+git merge test
+cd ..
+ 
+echo now check for conflicts in ./site and in . and resolve them if necessary
+
