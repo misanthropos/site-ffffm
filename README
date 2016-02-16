@@ -1,6 +1,22 @@
-Gluon versions used for specific Lübeck Freifunk Firmware builds:
+## Frankfurter Test Version 
 
-* 0.4.1: v2014.2
-* 0.4: v2014.1
-* 0.4~1-beta2 (0.4 Beta 2): 2c751d3612a7229de878c40ae724611f2f4f0bee
-* 0.3.100-beta1 (0.4 Beta 1): 55a068104fa072ea7cd2decac9584a8f619badbf
+### ffmtest-3.27
+- Gebaut 02/2016
+- Freigegebenes Gluon v2016.1 mit Funktionsstand von fffmdev-3.89
+- fastd Ports jetzt wieder 10001 und 10002 (fastd-Links mit grosser MTU jetzt vorhanden)
+- Wegen der Übersichtlichkeit wurden auf der Konfig-Seite einige Tabs entfernt (hier gibt es noch Diskussionsbedarf)
+
+## ffmtest-3.10
+- Gebaut 11/2015
+- Basis war ffmstable-1.10 (Gluon 2014.1)
+- Konfig-Modus jetzt in den Sprachen DE und EN
+- Verschlüsselung von Mesh-VPN kann abgeschaltet werden (Gluon)
+- Wifi-Konfigurationspaket (Gluon)
+- Mesh-VPN ist standardmäßig aktiv
+
+
+
+## Bekannte Probleme
+Mit Gluon v2016.1 ist das Aktivieren des Konfigurationsmoduses etwas hakelig. Die optische Reboot-Rückmeldung über die LEDs kommt erst nach ca. 10 Sekunden.
+
+
