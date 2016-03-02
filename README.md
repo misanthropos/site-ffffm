@@ -1,5 +1,18 @@
 ## Frankfurter Test Version 
 
+### ffmtest-3.62
+- Gebaut 02/2016
+- Auto-MTU
+- WLAN-Kanaleinstellungen werden nach einem Update nicht überschrieben.
+- Typo in Konfig-Modus-Texten
+- Build spezifische opkg-Module werden auf Frankfurter Server abgelegt
+- opkg-Pfade hinzu
+
+#### Known Issues
+- Auto-MTU funktioniert nach einem Update nicht immer beim x86-Image
+- opkg-Pfade sind noch IPv4
+
+
 ### ffmtest-3.27
 - Gebaut 02/2016
 - Freigegebenes Gluon v2016.1 mit Funktionsstand von fffmdev-3.89
