@@ -2,9 +2,7 @@
 
 ### ffmtest-3.62
 - Gebaut 02/2016
-- Auto-MTU
-- WLAN-Kanaleinstellungen werden nach einem Update nicht überschrieben.
-- Typo in Konfig-Modus-Texten
+- Typo in Konfig-Modus-Texten (DE/EN)
 - Build spezifische opkg-Module werden auf Frankfurter Server abgelegt
 - opkg-Pfade hinzu
 
