@@ -47,7 +47,7 @@ GLUON_SITE_PACKAGES := \
 
 #####################################################################################################################
 
-# This is the dev branch
+# This is the test branch
 DEFAULT_GLUON_RELEASE := 2016.1-test
 
 # For homebrew development add e.g. date and time 
