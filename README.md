@@ -8,7 +8,7 @@
 
 ---
 
-# Eine eigene 'dev' Firmware bauen
+# Eine eigene Firmware bauen
 
 Wenn Du Dir z.B. mit der **'dev'** Konfiguratione eine eigene Gluon-Firmware für das Frankfurter Freifunk-Netz bauen möchtest, dann gehe wie folgt vor:
 
