@@ -13,7 +13,9 @@
 Wenn Du Dir z.B. mit der **'dev'** Konfiguratione eine eigene Gluon-Firmware für das Frankfurter Freifunk-Netz bauen möchtest, dann gehe wie folgt vor:
 
 1) Lesen von https://gluon.readthedocs.org/en/v2016.1/user/getting_started.html
+
 2) Alle Dependencies aus o.g. Dokument müssen auf deinem PC installiert sein.
+
 3) Clonen des Frankfurter Gluon 'dev' Branches in das Verzeichnis ./gluon :
 ```
    git clone https://github.com/freifunk-ffm/gluon.git -b dev gluon
@@ -23,13 +25,13 @@ Wenn Du Dir z.B. mit der **'dev'** Konfiguratione eine eigene Gluon-Firmware fü
    cd gluon
    git clone https://github.com/freifunk-ffm/site-ffffm.git -b dev site 
 ```
-6) Ggf. in der Dateie **site.mk** etwas rumschrauben
+5) Ggf. in der Dateie **site.mk** etwas rumschrauben
    ```
    cd site
    nano site.mk
    cd ..
    ```
-5) Veranlassen, das alle notwendigen Source-Packete geholt werden (OpenWrt, Frankfurter Packages etc.)
+6) Veranlassen, das alle notwendigen Source-Packete geholt werden (OpenWrt, Frankfurter Packages etc.)
 ```
    make update
 ```
@@ -42,11 +44,13 @@ Wenn Du Dir z.B. mit der **'dev'** Konfiguratione eine eigene Gluon-Firmware fü
    * x86-kvm_guest
    * x86-64
    * x86-xen_domu
+
 8) Den Bau-Prozess anschmeissen für z.B. ein ar71xx-generic Hardware-Traget
 ```
    make GLUON_TARGET=ar71xx-generic -j4 V=s
 ```
 -j4 bedeutet, es werden 4 Make-Threads verwendet. V=s erzeugt eine ausführliche Bildschirmausgabe
+
 9) Wenn alles gut ging, findest Du nach ca. 30-120 Minuten im Verzeichnis **./output** die Target-Binaries deiner eigenen Frankfurter 'dev' Firmware.
 
 ---
