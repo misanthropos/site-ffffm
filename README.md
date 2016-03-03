@@ -1,9 +1,9 @@
  
 
 ### Für die Frankfurter Firmware werden folgende Branches von Site verwendet
-* stable (offizielles Release)
-* test (Release Candidate)
-* dev (Development)
+* **stable** (offizielles Release)
+* **test** (Release Candidate)
+* **dev** (Development)
 * master (wird nicht verwendet)
 
 ---
@@ -20,7 +20,7 @@ Wenn Du Dir z.B. mit der **'dev'** Konfiguratione eine eigene Gluon-Firmware fü
 ```
    git clone https://github.com/freifunk-ffm/gluon.git -b dev gluon
 ```
-4) Clonen der Frankfuerter Site-Konfiguration in das Verzeichnis ./gluon/site
+4) Clonen der Frankfurter Site-Konfiguration in das Verzeichnis ./gluon/site
 ```
    cd gluon
    git clone https://github.com/freifunk-ffm/site-ffffm.git -b dev site 
