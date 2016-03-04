@@ -1,6 +1,6 @@
 ### Firmware Versionen
-Für die Frankfurter Firmware Varianten werden die unten aufgeführten Bezeichnungen verwendet.
-Firmware-Varianten und Git-Branches werden zu Vereinfachung gleich benannt.
+Für die Frankfurter Firmware-Varianten werden die unten aufgeführten Bezeichnungen verwendet.
+Firmware-Varianten und Git-Branches werden zur Vereinfachung gleich benannt.
 
 **stable:**
 * Stabiles Gluon Release
