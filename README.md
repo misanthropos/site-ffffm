@@ -1,16 +1,30 @@
- 
+### Für die Frankfurter Firmware werden folgende Branches verwendet (site-ffffm und Gluon)
+**stable:**
+* Stabiles Gluon Release
+* SSID: 'ffm.freifunk.net'
+* Diese Firmware sollte standardmäßig in Frankfurt verwendet werden.
 
-### Für die Frankfurter Firmware werden folgende Branches von Site verwendet
-* **stable** (offizielles Release)
-* **test** (Release Candidate)
-* **dev** (Development)
-* master (wird nicht verwendet)
+
+**test:**
+* Vorab-Feldtest stabiler Gluon Releases
+* SSID: 'ffm.freifunk.net'
+* Diese Firmware kann noch fehlerbehaftet sein. Bitte nur mit Bedacht verwenden!
+
+**dev:**
+* Entwicklungszweig(e) aktueller oder zukünftiger Gluon Releases (kein Gluon Master!)
+* Frankfurter Entwicklungs-Bereich
+* Systemtest unter Realbedingungen
+* SSID: 'dev.ffm.freifunk.net'
+* Diese Firmware ist als nicht funktionsfähig einzustufen. Bitte nicht verwenden!
+
+**master:**
+* Dummy Branch (wird nicht verwendet)
 
 ---
 
 # Eine eigene Firmware bauen
 
-Wenn Du Dir z.B. mit der **'dev'** Konfiguratione eine eigene Gluon-Firmware für das Frankfurter Freifunk-Netz bauen möchtest, dann gehe wie folgt vor:
+Wenn Du Dir z.B. eine eigene **'dev'**-Firmware für das Frankfurter Freifunk-Netz bauen möchtest, dann gehe wie folgt vor:
 
 1) Lesen von https://gluon.readthedocs.org/en/v2016.1/user/getting_started.html
 
