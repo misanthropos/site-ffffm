@@ -3,24 +3,24 @@ Für die Frankfurter Firmware-Varianten werden die unten aufgeführten Bezeichnu
 Firmware-Varianten und Git-Branches werden zur Vereinfachung gleich benannt.
 
 **stable:**
-* Stabiles Gluon Release
 * Bezeichnung: 'ffmstable-x.y'
 * SSID: 'ffm.freifunk.net'
+* Stabiles Gluon Release
 * Diese Firmware sollte standardmäßig in Frankfurt verwendet werden.
 
 
 **test:**
-* Vorab-Feldtest stabiler Gluon Releases
 * Bezeichnung: 'ffmtest-x.y'
 * SSID: 'ffm.freifunk.net'
+* Vorab-Feldtest stabiler Gluon Releases
 * Diese Firmware kann noch fehlerbehaftet sein. Bitte nur mit Bedacht verwenden!
 
 **dev:**
+* Bezeichnung: 'ffmdev-x.y'
+* SSID: 'dev.ffm.freifunk.net'
 * Entwicklungszweig(e) aktueller oder zukünftiger Gluon Releases (kein Gluon Master!)
 * Frankfurter Entwicklungs-Bereich
 * System- und Integrationstest unter Realbedingungen
-* Bezeichnung: 'ffmdev-x.y'
-* SSID: 'dev.ffm.freifunk.net'
 * Diese Firmware ist als nicht funktionsfähig einzustufen. Bitte nicht verwenden!
 
 **master:**
