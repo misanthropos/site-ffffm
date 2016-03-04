@@ -1,0 +1,58 @@
+Frankfurter Firmware 
+====================
+
+Hier findest Du die Frankfurter Freifunk Firmware.
+Es werden viele, aber leider nicht alle Router-Modell unterstützt.
+
+
+Funktions-Varianten
+===================
+Von der Frankfurter Firmware gibt es folgende unterschiedliche Branches (Varianten):
+
+"stable"
+--------
+Bezeichnung: 'ffmstable-x.y'
+SSID: 'ffm.freifunk.net'
+Eigenschaft: Stabiles Gluon Release
+Verwendung: Diese Firmware sollte standardmäßig in Frankfurt verwendet werden.
+
+
+"test"
+------
+Bezeichnung: 'ffmtest-x.y'
+SSID: 'ffm.freifunk.net'
+Eigenschaft: Vorab-Feldtest stabiler Gluon Releases
+Verwendung: Diese Firmware kann noch fehlerbehaftet sein. Bitte nur mit Bedacht verwenden!
+
+
+"dev"
+-----
+Bezeichnung: 'ffmdev-x.y'
+SSID: 'dev.ffm.freifunk.net'
+Eigenschaft: Entwicklungszweig(e) aktueller oder zukünftiger Gluon Releases (kein Gluon Master!)
+Eigenschaft: Frankfurter Entwicklungs-Bereich
+Eigenschaft: System- und Integrationstest unter Realbedingungen
+Verwendung: Diese Firmware ist als nicht funktionsfähig einzustufen. Bitte nicht verwenden!
+
+
+
+Factory und Sysupgrade
+=======================
+
+Von jeder Router-Firmware gibt es zwei verschiedene Typen: "factory" und "sysupgrade"
+Es ist extremst wichtig, den richtigen Typ zu wählen! 
+
+Factory
+-------
+Diese ist für fabrikfrische Router mit aufgespielter Hersteller-Original-Firmware gedacht.
+
+Sysupgrade
+----------
+Diese ist für Router, auf welchen bereits eine Frankfurter Freifunk Firmware läuft. 
+
+
+
+
+
+
+
