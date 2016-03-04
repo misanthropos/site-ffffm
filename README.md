@@ -18,7 +18,7 @@ Firmware-Varianten und Git-Branches werden zur Vereinfachung gleich benannt.
 **dev:**
 * Entwicklungszweig(e) aktueller oder zukünftiger Gluon Releases (kein Gluon Master!)
 * Frankfurter Entwicklungs-Bereich
-* Systemtest unter Realbedingungen
+* System- und Integrationstest unter Realbedingungen
 * Bezeichnung: 'ffmdev-x.y'
 * SSID: 'dev.ffm.freifunk.net'
 * Diese Firmware ist als nicht funktionsfähig einzustufen. Bitte nicht verwenden!
