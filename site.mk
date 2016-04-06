@@ -10,6 +10,7 @@ GLUON_SITE_PACKAGES := \
     gluon-config-mode-mesh-vpn \
     gluon-config-mode-geo-location \
     gluon-config-mode-contact-info \
+    ffffm-ebtables-net-rules \
     gluon-ebtables-filter-multicast \
     gluon-ebtables-filter-ra-dhcp \
     gluon-luci-admin \
@@ -22,6 +23,7 @@ GLUON_SITE_PACKAGES := \
     ffffm-luci-set-mtu \
     ffffm-fastd-auto-mtu \
     ffffm-keep-radio-channel \
+    ffffm-banner \
     gluon-next-node \
     gluon-mesh-vpn-fastd \
     gluon-radvd \
@@ -32,13 +34,14 @@ GLUON_SITE_PACKAGES := \
     iputils-ping \
     gluon-luci-mesh-vpn-fastd \    # Hier sollten wir noch mal drüber sprechen.
 
+#   ffffm-autoupdater-use-site-conf-branch \    # Hier sollten wir noch mal drüber sprechen.
 
 #####################################################################################################################
 
 # This is the test branch
 
 # Gluon Base Release
-# DEFAULT_GLUON_RELEASE := 2016.1.1
+# DEFAULT_GLUON_RELEASE := 2016.1.3
 
 # For homebrew development add e.g. date and time 
 # (don't use the ':' char. It will break the build)
