@@ -20,7 +20,6 @@ GLUON_SITE_PACKAGES := \
     gluon-luci-wifi-config \
     gluon-luci-node-role \
     ffffm-luci-switchconfig \
-    ffffm-luci-set-mtu \
     ffffm-fastd-auto-mtu \
     ffffm-keep-radio-channel \
     ffffm-banner \
