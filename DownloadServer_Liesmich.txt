@@ -49,7 +49,7 @@ Diese Firmware ist für Routern, auf welchen noch die original Hersteller-Firmwa
 
 Sysupgrade
 ----------
-Diese Firmware ist für Router, auf welchen bereits eine Frankfurter Freifunk Firmware läuft. 
+Diese Firmware ist für Router, auf welchen bereits eine Frankfurter Freifunk bzw. OpenWrt Firmware läuft. 
 
 
 
