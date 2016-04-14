@@ -31,7 +31,7 @@ GLUON_SITE_PACKAGES := \
     iptables \
     haveged \
     iputils-ping \
-    gluon-luci-mesh-vpn-fastd \    # Hier sollten wir noch mal drüber sprechen.
+    gluon-luci-mesh-vpn-fastd \
 
 #   ffffm-autoupdater-use-site-conf-branch \    # Hier sollten wir noch mal drüber sprechen.
 
