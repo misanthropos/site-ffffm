@@ -3,15 +3,19 @@
 - Gebaut 14.04.2016
 - Freigegebenes Gluon v2016.1.3
 - 'next_node.ipv6' ist jetzt fddd:5d16:b5dd::1
+- Das Package ffffm-ebtables-net-rules wieder aktiviert
 - Neues Package 'ffffm-banner' hinzu
 - Konfigmode-Seite "Auto-MTU" entfernt
-- Bugfix: Konfiguration der Auto-MTU-Erkennung
+- Bugfix: Auto-MTU-Erkennung bei x86-Images 
 
 #### Known Issues
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
 
 ### ffmtest-3.62
 - Gebaut 02/2016
+- Neu: Per uci eingestellte WLAN-Kanäle sind jetzt Update-fest (kein Abhängen von Mesh-Wolken durch Auto-Upgrade) (FFM-Eigenentwicklung)
+- Neu: Auto-MTU (FFM-Eigenentwicklung)(z.Z. inkl. GUI)
+- Futro CF-Karten Unterstützung
 - Typo in Konfig-Modus-Texten (DE/EN)
 - Build spezifische opkg-Module werden auf Frankfurter Server abgelegt
 - opkg-Pfade hinzu
