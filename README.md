@@ -1,5 +1,10 @@
 ## Frankfurter Test Version 
 ### v1.10.2-test-78
+- Gebaut 30.04.2016
+- Freigegebenes Gluon v2016.1.4
+- Anpassung WLAN-Treiber: https://gluon.readthedocs.io/en/v2016.1.4/releases/v2016.1.4.html
+
+### v1.10.2-test-78
 - Gebaut 14.04.2016
 - Freigegebenes Gluon v2016.1.3
 - 'next_node.ipv6' ist jetzt fddd:5d16:b5dd::1
