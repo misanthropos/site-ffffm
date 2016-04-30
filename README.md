@@ -1,5 +1,5 @@
 ## Frankfurter Test Version 
-### v1.10.2-test-78
+### v1.10.3-test-82
 - Gebaut 30.04.2016
 - Freigegebenes Gluon v2016.1.4
 - Anpassung WLAN-Treiber: https://gluon.readthedocs.io/en/v2016.1.4/releases/v2016.1.4.html
