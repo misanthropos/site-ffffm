@@ -4,6 +4,10 @@
 - Freigegebenes Gluon v2016.1.4
 - Anpassung WLAN-Treiber: https://gluon.readthedocs.io/en/v2016.1.4/releases/v2016.1.4.html
 
+#### Known Issues
+- Das WLAN hängt sich bei einigen wenigen Routern manchmal auf
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
+
 ### v1.10.2-test-78
 - Gebaut 14.04.2016
 - Freigegebenes Gluon v2016.1.3
@@ -14,6 +18,7 @@
 - Bugfix: Auto-MTU-Erkennung bei x86-Images 
 
 #### Known Issues
+- Das WLAN hängt sich bei einigen wenigen Routern manchmal auf
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
 
 ### ffmtest-3.62
