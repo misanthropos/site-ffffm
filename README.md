@@ -4,22 +4,22 @@ Firmware-Varianten und Git-Branches haben zur Vereinfachung den gleichen Namen b
 
 **stable:**
 
-* Bezeichnung: 'ffmstable-x.y'
+* Bezeichnungsschema: 'ffmstable-x.y'
 * SSID: 'ffm.freifunk.net'
 * Stabiles Gluon Release
-* Diese Firmware sollte standardmäßig in Frankfurt verwendet werden.
+* **Diese Firmware sollte standardmäßig in Frankfurt verwendet werden.**
 
 
 **test:**
 
-* Bezeichnung: 'ffmtest-x.y'
+* Bezeichnungsschema: 'a.b.c-test-d'
 * SSID: 'ffm.freifunk.net'
 * Vorab-Feldtest stabiler Gluon Releases
 * Diese Firmware kann noch fehlerbehaftet sein. Bitte nur mit Bedacht verwenden!
 
 **dev:**
 
-* Bezeichnung: 'ffmdev-x.y'
+* Bezeichnungsschema: 'a.b.c.d-dev-f'
 * SSID: 'dev.ffm.freifunk.net'
 * Entwicklungszweig(e) aktueller oder zukünftiger Gluon Releases (kein Gluon Master!)
 * Frankfurter Entwicklungs-Bereich
@@ -34,9 +34,14 @@ Firmware-Varianten und Git-Branches haben zur Vereinfachung den gleichen Namen b
 
 # Eine eigene Firmware bauen
 
+---
+
+## Beispiel anhand der Frankfurter Dev-Firmware
+
+    
 Wenn Du Dir z.B. eine eigene **'dev'**-Firmware für das Frankfurter Freifunk-Netz bauen möchtest, dann gehe wie folgt vor:
 
-1) Lesen von https://gluon.readthedocs.org/en/v2016.1/user/getting_started.html
+1) Lesen von http://gluon.readthedocs.io/en/latest/user/getting_started.html
 
 2) Alle Dependencies aus o.g. Dokument müssen auf deinem PC installiert sein.
 
@@ -53,7 +58,7 @@ Wenn Du Dir z.B. eine eigene **'dev'**-Firmware für das Frankfurter Freifunk-Ne
    git clone https://github.com/freifunk-ffm/site-ffffm.git -b dev site 
 ```
 
-5) Ggf. in der Dateie **site.mk** etwas rumschrauben
+5) Ggf. in der Datei **site.mk** etwas rumschrauben
 
    ```
    cd site
