@@ -19,6 +19,7 @@ GLUON_SITE_PACKAGES := \
     gluon-luci-private-wifi \
     gluon-luci-wifi-config \
     gluon-luci-node-role \
+    gluon-luci-mesh-vpn-fastd \
     ffffm-luci-switchconfig \
     ffffm-fastd-auto-mtu \
     ffffm-keep-radio-channel \
@@ -29,9 +30,8 @@ GLUON_SITE_PACKAGES := \
     gluon-status-page \
     iwinfo \
     iptables \
-    haveged \
     iputils-ping \
-    gluon-luci-mesh-vpn-fastd \
+    haveged \
 
 #   ffffm-autoupdater-use-site-conf-branch \    # Hier sollten wir noch mal drüber sprechen.
 
@@ -40,11 +40,11 @@ GLUON_SITE_PACKAGES := \
 # This is the test branch
 
 # Gluon Base Release
-# DEFAULT_GLUON_RELEASE := 2016.1.3
+DEFAULT_GLUON_RELEASE := 2016.1.x-Homebrew
 
 # For homebrew development add e.g. date and time 
-# (don't use the ':' char. It will break the build)
-# DEFAULT_GLUON_RELEASE := $(DEFAULT_GLUON_RELEASE)-$(shell date '+%m.%d-%H%M')
+# (Note: Don't use the ':' char. It will break the build)
+DEFAULT_GLUON_RELEASE := $(DEFAULT_GLUON_RELEASE)-$(shell date '+%Y.%m.%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
