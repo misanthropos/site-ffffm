@@ -1,4 +1,14 @@
 ## Frankfurter Test Version 
+
+### v1.10.3-test-83
+- Gebaut 05.05.2016
+- Freigegebenes Gluon v2016.1.4
+- Unterstützung von WR841N/ND v11
+
+#### Known Issues
+- Das WLAN hängt sich bei einigen wenigen Routern manchmal auf
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
+
 ### v1.10.3-test-82
 - Gebaut 30.04.2016
 - Freigegebenes Gluon v2016.1.4
