@@ -4,6 +4,7 @@
 - Gebaut 05.05.2016
 - Freigegebenes Gluon v2016.1.4
 - Unterstützung von WR841N/ND v11
+- Typo in i18n/de.po und i18n/en.po
 
 #### Known Issues
 - Das WLAN hängt sich bei einigen wenigen Routern manchmal auf
