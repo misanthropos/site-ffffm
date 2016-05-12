@@ -22,7 +22,11 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	iwinfo \
 	iptables \
-	haveged 
+	haveged \
+	ffffm-keep-radio-channel \
+	ffffm-ebtables-net-rules \
+	gluon-ebtables-filter-multicast \
+	gluon-ebtables-filter-ra-dhcp
 
 
 
