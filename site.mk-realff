@@ -24,9 +24,7 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged \
 	ffffm-keep-radio-channel \
-	ffffm-ebtables-net-rules \
-	gluon-ebtables-filter-multicast \
-	gluon-ebtables-filter-ra-dhcp
+	ffffm-ebtables-net-rules 
 
 
 
