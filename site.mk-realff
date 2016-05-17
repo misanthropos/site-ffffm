@@ -24,7 +24,8 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged \
 	ffffm-keep-radio-channel \
-	ffffm-ebtables-net-rules 
+	ffffm-ebtables-net-rules \
+	ffffm-banner 
 
 
 
