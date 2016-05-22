@@ -86,10 +86,12 @@ Wenn Du Dir z.B. eine eigene **'dev'**-Firmware für das Frankfurter Freifunk-Ne
 8) Den Bau-Prozess anschmeissen für z.B. ein ar71xx-generic Hardware-Traget
 
 ```
-   make GLUON_TARGET=ar71xx-generic -j4 V=s
+   make GLUON_TARGET=ar71xx-generic -j4 V=s  BROKEN=1
 ```
 
--j4 bedeutet, es werden 4 Make-Threads verwendet. V=s erzeugt eine ausführliche Bildschirmausgabe
+   * -j4 bedeutet, es werden bis zu vier Make-Threads verwendet.<br> 
+   * V=s erzeugt eine ausführliche Bildschirmausgabe.<br>
+   * BROKEN=1 bedeutet, dass auch Experimental-Firmware für bisher nicht ausreichend getestete Routermodelle gebaut wird.<br>
 
 9) Wenn alles gut ging, findest Du nach ca. 30-120 Minuten im Verzeichnis **./output** die Target-Binaries deiner eigenen Frankfurter 'dev' Firmware.
 
