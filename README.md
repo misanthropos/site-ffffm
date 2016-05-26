@@ -1,6 +1,6 @@
 ## Frankfurter Development Version 
 
-### v1.10.3.1-dev-50
+### v1.10.3.1-dev-150
 - Gebaut 18.05.2016
 - Basis: freigegebenes Gluon **v2015.1.2**
 - Konfiguration und Packages von ffmstable-1.10 übernommen
