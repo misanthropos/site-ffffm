@@ -25,7 +25,8 @@ GLUON_SITE_PACKAGES := \
 	haveged \
 	ffffm-keep-radio-channel \
 	ffffm-ebtables-net-rules \
-	ffffm-banner 
+	ffffm-banner \
+	ffffm-gluon-airtime-v2015.1.x
 
 
 
