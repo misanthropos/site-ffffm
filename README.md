@@ -56,7 +56,6 @@ Wenn Du Dir z.B. eine eigene **'dev'**-Firmware für das Frankfurter Freifunk-Ne
 ```
    cd gluon
    git clone https://github.com/freifunk-ffm/site-ffffm.git -b dev site 
-   cd ..
 ```
 
 5) Ggf. in der Datei **site.mk** etwas rumschrauben
