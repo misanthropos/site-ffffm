@@ -1,5 +1,15 @@
 ## Frankfurter Development Version 
 
+### v1.10.3.2-dev-154
+- Gebaut 26.05.2016
+- Basis: freigegebenes Gluon **v2015.1.2**
+- Neues Package ffffm-airtime-v2015.1.x eingebaut
+
+#### Known Issues
+- Der Befehl 'help' (aus ffffm-banner) liefert nicht die erwünschte Ausgabe.
+- Kein opkg-Pfad zu Build spezifischen Kernelmodulen vorhanden.
+
+
 ### v1.10.3.1-dev-150
 - Gebaut 18.05.2016
 - Basis: freigegebenes Gluon **v2015.1.2**
