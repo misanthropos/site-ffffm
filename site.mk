@@ -24,6 +24,9 @@ GLUON_SITE_PACKAGES := \
     ffffm-fastd-auto-mtu \
     ffffm-keep-radio-channel \
     ffffm-banner \
+    ffffm-autoupdater-use-site-conf-branch \
+    ffffm-additional-wifi-json-info \
+    ffffm-ath9k-broken-wifi-workaround \
     gluon-next-node \
     gluon-mesh-vpn-fastd \
     gluon-radvd \
