@@ -26,7 +26,6 @@ GLUON_SITE_PACKAGES := \
     ffffm-additional-wifi-json-info \
     ffffm-ath9k-broken-wifi-workaround \
     gluon-next-node \
-    gluon-mesh-vpn-fastd \
     gluon-radvd \
     gluon-status-page \
     iwinfo \
@@ -37,6 +36,7 @@ GLUON_SITE_PACKAGES := \
 
 
 
+#    gluon-mesh-vpn-fastd \
 #    gluon-luci-node-role \
 #    ffffm-luci-switchconfig \
 
