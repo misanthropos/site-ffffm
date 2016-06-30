@@ -10,7 +10,6 @@ GLUON_SITE_PACKAGES := \
     gluon-config-mode-mesh-vpn \
     gluon-config-mode-geo-location \
     gluon-config-mode-contact-info \
-    ffffm-ebtables-net-rules \
     gluon-ebtables-filter-multicast \
     gluon-ebtables-filter-ra-dhcp \
     gluon-luci-admin \
@@ -18,9 +17,8 @@ GLUON_SITE_PACKAGES := \
     gluon-luci-portconfig \
     gluon-luci-private-wifi \
     gluon-luci-wifi-config \
-    gluon-luci-node-role \
     gluon-luci-mesh-vpn-fastd \
-    ffffm-luci-switchconfig \
+    ffffm-ebtables-net-rules \
     ffffm-fastd-auto-mtu \
     ffffm-keep-radio-channel \
     ffffm-banner \
@@ -36,7 +34,12 @@ GLUON_SITE_PACKAGES := \
     iputils-ping \
     haveged \
 
-#   ffffm-autoupdater-use-site-conf-branch \    # Hier sollten wir noch mal drüber sprechen.
+
+
+
+#    gluon-luci-node-role \
+#    ffffm-luci-switchconfig \
+
 
 #####################################################################################################################
 
