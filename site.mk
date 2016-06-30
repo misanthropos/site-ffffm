@@ -17,7 +17,6 @@ GLUON_SITE_PACKAGES := \
     gluon-luci-portconfig \
     gluon-luci-private-wifi \
     gluon-luci-wifi-config \
-    gluon-luci-mesh-vpn-fastd \
     ffffm-ebtables-net-rules \
     ffffm-fastd-auto-mtu \
     ffffm-keep-radio-channel \
@@ -25,6 +24,7 @@ GLUON_SITE_PACKAGES := \
     ffffm-autoupdater-use-site-conf-branch \
     ffffm-additional-wifi-json-info \
     ffffm-ath9k-broken-wifi-workaround \
+    gluon-mesh-vpn-fastd \
     gluon-next-node \
     gluon-radvd \
     gluon-status-page \
@@ -36,7 +36,7 @@ GLUON_SITE_PACKAGES := \
 
 
 
-#    gluon-mesh-vpn-fastd \
+#    gluon-luci-mesh-vpn-fastd \
 #    gluon-luci-node-role \
 #    ffffm-luci-switchconfig \
 
