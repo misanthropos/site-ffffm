@@ -5,7 +5,7 @@
 - Freigegebenes Gluon v2016.1.5
 - Neues Package 'ffffm-ath9k-broken-wifi-workaround' hinzu
 - Neues Package 'ffffm-additional-wifi-json-info' hinzu
-- Die Packages 'gluon-lici-node-role', 'ffffm-luci-switchconfig' und 'gluon-mesh-vpn-fastd' entfernt
+- Die Packages 'gluon-lici-node-role', 'ffffm-luci-switchconfig' und 'gluon-luci-mesh-vpn-fastd' entfernt
 
 #### Known Issues
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
