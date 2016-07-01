@@ -1,6 +1,6 @@
 ## Frankfurter Test Version 
 
-### v1.10.4-test-88 (noch nicht automatisch ausgerollt)
+### v1.10.4-test-89 (noch nicht automatisch ausgerollt)
 - Gebaut 01.07.2016
 - Freigegebenes Gluon v2016.1.5
 - Neues Package 'ffffm-ath9k-broken-wifi-workaround' hinzu
