@@ -1,11 +1,12 @@
 ## Frankfurter Test Version 
 
-### v1.10.4-test-87 (noch nicht automatisch ausgerollt)
-- Gebaut 30.06.2016
+### v1.10.4-test-88 (noch nicht automatisch ausgerollt)
+- Gebaut 01.07.2016
 - Freigegebenes Gluon v2016.1.5
 - Neues Package 'ffffm-ath9k-broken-wifi-workaround' hinzu
 - Neues Package 'ffffm-additional-wifi-json-info' hinzu
-- Die Packages 'gluon-lici-node-role', 'ffffm-luci-switchconfig' und 'gluon-luci-mesh-vpn-fastd' entfernt
+- Die Packages 'gluon-luci-node-role', 'ffffm-luci-switchconfig' und 'gluon-luci-mesh-vpn-fastd' entfernt
+- Updateserver neu verlinkt auf http://updates.services.ffffm/dev/sysupgrade
 
 #### Known Issues
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
