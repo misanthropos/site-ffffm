@@ -1,14 +1,23 @@
 ## Frankfurter Test Version 
 
-### v1.10.4-test-91 (noch nicht automatisch ausgerollt)
+### v1.10.4-test-95 (noch nicht automatisch ausgerollt)
+- Gebaut 05.07.2016
+- Bugfix: Updateserver neu verlinkt auf http://updates.services.ffffm/**test**/sysupgrade
+
+#### Known Issues
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
+
+
+### v1.10.4-test-92 (nicht automatisch ausgerollt)
 - Gebaut 01.07.2016
 - Freigegebenes Gluon v2016.1.5
 - Neues Package 'ffffm-ath9k-broken-wifi-workaround' hinzu
 - Neues Package 'ffffm-additional-wifi-json-info' hinzu
 - Die Packages 'gluon-luci-node-role', 'ffffm-luci-switchconfig' und 'gluon-luci-mesh-vpn-fastd' entfernt
-- Updateserver neu verlinkt auf http://updates.services.ffffm/dev/sysupgrade
+- Updateserver neu verlinkt auf http://updates.services.ffffm/stable/sysupgrade
 
 #### Known Issues
+- Der Links zu dem Updateserver ist falsch gesetzt. Eine Aktualisierung auf eine neuere Version ist wohl nur händisch möglich! :o(
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
  
 
