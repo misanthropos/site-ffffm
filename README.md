@@ -3,7 +3,7 @@
 ### v1.10.4-test-96 (noch nicht automatisch ausgerollt)
 - Gebaut 06.07.2016
 - Neues Package 'ffffm-enlarge-dns-cache' hinzu
-- Bugfix: Updateserver neu verlinkt, auf http://updates.services.ffffm/**test**/sysupgrade
+- Bugfix: Updateserver neu verlinkt, auf http://updates.services.ffffm/test/sysupgrade
 
 #### Known Issues
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
