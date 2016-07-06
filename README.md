@@ -18,7 +18,7 @@
 - Updateserver neu verlinkt auf http://updates.services.ffffm/stable/sysupgrade
 
 #### Known Issues
-- Der Links zu dem Updateserver ist falsch gesetzt. Eine Aktualisierung auf eine neuere Version ist wohl nur händisch möglich! :o(
+- Der Links zu dem Updateserver ist falsch gesetzt. Eine Aktualisierung auf eine neuere Version ist wohl nur noch händisch möglich! :o(
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
  
 
