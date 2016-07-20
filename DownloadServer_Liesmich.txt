@@ -1,39 +1,42 @@
-Frankfurter Firmware 
-====================
+Frankfurter Freifunk-Firmware 
+=============================
 
-Hier findest Du die Frankfurter Freifunk Firmware.
-Es werden viele, aber leider nicht alle Router-Modell unterstützt.
+Hier findest Du unsere Frankfurter Freifunk-Firmware.
+Es werden viele, aber leider nicht alle Router-Modell unterstuetzt.
 
 
 Funktions-Varianten
 ===================
 Von der Frankfurter Firmware gibt es folgende unterschiedliche Branches (Varianten):
 
-"stable"
+
+"STABLE"
 --------
-Verwendung: Diese Firmware sollte standardmäßig verwendet werden.
+Verwendung: Diese Firmware sollte standardmaessig verwendet werden.
 Bezeichnung: 'ffmstable-x.y'
 SSID: 'ffm.freifunk.net'
 Eigenschaft: Stabiles Gluon Release
-Info: Aktuelle Version ffmstable-1.10
+Hhistorie: Aktuelle Version ffmstable-1.10
 
-"test"
+
+"TEST"
 ------
 Verwendung: Diese Firmware kann noch fehlerbehaftet sein. Bitte nur mit Bedacht verwenden!
-Bezeichnung: 'ffmtest-x.y'
+Bezeichnung: 'a.b.c-test-d'
 SSID: 'ffm.freifunk.net'
 Eigenschaft: Vorab-Feldtest stabiler Gluon Releases
-Info: https://github.com/freifunk-ffm/site-ffffm/blob/test/README.md
+Historie: Siehe https://github.com/freifunk-ffm/site-ffffm/blob/test/README.md
 
-"dev"
+
+"DEV"
 -----
-Verwendung: Diese Firmware ist als nicht funktionsfähig einzustufen. Bitte nicht verwenden!
-Bezeichnung: 'ffmdev-x.y'
+Verwendung: Diese Firmware ist als nicht funktionsfaehig einzustufen. Bitte nicht verwenden!
+Bezeichnung: 'a.b.c.d-dev-f'
 SSID: 'dev.ffm.freifunk.net'
-Eigenschaft: Entwicklungszweig(e) aktueller oder zukünftiger Gluon Releases (kein Gluon Master!)
+Eigenschaft: Entwicklungszweig(e) aktueller oder zukuenftiger Gluon Releases (kein Gluon Master!)
 Eigenschaft: Frankfurter Entwicklungs-Bereich
 Eigenschaft: System- und Integrationstest unter Realbedingungen
-Info: https://github.com/freifunk-ffm/site-ffffm/blob/dev/README.md
+Historie: Siehe https://github.com/freifunk-ffm/site-ffffm/blob/dev/README.md
 
 
 
@@ -41,19 +44,13 @@ Factory vs. Sysupgrade
 =======================
 
 Von jeder Router-Firmware gibt es zwei verschiedene Typen: "factory" und "sysupgrade"
-Es ist extremst wichtig, den richtigen Typ zu wählen! 
+Es ist extremst wichtig, den richtigen Typ zu waehlen! 
 
 Factory
 -------
-Diese Firmware ist für Routern, auf welchen noch die original Hersteller-Firmware läuft.
+Diese Firmware ist fuer Router, auf welchen noch die original Hersteller-Firmware laeuft.
 
 Sysupgrade
 ----------
-Diese Firmware ist für Router, auf welchen bereits eine Frankfurter Freifunk bzw. OpenWrt Firmware läuft. 
-
-
-
-
-
-
+Diese Firmware ist fuer Router, auf welchen bereits eine Freifunk Firmware laeuft. 
 
