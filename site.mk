@@ -28,6 +28,7 @@ GLUON_SITE_PACKAGES := \
     ffffm-autoupdater-use-site-conf-branch \
     ffffm-additional-wifi-json-info \
     ffffm-ath9k-broken-wifi-workaround \
+    ffffm-disable-80211b \
     ffffm-enlarge-dns-cache \
     iwinfo \
     iptables \
@@ -40,7 +41,7 @@ GLUON_SITE_PACKAGES := \
 # This is the stable branch
 
 # Gluon Base Release
-DEFAULT_GLUON_RELEASE := 2016.1.x-Homebrew-stable
+DEFAULT_GLUON_RELEASE := Homebrew-stable
 
 # For homebrew development add e.g. date and time 
 # (Note: Don't use the ':' char. It will break the build)
