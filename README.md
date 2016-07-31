@@ -1,6 +1,6 @@
 ## Frankfurter Test Version 
 
-### v1.10.4-test-96 (noch nicht automatisch ausgerollt)
+### v1.10.4-test-96
 - Gebaut 06.07.2016
 - Neues Package 'ffffm-enlarge-dns-cache' hinzu
 - Bugfix: Updateserver neu verlinkt, auf http://updates.services.ffffm/test/sysupgrade
