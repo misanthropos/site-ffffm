@@ -6,7 +6,7 @@
 - OpenWrt Chaos Calmer 15.05
 - Basis bzw. Übernahme der Site-Konfiguration aus v1.10.4-test-96 
 - Neues Bezeichnungsschema der Firmware
-- Announced uno Alfred entfernt.
+- Announced und Alfred entfernt.
 - radvd für öffentliches IPv6-Netz deaktiviert und für ULA-Netz aktiviert
 - 'prefix6' ist jetzt 'fddd:5d16:b5dd:0::/64'
 - 'next_node.ipv6' ist jetzt fddd:5d16:b5dd:ffff::1
