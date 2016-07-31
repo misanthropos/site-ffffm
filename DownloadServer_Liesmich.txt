@@ -13,10 +13,10 @@ Von der Frankfurter Firmware gibt es folgende unterschiedliche Branches (Variant
 "STABLE"
 --------
 Verwendung: Diese Firmware sollte standardmaessig verwendet werden.
-Bezeichnung: 'ffmstable-x.y'
+Bezeichnung: 'a.b-stable-d'
 SSID: 'ffm.freifunk.net'
 Eigenschaft: Stabiles Gluon Release
-Hhistorie: Aktuelle Version ffmstable-1.10
+Historie: Siehe https://github.com/freifunk-ffm/site-ffffm/blob/stable/README.md
 
 
 "TEST"
