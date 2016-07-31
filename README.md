@@ -24,7 +24,7 @@
   - 'ffffm-disable-80211b' (FFM-Eigenentwicklung)
   - 'ffffm-additional-wifi-json-info' Map-Anzeige von Wifi-Kanal und -Airtime (FFM-Eigenentwicklung)
   - 'ffffm-enlarge-dns-cache' (FFM-Eigenentwicklung)
-  - 'ffffm-banner' Commandos nodeinfo,  (teilweise FFM-Eigenentwicklung)
+  - 'ffffm-banner' Kommandos help, nodeinfo und v4up  (teilweise FFM-Eigenentwicklung)
   - 'ffffm-ebtable-net-rules' optimierter Paketfilter (FFM-Eigenentwicklung)
 
 #### Known Issues
