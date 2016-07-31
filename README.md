@@ -1,7 +1,7 @@
 ## Frankfurter Stable Version
 
-### v2.0-stable- (noch nicht vorhanden)
-- Gebaut X.Y.2016
+### v2.0-stable-33 (noch automatisch ausgerollt)
+- Gebaut 31.07.2016
 - Freigegebenes Gluon v2016.1.5
 - OpenWrt Chaos Calmer 15.05
 - Basis bzw. Übernahme der Site-Konfiguration aus v1.10.4-test-96 
@@ -17,10 +17,11 @@
 - Keine Anzeige des Router-Keys am Ende der Router-Konfiguration
 - opkg-Pfade für Paket-Nachinstalltionen hinzu
 - Build spezifische opkg-Module werden auf Frankfurter Server abgelegt
-- Neue Gluon-Pakete:
+- Neue [Gluon-Pakete](https://github.com/freifunk-ffm/packages/tree/master/ffffm):
   - 'ffffm-fastd-auto-mtu' Auto-MTU 1280/1426 Byte (FFM-Eigenentwicklung)
   - 'ffffm-keep-radio-channel' WLAN-Kanäle sind jetzt Update-fest (FFM-Eigenentwicklung)
   - 'ffffm-ath9k-broken-wifi-workaround' (FFM-Eigenentwicklung)
+  - 'ffffm-disable-80211b' (FFM-Eigenentwicklung)
   - 'ffffm-additional-wifi-json-info' Map-Anzeige von Wifi-Kanal und -Airtime (FFM-Eigenentwicklung)
   - 'ffffm-enlarge-dns-cache' (FFM-Eigenentwicklung)
   - 'ffffm-banner' Commandos nodeinfo,  (teilweise FFM-Eigenentwicklung)
