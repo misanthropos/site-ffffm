@@ -1,5 +1,14 @@
 ## Frankfurter Test Version 
 
+### v1.10.5-test-98
+- Gebaut 04.08.2016
+- Bugfix: Das aktuelle und abgeschwächtes Package 'ffffm-ath9k-broken-wifi-workaround' wird verwendet 
+- Package 'ffffm-diasable-80211b' hinzu
+- Alfred entfernt
+
+#### Known Issues
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
+ 
 ### v1.10.4-test-96
 - Gebaut 06.07.2016
 - Neues Package 'ffffm-enlarge-dns-cache' hinzu
@@ -7,6 +16,7 @@
 
 #### Known Issues
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
+- Das Package 'ffffm-ath9k-broken-wifi-workaround' erzeugt evtl. zu häufige WLAN-Neuverbindungen der Clients
 
 
 ### v1.10.4-test-92 (nicht automatisch ausgerollt)
