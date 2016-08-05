@@ -8,6 +8,7 @@
 
 #### Known Issues
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
+- Als Gluon-Version wird fälschlicherweise 2015.1.5 ausgegeben. Es ist aber 2016.1.5.
  
 ### v1.10.4-test-96
 - Gebaut 06.07.2016
