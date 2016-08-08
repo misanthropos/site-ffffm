@@ -39,23 +39,23 @@ Firmware-Varianten und Git-Branches haben zur Vereinfachung den gleichen Namen b
 ## Beispiel anhand der Frankfurter Dev-Firmware
 
     
-Wenn Du Dir z.B. eine eigene **'dev'**-Firmware für das Frankfurter Freifunk-Netz bauen möchtest, dann gehe wie folgt vor:
+Wenn Du Dir z.B. eine eigene **'stable'**-Firmware für das Frankfurter Freifunk-Netz bauen möchtest, dann gehe wie folgt vor:
 
 1) Lesen von http://gluon.readthedocs.io/en/latest/user/getting_started.html
 
 2) Alle Dependencies aus o.g. Dokument müssen auf deinem PC installiert sein.
 
-3) Clonen des Frankfurter Gluon 'dev' Branches in das Verzeichnis ./gluon :
+3) Clonen des Frankfurter Gluon 'stable' Branches in das Verzeichnis ./gluon :
 
 ```
-   git clone https://github.com/freifunk-ffm/gluon.git -b dev gluon
+   git clone https://github.com/freifunk-ffm/gluon.git -b stable gluon
 ```
 
 4) Clonen der Frankfurter Site-Konfiguration in das Verzeichnis ./gluon/site
 
 ```
    cd gluon
-   git clone https://github.com/freifunk-ffm/site-ffffm.git -b dev site 
+   git clone https://github.com/freifunk-ffm/site-ffffm.git -b stable site 
 ```
 
 5) Ggf. in der Datei **site.mk** etwas rumschrauben
@@ -92,6 +92,6 @@ Wenn Du Dir z.B. eine eigene **'dev'**-Firmware für das Frankfurter Freifunk-Ne
    * V=s erzeugt eine ausführliche Bildschirmausgabe.<br>
    * BROKEN=1 bedeutet, dass auch Experimental-Firmware für bisher nicht ausreichend getestete Routermodelle gebaut wird.<br>
 
-9) Wenn alles gut ging, findest Du nach ca. 30-120 Minuten im Verzeichnis **./output** die Target-Binaries deiner eigenen Frankfurter 'dev' Firmware.
+9) Wenn alles gut ging, findest Du nach ca. 30-120 Minuten im Verzeichnis **./output** die Target-Binaries deiner eigenen Frankfurter 'Homebrew-stable' Firmware.
 
 ---
