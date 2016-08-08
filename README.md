@@ -36,7 +36,7 @@ Firmware-Varianten und Git-Branches haben zur Vereinfachung den gleichen Namen b
 
 ---
 
-## Beispiel anhand der Frankfurter Dev-Firmware
+## Beispiel anhand der Frankfurter Stable-Firmware
 
     
 Wenn Du Dir z.B. eine eigene **'stable'**-Firmware für das Frankfurter Freifunk-Netz bauen möchtest, dann gehe wie folgt vor:
