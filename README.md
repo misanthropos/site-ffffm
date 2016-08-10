@@ -72,7 +72,7 @@ Wenn Du Dir z.B. eine eigene **'stable'**-Firmware für das Frankfurter Freifunk
    make update
 ```
 
-7) Daran denken, dass ein Build für ein Hardware-Target in etwa **15 GByte** Platz auf deinem Datenträger benötigt. Es gibt z.Z. sieben unterschiedliche Hardware-Targets. 
+7) Daran denken, dass ein Build für ein Hardware-Target in etwa **15 GByte** Platz auf deinem Datenträger benötigt. Es gibt mehrere Hardware-Targets. 
 
    * ar71xx-generic
    * ar71xx-nand
