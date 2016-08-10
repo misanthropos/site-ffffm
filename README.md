@@ -81,6 +81,14 @@ Wenn Du Dir z.B. eine eigene **'stable'**-Firmware für das Frankfurter Freifunk
    * x86-kvm_guest
    * x86-64
    * x86-xen_domu
+   * brcm2708-bcm2708
+   * brcm2708-bcm2709
+
+   * sunxi              #BROKEN
+   * ar71xx-mikrotik    #BROKEN
+   * sunxi              #BROKEN
+   * ramips-mt7621      #BROKEN
+   * ramips-rt305x      #BROKEN
 
 8) Den Bau-Prozess anschmeissen für z.B. ein ar71xx-generic Hardware-Traget
 
