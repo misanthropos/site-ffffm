@@ -1,4 +1,12 @@
 ## Frankfurter Test Version 
+### v1.10.6-dev-99
+- Gebaut 11.08.2016
+- Dieses ist eine "Raus aus dem Test-, rein in den Stable" Firmware
+- Autoupdate-Branch wird automatisch auf "stable" gesetzt
+- Autoupdate wird automatisch aktiviert
+
+#### Known Issues
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
 
 ### v1.10.5-test-98
 - Gebaut 04.08.2016
