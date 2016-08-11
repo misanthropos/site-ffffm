@@ -12,7 +12,6 @@ GLUON_SITE_PACKAGES := \
     gluon-ebtables-filter-multicast \
     gluon-ebtables-filter-ra-dhcp \
     gluon-luci-admin \
-    gluon-luci-autoupdater \
     gluon-luci-portconfig \
     gluon-luci-private-wifi \
     gluon-luci-wifi-config \
@@ -25,6 +24,7 @@ GLUON_SITE_PACKAGES := \
     ffffm-ath9k-broken-wifi-workaround \
     ffffm-disable-80211b \
     ffffm-enlarge-dns-cache \
+    ffffm-autoupdater-use-site-conf-branch \
     gluon-mesh-vpn-fastd \
     gluon-next-node \
     gluon-radvd \
