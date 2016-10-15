@@ -29,6 +29,7 @@
 
 #### Known Issues
 - opkg-Pfad zum globalem OpwnWrt Repository ist lediglich IPv4
+- Das Skript 'v4up' funktioniert nicht mehr
 
 ### ffmstable-1.10
 - Gebaut Ende 2015
