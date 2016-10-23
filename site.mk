@@ -24,7 +24,6 @@ GLUON_SITE_PACKAGES := \
     ffffm-ath9k-broken-wifi-workaround \
     ffffm-disable-80211b \
     ffffm-enlarge-dns-cache \
-    ffffm-autoupdater-use-site-conf-branch \
     gluon-mesh-vpn-fastd \
     gluon-next-node \
     gluon-radvd \
