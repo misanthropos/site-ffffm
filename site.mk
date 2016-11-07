@@ -23,7 +23,7 @@ GLUON_SITE_PACKAGES := \
     ffffm-additional-wifi-json-info \
     ffffm-ath9k-broken-wifi-workaround \
     ffffm-disable-80211b \
-    ffffm-enlarge-dns-cache \
+    ffffm-dns-cache \
     gluon-mesh-vpn-fastd \
     gluon-next-node \
     gluon-radvd \
