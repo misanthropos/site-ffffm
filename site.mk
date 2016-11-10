@@ -23,14 +23,13 @@ GLUON_SITE_PACKAGES := \
     ffffm-additional-wifi-json-info \
     ffffm-ath9k-broken-wifi-workaround \
     ffffm-disable-80211b \
-    ffffm-dns-cache \
+    ffffm-enlarge-dns-cache \
     gluon-mesh-vpn-fastd \
     gluon-next-node \
     gluon-radvd \
     gluon-status-page \
     iwinfo \
     iptables \
-    iputils-ping \
     haveged \
 
 
