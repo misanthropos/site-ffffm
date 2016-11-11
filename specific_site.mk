@@ -72,7 +72,7 @@ MISC_PACKAGES := \
 	kmod-usb-serial-simple
 
 # USB Keyboard packages
-USB_KEYOARD_PACKAGES := \
+USB_KEYBOARD_PACKAGES := \
 	kmod-usb-hid \
 	kmod-hid-generic
 
@@ -95,7 +95,7 @@ ifeq ($(GLUON_TARGET),x86-generic)
 # and add a few common USB NICs
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
-	$(USB_KEYOARD_PACKAGES)
+	$(USB_KEYBOARD_PACKAGES)
 endif
 
 # x86-64
@@ -104,28 +104,28 @@ ifeq ($(GLUON_TARGET),x86-64)
 # and add a few common USB NICs
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
-	$(USB_KEYOARD_PACKAGES)
+	$(USB_KEYBOARD_PACKAGES)
 endif
 
 # Raspberry Pi A/B/B+
 ifeq ($(GLUON_TARGET),brcm2708-bcm2708)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
-	$(USB_KEYOARD_PACKAGES)
+	$(USB_KEYBOARD_PACKAGES)
 endif
 
 # Raspberry Pi 2
 ifeq ($(GLUON_TARGET),brcm2708-bcm2709)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
-	$(USB_KEYOARD_PACKAGES)
+	$(USB_KEYBOARD_PACKAGES)
 endif
 
 # Banana Pi
 ifeq ($(GLUON_TARGET),sunxi)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
-	$(USB_KEYOARD_PACKAGES)
+	$(USB_KEYBOARD_PACKAGES)
 endif
 
 
