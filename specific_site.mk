@@ -6,8 +6,7 @@
 # basic support for USB stack
 USB_PACKAGES_BASIC := \
 	kmod-usb-core \
-	kmod-usb2 \
-	kmod-usb3
+	kmod-usb2
 
 # storage support for USB devices
 USB_PACKAGES_STORAGE := \
@@ -66,17 +65,36 @@ USB_PACKAGES_NET := \
 	kmod-usb-net-sierrawireless \
 	kmod-usb-net-smsc95xx
 
-# misc packages
-MISC_PACKAGES := \
-	usbutils \
+# support for USB GPS devices
+USB_PACKAGES_GPS := \
 	kmod-usb-acm \
-	kmod-usb-serial-simple
+	ugps
+
+# support for USB UMTS/3G devices
+USB_PACKAGES_3G := \
+	kmod-usb-serial \
+	kmod-usb-serial-wwan \
+	kmod-usb-serial-option \
+	usb-modeswitch \
+	chat \
+	ppp
 
 # USB Keyboard packages
 USB_KEYBOARD_PACKAGES := \
 	kmod-hid-generic \
 	kmod-usb-hid \
 	kmod-ledtrig-usbdev
+
+# util packages
+UTIL_PACKAGES := \
+	usbutils \
+	nano \
+	tcpdump-mini
+
+# misc packages (Die werden irgendwie benoetigt!)
+MISC_PACKAGES := \
+	kmod-usb-acm \
+	kmod-usb-serial-simple
 
 # main combination 
 MAIN_COMBO_PACKAGES := \
@@ -97,7 +115,8 @@ ifeq ($(GLUON_TARGET),x86-generic)
 # and add a few common USB NICs
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
-	$(USB_KEYBOARD_PACKAGES)
+	$(USB_KEYBOARD_PACKAGES) \
+	$(UTIL_PACKAGES)
 endif
 
 # x86-64
@@ -106,28 +125,32 @@ ifeq ($(GLUON_TARGET),x86-64)
 # and add a few common USB NICs
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
-	$(USB_KEYBOARD_PACKAGES)
+	$(USB_KEYBOARD_PACKAGES) \
+	$(UTIL_PACKAGES)
 endif
 
 # Raspberry Pi A/B/B+
 ifeq ($(GLUON_TARGET),brcm2708-bcm2708)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
-	$(USB_KEYBOARD_PACKAGES)
+	$(USB_KEYBOARD_PACKAGES) \
+	$(UTIL_PACKAGES)
 endif
 
 # Raspberry Pi 2
 ifeq ($(GLUON_TARGET),brcm2708-bcm2709)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
-	$(USB_KEYBOARD_PACKAGES)
+	$(USB_KEYBOARD_PACKAGES) \
+	$(UTIL_PACKAGES)
 endif
 
 # Banana Pi
 ifeq ($(GLUON_TARGET),sunxi)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
-	$(USB_KEYBOARD_PACKAGES)
+	$(USB_KEYBOARD_PACKAGES) \
+	$(UTIL_PACKAGES)
 endif
 
 
@@ -148,6 +171,8 @@ GLUON_WNDR3700_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES)
 GLUON_WRT160NL_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES)
 GLUON_WZRHPAG300H_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES)
 GLUON_WZRHPG450H_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES)
+GLUON_DIR825B1_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES)
+# GLUON_TLWR710_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES) # some wr710 versions only have 4MB
 
 # mpc85xx-generic
 GLUON_TLWDR4900_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES)
