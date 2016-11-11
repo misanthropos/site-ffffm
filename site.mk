@@ -29,8 +29,9 @@ GLUON_SITE_PACKAGES := \
     gluon-status-page \
     iwinfo \
     iptables \
-    haveged \
+    haveged
 
+include $(GLUON_SITEDIR)/specific_site.mk 
 
 #####################################################################################################################
 
