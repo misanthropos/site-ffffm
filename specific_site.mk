@@ -91,7 +91,7 @@ UTIL_PACKAGES := \
 	nano \
 	tcpdump-mini
 
-# misc packages (Die werden irgendwie benoetigt!)
+# misc packages
 MISC_PACKAGES := \
 	kmod-usb-acm \
 	kmod-usb-serial-simple
@@ -101,9 +101,6 @@ MAIN_COMBO_PACKAGES := \
 	$(USB_PACKAGES_BASIC) \
 	$(USB_PACKAGES_STORAGE) \
 	$(USB_PACKAGES_NET) \
-	$(MISC_PACKAGES)
-
-
 
 #####################################################################################################################
 # GLUON-Target specific settings:
@@ -171,7 +168,7 @@ GLUON_WNDR3700_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES)
 GLUON_WRT160NL_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES)
 GLUON_WZRHPAG300H_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES)
 GLUON_WZRHPG450H_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES)
-GLUON_DIR825B1_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES)
+# GLUON_DIR825B1_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES) # Build bricht ab
 # GLUON_TLWR710_SITE_PACKAGES := $(MAIN_COMBO_PACKAGES) # some wr710 versions only have 4MB
 
 # mpc85xx-generic
