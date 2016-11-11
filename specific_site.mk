@@ -68,13 +68,15 @@ USB_PACKAGES_NET := \
 
 # misc packages
 MISC_PACKAGES := \
+	usbutils \
 	kmod-usb-acm \
 	kmod-usb-serial-simple
 
 # USB Keyboard packages
 USB_KEYBOARD_PACKAGES := \
+	kmod-hid-generic \
 	kmod-usb-hid \
-	kmod-hid-generic
+	kmod-ledtrig-usbdev
 
 # main combination 
 MAIN_COMBO_PACKAGES := \
