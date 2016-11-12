@@ -1,5 +1,15 @@
 ## Frankfurter Development Version 
 
+### v2.0.0.1-dev-11120137
+- Gebaut 12.11.2016
+- Basis: Frankfurter v2.0-stable-34 in Kombination mit freigegebenem Gluon **v2016.2.1**
+- Package "ffffm-disable-80211b"" entfernt. Diese wird jetzt über die site.conf realisiert.
+- Package "ffffm-banner" optimiert. "v4up"" funktioniert wieder. Der Anzeigtest von "nodeinfo" ist jetzt etwas strukturierter.
+- USB-Unterstützung bei einigen Routern mit mehr als 4MB Flash. (Datei-Sticks und einige NICs werden unterstützt.)
+
+#### Known Issues
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
+
 ### v1.10.3.5-dev-xxx
 - Gebaut xx.yy.2016
 - Dieses ist eine "Raus aus dem Dev-, rein in den Stable-Branch" Firmware
