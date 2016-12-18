@@ -22,29 +22,20 @@ GLUON_SITE_PACKAGES := \
     ffffm-autoupdater-use-site-conf-branch \
     ffffm-additional-wifi-json-info \
     ffffm-ath9k-broken-wifi-workaround \
-    ffffm-disable-80211b \
     ffffm-enlarge-dns-cache \
-    ffffm-autoupdater-use-site-conf-branch \
     gluon-mesh-vpn-fastd \
     gluon-next-node \
     gluon-radvd \
     gluon-status-page \
     iwinfo \
     iptables \
-    iputils-ping \
-    haveged \
+    haveged
 
-
-
-
-#    gluon-luci-mesh-vpn-fastd \
-#    gluon-luci-node-role \
-#    ffffm-luci-switchconfig \
-
+include $(GLUON_SITEDIR)/specific_site.mk 
 
 #####################################################################################################################
 
-# This is the test branch
+# This is the Test branch
 
 # Gluon Base Release
 DEFAULT_GLUON_RELEASE := Homebrew-test
