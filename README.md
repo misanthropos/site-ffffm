@@ -1,5 +1,13 @@
 ## Frankfurter Test Version 
-### v1.10.6-dev-99
+### v2.0.1-test-1219
+- Gebaut 19.12.2016
+- Freigegebenes Gluon v2016.2.2 + TL-WR940N v4 Unterstützung
+- Autoupdate wird automatisch aktiviert
+
+#### Known Issues
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
+
+### v1.10.6-test-99
 - Gebaut 11.08.2016
 - Dieses ist eine "Raus aus dem Test-, rein in den Stable" Firmware
 - Autoupdate-Branch wird automatisch auf "stable" gesetzt
