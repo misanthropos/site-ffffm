@@ -1,6 +1,6 @@
 ## Frankfurter Stable Version
 
-### v2.0-stable-34 (noch nicht automatisch ausgerollt)
+### v2.0-stable-34
 - Gebaut 31.07.2016
 - Freigegebenes Gluon v2016.1.5
 - OpenWrt Chaos Calmer 15.05
