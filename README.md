@@ -1,4 +1,13 @@
 ## Frankfurter Test Version 
+
+### v2.0.1-test-1221
+- Gebaut 21.12.2016
+- Freigegebenes Gluon v2016.2.2 + TL-WR940N v4 Unterstützung
+- Region-Code abhängige Images werden jetzt als Europa Versionen gebaut
+
+#### Known Issues
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
+
 ### v2.0.1-test-1219
 - Gebaut 19.12.2016
 - Freigegebenes Gluon v2016.2.2 + TL-WR940N v4 Unterstützung
