@@ -5,11 +5,13 @@
 - Freigegebenes Gluon v2016.2.2 + TL-WR940N v4 Unterstützung
 - Region-Code abhängige Images werden jetzt als Europa Versionen gebaut
 - Das Package 'ffffm-disable-80211b' wurde wegen neuem Gluon-Main-Package entfernt.
+- Das Package "ffffm-banner" optimiert. 
 - Vorbereitung erweitertes IPv6 für Clients 
 - Anzahl Backbone-Supernodes von 20 auf 10 reduziert
 - Wegen dem DL-Server-Umzug, den Link auf den Updateserver angepasst 
 - Für einige Router mit mehr als 4MB Flash gibt es jetzt:
-  - Unterstützen von vielen USB-NICs (falls USB-Port vorhanden)
+  - Unterstützung von vielen USB-NICs (falls USB-Port vorhanden)
+  - Unterstützung von USB-Speichermedien (falls USB-Port vorhanden)
   - 'nano' als zusätzlichen Editor
   - tcpdump-mini
 - Images für ath10k-Devices werden gebaut
