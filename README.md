@@ -4,7 +4,7 @@
 - Gebaut 21.12.2016
 - Freigegebenes Gluon v2016.2.2 + TL-WR940N v4 Unterstützung
 - Region-Code abhängige Images werden jetzt als Europa Versionen gebaut
-- Das Package 'ffffm-disable-80211b' wurde wegen neuem Main-Gluon-Packages entfernt.
+- Das Package 'ffffm-disable-80211b' wurde wegen neuem Gluon-Main-Packages entfernt.
 - Vorbereitung erweitertes IPv6 für Clients 
 - Anzahl Backbone-Supernodes von 20 auf 10 reduziert
 - Wegen dem DL-Server-Umzug, den Link auf den Updateserver angepasst 
