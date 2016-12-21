@@ -7,7 +7,7 @@
 - Das Package 'ffffm-disable-80211b' wurde wegen neuem Main-Gluon-Packages entfernt.
 - Vorbereitung erweitertes IPv6 für Clients 
 - Anzahl Backbone-Supernodes von 20 auf 10 reduziert
-- Wegen dem DL-Server-Umzug den Link auf den Updateservers angepasst 
+- Wegen dem DL-Server-Umzug, den Link auf den Updateserver angepasst 
 - Für einige Router mit mehr als 4MB Flash gibt es jetzt:
   - Unterstützen von vielen USB-NICs (falls USB-Port vorhanden)
   - 'nano' als zusätzlichen Editor
