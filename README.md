@@ -1,4 +1,22 @@
 ## Frankfurter Development Version 
+### v2.0.2.1-dev-1221
+- Gebaut 21.12.2016
+- Freigegebenes Gluon v2016.2.2 + TL-WR940N v4 Unterstützung
+- Region-Code abhängige Images werden jetzt als Europa Versionen gebaut
+- Das Package 'ffffm-disable-80211b' wurde wegen neuem Gluon-Main-Package entfernt.
+- Vorbereitung erweitertes IPv6 für Clients 
+- Anzahl Backbone-Supernodes von 20 auf 10 reduziert
+- Wegen dem DL-Server-Umzug, den Link auf den Updateserver angepasst 
+- Für einige Router mit mehr als 4MB Flash gibt es jetzt:
+  - Unterstützen von vielen USB-NICs (falls USB-Port vorhanden)
+  - Unterstützung USB-Speicher (falls USB-Port vorhanden)
+  - 'nano' als zusätzlichen Editor
+  - tcpdump-mini
+- Images für ath10k-Devices werden gebaut
+- Autoupdate wird automatisch aktiviert
+
+#### Known Issues
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
 
 ### v2.0.0.1-dev-11120137
 - Gebaut 12.11.2016
