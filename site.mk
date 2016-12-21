@@ -56,5 +56,9 @@ GLUON_BRANCH ?= dev
 # Languages to include
 GLUON_LANGS ?= en de
 
-# Firmware Region code
+# region information for regulatory compliance
 GLUON_REGION ?= eu
+
+# Prefer ath10k firmware with given mesh support (ibss or 11s)
+GLUON_ATH10K_MESH ?= ibss
+GLUON_ATH10K_MESH
