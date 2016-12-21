@@ -61,4 +61,3 @@ GLUON_REGION ?= eu
 
 # Prefer ath10k firmware with given mesh support (ibss or 11s)
 GLUON_ATH10K_MESH ?= ibss
-GLUON_ATH10K_MESH
