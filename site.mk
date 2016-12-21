@@ -55,3 +55,6 @@ GLUON_BRANCH ?= dev
 
 # Languages to include
 GLUON_LANGS ?= en de
+
+# Firmware Region code
+GLUON_REGION ?= eu
