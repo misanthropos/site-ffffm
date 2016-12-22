@@ -21,12 +21,13 @@
 - Auf Up-Link-Knoten kein Autoupdate mehr möglich. Die DNS-Namensauflösung funktioniert dort nicht. 
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
 
-### v2.0.1-test-1219
+### v2.0.1-test-1219 (gesperrt)
 - Gebaut 19.12.2016
 - Freigegebenes Gluon v2016.2.2 + TL-WR940N v4 Unterstützung
 - Autoupdate wird automatisch aktiviert
 
 #### Known Issues
+- Auf Up-Link-Knoten kein Autoupdate mehr möglich. Die DNS-Namensauflösung funktioniert dort nicht. 
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
 
 ### v1.10.6-test-99
