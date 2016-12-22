@@ -19,7 +19,7 @@
 - Auf Up-Link-Knoten kein Autoupdate mehr möglich. Die DNS-Namensauflösung funktioniert dort nicht. 
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
 
-### v2.0.0.1-dev-11120137
+### v2.0.0.1-dev-11120137 (gesperrt)  
 - Gebaut 12.11.2016
 - Basis: Frankfurter v2.0-stable-34 in Kombination mit freigegebenem Gluon **v2016.2.1**
 - Package "ffffm-disable-80211b" entfernt. Diese wird jetzt über die site.conf realisiert.
@@ -27,6 +27,7 @@
 - USB-Unterstützung bei einigen Routern mit mehr als 4MB Flash. Datei-Sticks und einige NICs werden unterstützt. Siehe https://github.com/freifunk-ffm/site-ffffm/blob/dev/specific_site.mk
 
 #### Known Issues
+- Auf Up-Link-Knoten kein Autoupdate mehr möglich. Die DNS-Namensauflösung funktioniert dort nicht. 
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
 
 ### v1.10.3.5-dev-xxx
