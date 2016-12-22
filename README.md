@@ -1,6 +1,6 @@
 ## Frankfurter Test Version 
 
-### v2.0.2-test-1221
+### v2.0.2-test-1221 (gesperrt)
 - Gebaut 21.12.2016
 - Freigegebenes Gluon v2016.2.2 + TL-WR940N v4 Unterstützung
 - Region-Code abhängige Images werden jetzt als Europa Versionen gebaut
@@ -18,6 +18,7 @@
 - Autoupdate wird automatisch aktiviert
 
 #### Known Issues
+- Auf Up-Link-Knoten kein Autoupdate mehr möglich. Die DNS-Namensauflösung funktioniert dort nicht. 
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
 
 ### v2.0.1-test-1219
