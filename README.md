@@ -1,6 +1,6 @@
 ## Frankfurter Development Version 
 ### v2.0.2.1-dev-1222
-- Gebaut 21.12.2016
+- Gebaut 22.12.2016
 - Freigegebenes Gluon v2016.2.2 + TL-WR940N v4 Unterstützung
 - Region-Code abhängige Images werden jetzt als Europa Versionen gebaut
 - Das Package 'ffffm-disable-80211b' wurde wegen neuem Gluon-Main-Package entfernt.
