@@ -1,4 +1,11 @@
 ## Frankfurter Development Version
+### v2.0.2.3-dev-1227
+- Gebaut 27.12.2016
+- Fix: Autoupdate bei Up-Link-Knoten wieder möglich. 
+
+#### Known Issues
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
+
 ### v2.0.2.1-dev-1222 (gesperrt)
 - Gebaut 22.12.2016
 - Freigegebenes Gluon v2016.2.2 + TL-WR940N v4 Unterstützung
