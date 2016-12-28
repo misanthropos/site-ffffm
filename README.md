@@ -1,6 +1,6 @@
 ## Frankfurter Development Version
-### v2.0.2.3-dev-1227
-- Gebaut 27.12.2016
+### v2.0.2.3-dev-1228
+- Gebaut 28.12.2016
 - Fix: Autoupdate bei Up-Link-Knoten wieder möglich. 
 
 #### Known Issues
