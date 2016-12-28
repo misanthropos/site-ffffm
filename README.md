@@ -1,4 +1,10 @@
 ## Frankfurter Test Version 
+### v2.0.3-test-1228
+- Gebaut 28.12.2016
+- Fix: Autoupdate bei Up-Link-Knoten wieder möglich. 
+
+#### Known Issues
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
 
 ### v2.0.2-test-1221 (gesperrt)
 - Gebaut 21.12.2016
