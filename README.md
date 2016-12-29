@@ -1,4 +1,11 @@
 ## Frankfurter Development Version
+### v2.0.3.1-dev-1229
+- Gebaut 29.12.2016
+- Neues Package gluon-dns-cache eingebunden (anstelle von ffffm-dns-cache)
+
+#### Known Issues
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
+
 ### v2.0.2.3-dev-1228
 - Gebaut 28.12.2016
 - Fix: Autoupdate bei Up-Link-Knoten wieder möglich. 
