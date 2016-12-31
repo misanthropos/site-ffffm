@@ -1,4 +1,9 @@
 ## Frankfurter Development Version
+
+### v2.0.3.4-dev-1229
+- Gebaut 29.12.2016
+- site.conf wegen neuem Package gluon-dns-cache angepasst
+
 ### v2.0.3.1-dev-1229
 - Gebaut 29.12.2016
 - Neues Package gluon-dns-cache eingebunden (anstelle von ffffm-dns-cache)
