@@ -22,6 +22,7 @@ GLUON_SITE_PACKAGES := \
     ffffm-autoupdater-use-site-conf-branch \
     ffffm-additional-wifi-json-info \
     ffffm-ath9k-broken-wifi-workaround \
+    ffffm-disable-wifi-button \
     gluon-mesh-vpn-fastd \
     gluon-next-node \
     gluon-radvd \
