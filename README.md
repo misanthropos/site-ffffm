@@ -1,5 +1,12 @@
 ## Frankfurter Development Version
 
+### v2.0.5.1-dev-0108
+- Gebaut 08.01.2017
+- Allow NAT64 and only siteConfig.additional_prefix6
+
+#### Known Issues
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
+
 ### v2.0.3.4-dev-1229
 - Gebaut 29.12.2016
 - site.conf wegen neuem Package gluon-dns-cache angepasst
