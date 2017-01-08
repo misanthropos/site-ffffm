@@ -1,5 +1,14 @@
 ## Frankfurter Test Version 
 
+### v2.0.5-test-0108
+- Gebaut 08.01.2017
+- Freigegebenes Gluon v2016.2.2 + TL-WR940N v4 + TL-WR1043ND v4 Unterstützung
+- Experementelles Package gluon-disable-wifi-button eingebunden
+- Weitere FFFFM IPv6 Prefixes hinzu (Magnus)
+
+#### Known Issues
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
+
 ### v2.0.4-test-1230
 - Gebaut 30.12.2016
 - Neues Package gluon-dns-cache eingebunden (anstelle von ffffm-dns-cache)
