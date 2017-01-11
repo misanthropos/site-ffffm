@@ -104,4 +104,4 @@ Wenn Du Dir z.B. eine eigene **'stable'**-Firmware für das Frankfurter Freifunk
 ---
 
 # Frankfurter Build-Umgebung
-Die Frankfurter Firmware Releases werden mit dem Frankfurter Release Builder gebaut ([siehe GitHub-Repo](https://github.com/freifunk-ffm/Firmware-Release-Builder)). Durch dieses Skript ist sichergestellt, dass mit unterschiedlichen Build-Umgebungen trotzdem identische Firmware-Images erzeugt werden.
+Die Frankfurter Firmware Releases werden mit dem Frankfurter FirmwareReleaseBuilder gebaut ([siehe GitHub-Repo](https://github.com/freifunk-ffm/Firmware-Release-Builder)). Durch dieses Skript ist sichergestellt, dass mit unterschiedlichen Build-Umgebungen trotzdem identische Firmware-Images erzeugt werden. Der FirmwareReleaseBuilder ist weniger für den Entwicklungsprozess der Freifunk-Firmware geeignet. 
