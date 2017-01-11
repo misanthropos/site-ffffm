@@ -102,3 +102,6 @@ Wenn Du Dir z.B. eine eigene **'stable'**-Firmware für das Frankfurter Freifunk
 9) Wenn alles gut ging, findest Du nach ca. 30-120 Minuten im Verzeichnis **./output** die Target-Binaries deiner eigenen Frankfurter 'Homebrew-stable' Firmware.
 
 ---
+
+# Frankfurter Build-Umgebung
+Die Frankfurter Firmware Releases werden mit dem Frankfurter Release Builder gebaut ([siehe GitHub-Repo](https://github.com/freifunk-ffm/Firmware-Release-Builder)). Durch dieses Skript ist sichergestellt, dass mit unterschiedlichen Build-Umgebungen trotzdem identische Firmware-Images erzeugt werden.
