@@ -39,7 +39,7 @@ include $(GLUON_SITEDIR)/specific_site.mk
 # This is the Dev branch
 
 # Gluon Base Release
-DEFAULT_GLUON_RELEASE := Homebrew-dev
+DEFAULT_GLUON_RELEASE := vHomebrew-dev
 
 # For homebrew development add e.g. date and time 
 # (Note: Don't use the ':' char. It will break the build)
