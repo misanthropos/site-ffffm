@@ -1,11 +1,20 @@
 ## Frankfurter Development Version
 
+### v2.0.5.3-dev-0113
+- Gebaut 13.01.2017
+- Neues Package ffffm-bind-button hinzu
+- Package gluon-Next-Node wieder eingebunden
+
+#### Known Issues
+- opkg-Pfad zum OpwnWrt Repository ist IPv4
+
 ### v2.0.5.1-dev-0108
 - Gebaut 08.01.2017
 - Allow NAT64 and only siteConfig.additional_prefix6
 
 #### Known Issues
 - opkg-Pfad zum OpwnWrt Repository ist IPv4
+- Next-Node funktioniert nicht
 
 ### v2.0.3.4-dev-1229
 - Gebaut 29.12.2016
