@@ -1,19 +1,26 @@
 ## Frankfurter Development Version
 
+### v2.0.5.4-dev-0115
+- Gebaut 13.01.2017
+- Neues Package ffffm-restart-respondd hinzu
+
+#### Known Issues
+- opkg-Pfad zum OpenWrt Repository ist IPv4
+
 ### v2.0.5.3-dev-0113
 - Gebaut 13.01.2017
 - Neues Package ffffm-bind-button hinzu
 - Package gluon-Next-Node wieder eingebunden
 
 #### Known Issues
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v2.0.5.1-dev-0108
 - Gebaut 08.01.2017
 - Allow NAT64 and only siteConfig.additional_prefix6
 
 #### Known Issues
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 - Next-Node funktioniert nicht
 
 ### v2.0.3.4-dev-1229
@@ -25,14 +32,14 @@
 - Neues Package gluon-dns-cache eingebunden (anstelle von ffffm-dns-cache)
 
 #### Known Issues
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v2.0.2.3-dev-1228
 - Gebaut 28.12.2016
 - Fix: Autoupdate bei Up-Link-Knoten wieder möglich. 
 
 #### Known Issues
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v2.0.2.1-dev-1222 (gesperrt)
 - Gebaut 22.12.2016
@@ -52,7 +59,7 @@
 
 #### Known Issues
 - Auf Up-Link-Knoten kein Autoupdate mehr möglich. Die DNS-Namensauflösung funktioniert dort nicht. 
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v2.0.0.1-dev-11120137 (gesperrt)  
 - Gebaut 12.11.2016
@@ -63,7 +70,7 @@
 
 #### Known Issues
 - Auf Up-Link-Knoten kein Autoupdate mehr möglich. Die DNS-Namensauflösung funktioniert dort nicht. 
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v1.10.3.5-dev-xxx
 - Gebaut xx.yy.2016
@@ -114,7 +121,7 @@
 
 #### Known Issues
 - Das WLAN hängt sich bei einigen wenigen Routern manchmal auf
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v1.10.1.2-dev-120
 - Gebaut 02.04.2016
@@ -122,7 +129,7 @@
 
 #### Known Issues
 - Das WLAN hängt sich bei einigen wenigen Routern manchmal auf
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v1.10.1.1-dev-118
 - Gebaut 22.03.2016
@@ -130,7 +137,7 @@
 - Neues Package 'ffffm-banner' hinzu
 
 #### Known Issues
-- opkg-Pfad zum OpwnWrt Repository ist noch IPv4
+- opkg-Pfad zum OpenWrt Repository ist noch IPv4
 
 
 ### ffmdev-3.117
@@ -138,7 +145,7 @@
 - Freigegebenes Gluon v2016.1.2
  
 #### Known Issues
-- opkg-Pfad zum OpwnWrt Repository ist noch IPv4
+- opkg-Pfad zum OpenWrt Repository ist noch IPv4
 - Die Auto-MTU-Erkennung funktioniert wegen Fehlkonfiguration nicht.
 - Der Aufruf fremder Router-Statusseiten bereitet manchmal mit OS X Rechnern Probleme
 
@@ -152,7 +159,7 @@
 - Auto-MTU Korrektur: Eine neu erkannte MTU wird jetzt wieder sofort übernommen
 
 #### Known Issues
-- opkg-Pfad zum OpwnWrt Repository ist noch IPv4
+- opkg-Pfad zum OpenWrt Repository ist noch IPv4
 
 ### ffmdev-3.106
 - Package ffffm-autoupdater-use-site-conf-branch eingebunden (FFM-Eigenentwicklung)
