@@ -23,6 +23,7 @@ GLUON_SITE_PACKAGES := \
     ffffm-additional-wifi-json-info \
     ffffm-ath9k-broken-wifi-workaround \
     ffffm-button-bind \
+    ffffm-restart-respondd \
     gluon-mesh-vpn-fastd \
     gluon-next-node \
     gluon-radvd \

@@ -31,6 +31,23 @@ USB_PACKAGES_STORAGE := \
 	kmod-nls-utf8 \
 	swap-utils
 
+# network support for PCI devices
+PCI_PACKAGES_NET := \
+	kmod-3c59x \
+	kmod-e100 \
+	kmod-e1000 \
+	kmod-e1000e \
+	kmod-forcedeth \
+	kmod-natsemi \
+	kmod-ne2k-pci \
+	kmod-pcnet32 \
+	kmod-r8169 \
+	kmod-sis900 \
+	kmod-sky2 \
+	kmod-tg3 \
+	kmod-tulip \
+	kmod-via-rhine
+
 # network support for USB devices
 USB_PACKAGES_NET := \
 	kmod-ath9k-htc  \
@@ -113,7 +130,8 @@ ifeq ($(GLUON_TARGET),x86-generic)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
 	$(USB_KEYBOARD_PACKAGES) \
-	$(UTIL_PACKAGES)
+	$(UTIL_PACKAGES) \
+	$(PCI_PACKAGES_NET)
 endif
 
 # x86-64
@@ -123,7 +141,8 @@ ifeq ($(GLUON_TARGET),x86-64)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
 	$(USB_KEYBOARD_PACKAGES) \
-	$(UTIL_PACKAGES)
+	$(UTIL_PACKAGES) \
+	$(PCI_PACKAGES_NET)
 endif
 
 # Raspberry Pi A/B/B+
