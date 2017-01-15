@@ -1,4 +1,11 @@
 ## Frankfurter Test Version 
+### v2.0.6-test-0115
+- Gebaut 15.01.2017
+- Neues Package ffffm-restart-respondd hinzu
+- Neues Package ffffm-bind-button hinzu
+
+#### Known Issues
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v2.0.5-test-0108
 - Gebaut 08.01.2017
@@ -7,21 +14,21 @@
 - Weitere FFFFM IPv6 Prefixes hinzu (Magnus)
 
 #### Known Issues
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v2.0.4-test-1230
 - Gebaut 30.12.2016
 - Neues Package gluon-dns-cache eingebunden (anstelle von ffffm-dns-cache)
 
 #### Known Issues
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v2.0.3-test-1227
 - Gebaut 27.12.2016
 - Fix: Autoupdate bei Up-Link-Knoten wieder möglich. 
 
 #### Known Issues
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v2.0.2-test-1221 (gesperrt)
 - Gebaut 21.12.2016
@@ -42,7 +49,7 @@
 
 #### Known Issues
 - Auf Up-Link-Knoten kein Autoupdate mehr möglich. Die DNS-Namensauflösung funktioniert dort nicht. 
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v2.0.1-test-1219 (gesperrt)
 - Gebaut 19.12.2016
@@ -51,7 +58,7 @@
 
 #### Known Issues
 - Auf Up-Link-Knoten kein Autoupdate mehr möglich. Die DNS-Namensauflösung funktioniert dort nicht. 
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v1.10.6-test-99
 - Gebaut 11.08.2016
@@ -60,7 +67,7 @@
 - Autoupdate wird automatisch aktiviert
 
 #### Known Issues
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v1.10.5-test-98
 - Gebaut 04.08.2016
@@ -69,7 +76,7 @@
 - Alfred entfernt
 
 #### Known Issues
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 - Als Gluon-Version wird fälschlicherweise 2015.1.5 ausgegeben. Es ist aber 2016.1.5.
  
 ### v1.10.4-test-96
@@ -78,7 +85,7 @@
 - Bugfix: Updateserver neu verlinkt, auf http://updates.services.ffffm/test/sysupgrade
 
 #### Known Issues
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 - Das Package 'ffffm-ath9k-broken-wifi-workaround' erzeugt evtl. zu häufige WLAN-Neuverbindungen der Clients
 
 
@@ -92,7 +99,7 @@
 
 #### Known Issues
 - Der Links zu dem Updateserver ist falsch gesetzt. Eine Aktualisierung auf eine neuere Version ist wohl nur noch händisch möglich! :o(
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
  
 
 ### v1.10.3-test-83 (nicht automatisch ausgerollt)
@@ -103,7 +110,7 @@
 
 #### Known Issues
 - Das WLAN hängt sich bei einigen wenigen Routern manchmal auf
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v1.10.3-test-82 (nicht automatisch ausgerollt)
 - Gebaut 30.04.2016
@@ -112,7 +119,7 @@
 
 #### Known Issues
 - Das WLAN hängt sich bei einigen wenigen Routern manchmal auf
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v1.10.2-test-78
 - Gebaut 14.04.2016
@@ -125,7 +132,7 @@
 
 #### Known Issues
 - Das WLAN hängt sich bei einigen wenigen Routern manchmal auf
-- opkg-Pfad zum OpwnWrt Repository ist IPv4
+- opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### ffmtest-3.62
 - Gebaut 02/2016
