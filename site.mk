@@ -31,9 +31,7 @@ GLUON_SITE_PACKAGES := \
     gluon-dns-config \
     iwinfo \
     iptables \
-    haveged \
-    libpcap
-
+    haveged
 
 include $(GLUON_SITEDIR)/specific_site.mk 
 
