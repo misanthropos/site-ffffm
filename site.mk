@@ -53,7 +53,7 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 GLUON_BRANCH ?= dev
 
 # Default priority for updates.
-# GLUON_PRIORITY ?= 0
+GLUON_PRIORITY ?= 0
 
 # Languages to include
 GLUON_LANGS ?= en de
