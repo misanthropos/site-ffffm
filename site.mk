@@ -23,7 +23,6 @@ GLUON_SITE_PACKAGES := \
     ffffm-additional-wifi-json-info \
     ffffm-ath9k-broken-wifi-workaround \
     ffffm-button-bind \
-    ffffm-restart-respondd \
     gluon-mesh-vpn-fastd \
     gluon-next-node \
     gluon-radvd \
@@ -56,7 +55,7 @@ GLUON_BRANCH ?= dev
 GLUON_PRIORITY ?= 0
 
 # Languages to include
-GLUON_LANGS ?= en de
+GLUON_LANGS ?= de
 
 # region information for regulatory compliance
 GLUON_REGION ?= eu
