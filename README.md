@@ -1,5 +1,10 @@
 ## Frankfurter Development Version
 
+### v2.0.6.1-dev-0128
+- Gebaut 28.01.2017
+- Package ffffm-restart-respondd wieder entfernt
+- Konfigmodus nur noch in deutsch
+
 ### v2.0.5.4-dev-0115
 - Gebaut 15.01.2017
 - Neues Package ffffm-restart-respondd hinzu
