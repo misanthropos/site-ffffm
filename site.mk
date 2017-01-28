@@ -27,13 +27,13 @@ GLUON_SITE_PACKAGES := \
     ffffm-autoupdater-use-site-conf-branch \
     ffffm-additional-wifi-json-info \
     ffffm-ath9k-broken-wifi-workaround \
-    ffffm-disable-80211b \
-    ffffm-enlarge-dns-cache \
+    ffffm-button-bind \
+    gluon-dns-config \
     iwinfo \
     iptables \
-    iputils-ping \
     haveged \
 
+include $(GLUON_SITEDIR)/specific_site.mk 
 
 #####################################################################################################################
 
@@ -56,7 +56,7 @@ GLUON_BRANCH ?= stable
 # GLUON_PRIORITY ?= 0
 
 # Languages to include
-GLUON_LANGS ?= en de
+GLUON_LANGS ?= de
 
 # region information for regulatory compliance
 GLUON_REGION ?= eu

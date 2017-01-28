@@ -1,5 +1,26 @@
 ## Frankfurter Stable Version
 
+### v2.1-stable-xyz
+ - Gebaut 
+ - Basis Gluon 2016.2.2+ vom 26.01.2017
+ - Unterstützung von neuer Router-Hardware
+ - Übernahme der Konfiguration aus v2.0.7-test-0128
+ - 80211b deaktiviert
+ - Vorbereitung erweitertes IPv6 für Clients
+ - Anzahl verwendbarer Backbone-Supernodes reduziert
+ - Region-Code abhängige Images werden jetzt als Europa Versionen gebaut
+ - Images für ath10k-Devices werden gebaut
+ - Konfigmodus nur noch auf deutsch
+ - Neues Package gluon-dns-cache (FFM-Eigenentwicklung)
+ - Neues Package ffffm-bind-button hinzu (FFM-Eigenentwicklung)
+ - Package ffffm-ath9k-broken-wifi-workaround wurde optimiert
+ - Package ffffm-banner wurde optimiert
+ - Für einige Router mit mehr als 4MB Flash gibt es jetzt:
+  - Unterstützung von einigen USB-NICs (falls USB-Port vorhanden)
+  - Unterstützung von USB-Speichermedien (falls USB-Port vorhanden)
+  - 'nano' als zusätzlichen Editor
+  - tcpdump-mini
+ 
 ### v2.0-stable-34
 - Gebaut 31.07.2016
 - Freigegebenes Gluon v2016.1.5
