@@ -4,7 +4,7 @@
 - Gebaut 28.01.2017
 - Package ffffm-restart-respondd wieder entfernt
 - Konfigmodus nur noch in deutsch
-- 
+
 ### v2.0.6-test-0115
 - Gebaut 15.01.2017
 - Neues Package ffffm-restart-respondd hinzu
