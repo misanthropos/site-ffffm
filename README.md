@@ -1,5 +1,10 @@
 ## Frankfurter Development Version
 
+### v2.0.6.2-dev-0204
+- Gebaut 04.02.2017
+- Neue Fastd-MTU wegen Unitymedia
+- Package ffffm-bind-button optimiert 
+
 ### v2.0.6.1-dev-0128
 - Gebaut 28.01.2017
 - Package ffffm-restart-respondd wieder entfernt
