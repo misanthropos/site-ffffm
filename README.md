@@ -1,10 +1,12 @@
 ## Frankfurter Development Version
 
-### v2.0.7.1-dev-0213
-- Gebaut 13.02.2017
+### v2.0.7.2-dev-0214
+- Gebaut 14.02.2017
 - Basis ist Gluon 2016.2.3
 - Zur Sicherheit alle fastd-Ports geöffnet (10001-10004)
-- fastd-auto-MTU-Size sind 1312 Byte und 1374 Byte
+- fastd-auto-MTU-Size sind jetzt 1312 Byte und 1374 Byte
+- Bug-Fix: ffffm-bind-button
+- Bug-Fix: ffffm-fastd-auto-mtu
 - Dieses Firmwarerelease ist ein Kanditat für die neue Stable
 
 ### v2.0.6.2-dev-0204
