@@ -1,5 +1,11 @@
 ## Frankfurter Development Version
 
+### v2.0.7.3-dev-0219
+- Gebaut 19.02.2017
+- Umstellung fastd-MTU (1312 und 1374 Byte) jetzt komplett
+- Bug-Fix: ffffm-ath9k-broken-wifi-workaround
+- Dieses Firmwarerelease ist ein Kanditat für die neue Stable
+
 ### v2.0.7.2-dev-0214
 - Gebaut 14.02.2017
 - Basis ist Gluon 2016.2.3
@@ -7,7 +13,6 @@
 - fastd-auto-MTU-Size sind jetzt 1312 Byte und 1374 Byte
 - Bug-Fix: ffffm-bind-button
 - Bug-Fix: ffffm-fastd-auto-mtu
-- Dieses Firmwarerelease ist ein Kanditat für die neue Stable
 
 ### v2.0.6.2-dev-0204
 - Gebaut 04.02.2017
