@@ -1,5 +1,14 @@
 ## Frankfurter Test Version
 
+### v2.0.8-test-0219
+- Gebaut 19.02.2017
+- Basis ist Gluon 2016.2.3
+- Umstellung neu fastd-MTU jetzt komplett (1312 und 1374 Byte)
+- Bug-Fix: ffffm-bind-button
+- Bug-Fix: ffffm-ath9k-broken-wifi-workaround
+- Bug-Fix: ffffm-fastd-auto-mtu
+- Dieses Firmwarerelease ist ein Kanditat für die neue Stable
+
 ### v2.0.7-test-0128
 - Gebaut 28.01.2017
 - Package ffffm-restart-respondd wieder entfernt
