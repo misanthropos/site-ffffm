@@ -11,10 +11,6 @@ GLUON_SITE_PACKAGES := \
     gluon-config-mode-contact-info \
     gluon-ebtables-filter-multicast \
     gluon-ebtables-filter-ra-dhcp \
-    gluon-mesh-vpn-fastd \
-    gluon-next-node \
-    gluon-radvd \
-    gluon-status-page \
     gluon-luci-admin \
     gluon-luci-autoupdater \
     gluon-luci-portconfig \
@@ -28,10 +24,14 @@ GLUON_SITE_PACKAGES := \
     ffffm-additional-wifi-json-info \
     ffffm-ath9k-broken-wifi-workaround \
     ffffm-button-bind \
+    gluon-mesh-vpn-fastd \
+    gluon-next-node \
+    gluon-radvd \
+    gluon-status-page \
     gluon-dns-config \
     iwinfo \
     iptables \
-    haveged \
+    haveged
 
 include $(GLUON_SITEDIR)/specific_site.mk 
 
