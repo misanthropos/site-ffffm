@@ -3,7 +3,7 @@
 ### v2.1-stable-0220 (noch nicht automatisch ausgerollt)
  - Gebaut 20.02.2017
  - Basis Gluon 2016.2.3 -> Änderungshistorie: [Gluon 2016.2](http://gluon.readthedocs.io/en/latest/releases/v2016.2.html), [Gluon 2016.2.1](http://gluon.readthedocs.io/en/latest/releases/v2016.2.1.html), [Gluon 2016.2.2](http://gluon.readthedocs.io/en/latest/releases/v2016.2.2.html), [Gluon 2016.2.3](http://gluon.readthedocs.io/en/latest/releases/v2016.2.3.html)
- - Unterstützung neuer Router-Hardware (z.B. TL-WR1043ND v4, TL-WR940N v4, WA801ND v3, Raspberry Pi 1 und 2)
+ - Unterstützung neuer Router-Hardware (z.B. TL-WR841ND v11 EU Version, TL-WR1043ND v4, TL-WR940N v4, WA801ND v3, Raspberry Pi 1 und 2)
  - Region-Code abhängige Images werden jetzt als Europa-Versionen gebaut
  - Images für ath10k-Devices werden gebaut
  - x86-Images nur noch als x86-generic und x86-64. Da ist jetzt alles Notwendige zur Virtualisierung dabei. 
