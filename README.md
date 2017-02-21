@@ -11,7 +11,7 @@
  - Vorbereitung erweiterte IPv6-Nutzung für Clients
  - Durchsatzoptimierungen bei Unitymedia-Uplinks mittles größerer fastd-MTUs (1312 und 1374 Byte)
  - Router-Konfigmodus nur noch auf deutsch
- - Neues Package [gluon-dns-cache](https://github.com/freifunk-ffm/packages/tree/master/gluon-dns-cache) hinzu (FFM-Eigenentwicklung)
+ - Neues Package [gluon-dns-cache](https://github.com/freifunk-ffm/packages/tree/master/gluon-dns-cache) (FFM-Eigenentwicklung) anstelle von ffffm-enlarge-dns-cache hinzu.
  - Neues Package [ffffm-button-bind](https://github.com/freifunk-ffm/packages/tree/master/ffffm-button-bind) hinzu (FFM-Eigenentwicklung)
  - Package [ffffm-ath9k-broken-wifi-workaround](https://github.com/freifunk-ffm/packages/tree/master/ffffm-ath9k-broken-wifi-workaround) wurde optimiert
  - Package [ffffm-banner](https://github.com/freifunk-ffm/packages/tree/master/ffffm-banner) wurde verbessert (optimierung an den Befehlen "nodeinfo" und "v4up")
