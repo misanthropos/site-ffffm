@@ -1,25 +1,26 @@
 ## Frankfurter Stable Version
 
-### v2.1-stable-xyz
- - Gebaut 
- - Basis Gluon 2016.2.2+ vom 26.01.2017
- - Unterstützung von neuer Router-Hardware
- - Übernahme der Konfiguration aus v2.0.7-test-0128
- - 80211b deaktiviert
- - Vorbereitung erweitertes IPv6 für Clients
- - Anzahl verwendbarer Backbone-Supernodes reduziert
- - Region-Code abhängige Images werden jetzt als Europa Versionen gebaut
+### v2.1-stable-0220 (noch nicht automatisch ausgerollt)
+ - Gebaut 20.02.2017
+ - Basis Gluon 2016.2.3 [(Änderungshistorie)](http://gluon.readthedocs.io/en/v2016.2.3/releases/v2016.2.html)
+ - Unterstützung neuer Router-Hardware (z.B. TL-WR1043ND v4, TL-WR940N v4, WA801ND v3, Raspberry Pi 1 und 2)
+ - Region-Code abhängige Images werden jetzt als Europa-Versionen gebaut
  - Images für ath10k-Devices werden gebaut
- - Konfigmodus nur noch auf deutsch
- - Neues Package gluon-dns-cache (FFM-Eigenentwicklung)
- - Neues Package ffffm-bind-button hinzu (FFM-Eigenentwicklung)
- - Package ffffm-ath9k-broken-wifi-workaround wurde optimiert
- - Package ffffm-banner wurde optimiert
+ - x86-Images nur noch als x86-generic und x86-64. Da ist jetzt alles Notwendige zur Virtualisierung dabei. 
+ - Um Airtime zu sparen wurde 80211b deaktiviert
+ - Vorbereitung erweiterte IPv6-Nutzung für Clients
+ - Durchsatzoptimierungen bei Unitymedia-Uplinks mittles größerer fastd-MTUs (1312 und 1374 Byte)
+ - Router-Konfigmodus nur noch auf deutsch
+ - Neues Package [gluon-dns-cache] hinzu (https://github.com/freifunk-ffm/packages/tree/master/gluon-dns-cache) (FFM-Eigenentwicklung)
+ - Neues Package [ffffm-button-bind](https://github.com/freifunk-ffm/packages/tree/master/ffffm-button-bind) hinzu (FFM-Eigenentwicklung)
+ - Package [ffffm-ath9k-broken-wifi-workaround](https://github.com/freifunk-ffm/packages/tree/master/ffffm-ath9k-broken-wifi-workaround) wurde optimiert
+ - Package [ffffm-banner](https://github.com/freifunk-ffm/packages/tree/master/ffffm-banner) wurde verbessert (optimierung an den Befehle "nodeinfo" und "v4up")
  - Für einige Router mit mehr als 4MB Flash gibt es jetzt:
   - Unterstützung von einigen USB-NICs (falls USB-Port vorhanden)
   - Unterstützung von USB-Speichermedien (falls USB-Port vorhanden)
   - 'nano' als zusätzlichen Editor
   - tcpdump-mini
+ - opkg sollte mit angepasster Backbone-Infrastruktur demnächst auch auf IPv6-Mesh-Routern funktionieren 
  
 ### v2.0-stable-34
 - Gebaut 31.07.2016
