@@ -1,5 +1,17 @@
 ## Frankfurter Test Version
 
+### v2.0.10-test-0302
+- Gebaut 02.03.2017
+- Entfernung des Packages ffffm-fastd-auto-mtu. Jetzt nur noch eine feste fastd-MTU von 1312 Byte.
+
+### v2.0.9-test-0302
+- Gebaut 02.03.2017
+- fastd-auto-mtu: Versuch eines Bugfixes
+
+#### Known Issues
+- Der fastd-auto-mtu Bugfix wirkungslos.
+
+
 ### v2.0.8-test-0219
 - Gebaut 19.02.2017
 - Basis ist Gluon 2016.2.3
@@ -8,6 +20,9 @@
 - Bug-Fix: ffffm-ath9k-broken-wifi-workaround
 - Bug-Fix: ffffm-fastd-auto-mtu
 - Dieses Firmwarerelease ist ein Kanditat für die neue Stable
+
+#### Known Issues
+- Unter besonderen Umständen verbindet sich ein Router nach einem Update nicht mehr mit dem Netz. Ein Reboot löst das einmalige Vergalten.
 
 ### v2.0.7-test-0128
 - Gebaut 28.01.2017
