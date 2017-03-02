@@ -16,7 +16,6 @@ GLUON_SITE_PACKAGES := \
     gluon-luci-private-wifi \
     gluon-luci-wifi-config \
     ffffm-ebtables-net-rules \
-    ffffm-fastd-auto-mtu \
     ffffm-keep-radio-channel \
     ffffm-banner \
     ffffm-autoupdater-use-site-conf-branch \
