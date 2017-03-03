@@ -6,7 +6,7 @@
  - Unterstützung neuer Router-Hardware (z.B. Archer C5/C7, TL-WR841ND v11 EU Version, TL-WR1043ND v4, TL-WR842ND v3, TL-WR940N v4, TL-WA901ND v4, TL-WR710N v2.1, CPE210/510 EU Version, WA801ND v3, UniFi AP AC Lite/Pro, Raspberry Pi 1 und 2)
  - Region-Code abhängige Images werden jetzt als Europa-Versionen gebaut
  - Images für ath10k-Devices werden gebaut
- - x86-Images nur noch als x86-generic und x86-64. Da ist jetzt alles Notwendige zur Virtualisierung dabei. 
+ - x86-Images nur noch als x86-generic und x86-64. Da ist jetzt alles Notwendige zur Virtualisierung dabei ([siehe hier](http://gluon.readthedocs.io/en/v2016.2.3/user/x86.html)). 
  - Um Airtime zu sparen wurde 80211b deaktiviert
  - Vorbereitung erweiterte IPv6-Nutzung für Clients
  - Durchsatzoptimierungen bei Unitymedia-Uplinks mittles größerer fastd-MTUs (1312 und 1374 Byte)
