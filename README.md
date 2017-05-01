@@ -1,5 +1,10 @@
 ## Frankfurter Test Version
 
+### v2.1.1-test-0501
+- Gebaut 01.05.2017
+- Basis ist Gluon 2016.2.5 + CVE-2016-10229 Bugfix
+- Die fastd-MTU hat jetzt 1374 Byte.
+
 ### v2.0.10-test-0302
 - Gebaut 02.03.2017
 - Entfernung des Packages ffffm-fastd-auto-mtu. Jetzt nur noch eine feste fastd-MTU von 1312 Byte.
