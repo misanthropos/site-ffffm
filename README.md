@@ -16,10 +16,10 @@
  - Package [ffffm-ath9k-broken-wifi-workaround](https://github.com/freifunk-ffm/packages/tree/master/ffffm-ath9k-broken-wifi-workaround) wurde optimiert
  - Package [ffffm-banner](https://github.com/freifunk-ffm/packages/tree/master/ffffm-banner) wurde verbessert (optimierung an den Befehlen "nodeinfo" und "v4up")
  - Für einige Router mit mehr als 4MB Flash gibt es jetzt:
-  - Unterstützung von einigen USB-NICs (falls USB-Port vorhanden)
-  - Unterstützung von USB-Speichermedien (falls USB-Port vorhanden)
-  - 'nano' als zusätzlichen Editor
-  - tcpdump-mini
+   - Unterstützung von einigen USB-NICs (falls USB-Port vorhanden)
+   - Unterstützung von USB-Speichermedien (falls USB-Port vorhanden)
+   - 'nano' als zusätzlichen Editor
+   - tcpdump-mini
  - opkg sollte mit angepasster Backbone-Infrastruktur demnächst auch auf IPv6-Mesh-Routern funktionieren 
  
 ### v2.0-stable-34
