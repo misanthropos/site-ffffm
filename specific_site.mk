@@ -6,8 +6,7 @@
 # basic support for USB stack
 USB_PACKAGES_BASIC := \
 	kmod-usb-core \
-	kmod-usb2 \
-	kmod-usb-ohci-pci
+	kmod-usb2
 
 # storage support for USB devices
 USB_PACKAGES_STORAGE := \
@@ -129,6 +128,10 @@ UTIL_PACKAGES := \
 	iperf \
 	socat 
 
+# x86 spezifisch
+X86_PACKAGES :=\
+	kmod-usb-ohci-pci
+
 # main combination 
 MAIN_COMBO_PACKAGES := \
 	$(USB_PACKAGES_BASIC) \
@@ -148,7 +151,8 @@ GLUON_SITE_PACKAGES += \
 	$(USB_KEYBOARD_PACKAGES) \
 	$(USB_SERIAL_PACKAGES) \
 	$(UTIL_PACKAGES) \
-	$(PCI_PACKAGES_NET)
+	$(PCI_PACKAGES_NET) \
+	$(X86_PACKAGES)
 endif
 
 # x86-64
@@ -160,7 +164,8 @@ GLUON_SITE_PACKAGES += \
 	$(USB_KEYBOARD_PACKAGES) \
 	$(USB_SERIAL_PACKAGES) \
 	$(UTIL_PACKAGES) \
-	$(PCI_PACKAGES_NET)
+	$(PCI_PACKAGES_NET) \
+	$(X86_PACKAGES)
 endif
 
 # Raspberry Pi A/B/B+
