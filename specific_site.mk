@@ -29,7 +29,8 @@ USB_PACKAGES_STORAGE := \
 	kmod-nls-iso8859-2 \
 	kmod-nls-koi8r \
 	kmod-nls-utf8 \
-	swap-utils
+	swap-utils \
+	usb-modeswitch
 
 # network support for PCI devices
 PCI_PACKAGES_NET := \
@@ -38,6 +39,7 @@ PCI_PACKAGES_NET := \
 	kmod-e1000 \
 	kmod-e1000e \
 	kmod-forcedeth \
+	kmod-igb \
 	kmod-natsemi \
 	kmod-ne2k-pci \
 	kmod-pcnet32 \
@@ -46,7 +48,10 @@ PCI_PACKAGES_NET := \
 	kmod-sky2 \
 	kmod-tg3 \
 	kmod-tulip \
-	kmod-via-rhine
+	kmod-via-rhine \
+	kmod-via-velocity \
+	kmod-8139too \
+	kmod-atl2
 
 # network support for USB devices
 USB_PACKAGES_NET := \
@@ -82,6 +87,19 @@ USB_PACKAGES_NET := \
 	kmod-usb-net-sierrawireless \
 	kmod-usb-net-smsc95xx
 
+# USB serial packages
+USB_SERIAL_PACKAGES := \
+	kmod-usb-serial \
+	kmod-usb-serial-option \
+	kmod-usb-serial-ftdi \
+	kmod-usb-serial-pl2303
+
+# USB Keyboard packages
+USB_KEYBOARD_PACKAGES := \
+	kmod-usb-hid \
+	kmod-hid-generic \
+	kmod-ledtrig-usbdev
+
 # support for USB GPS devices
 USB_PACKAGES_GPS := \
 	kmod-usb-acm \
@@ -93,25 +111,26 @@ USB_PACKAGES_3G := \
 	kmod-usb-serial-wwan \
 	kmod-usb-serial-option \
 	usb-modeswitch \
+	comgt \
 	chat \
 	ppp
-
-# USB Keyboard packages
-USB_KEYBOARD_PACKAGES := \
-	kmod-hid-generic \
-	kmod-usb-hid \
-	kmod-ledtrig-usbdev
-
-# util packages
-UTIL_PACKAGES := \
-	usbutils \
-	nano \
-	tcpdump-mini
 
 # misc packages
 MISC_PACKAGES := \
 	kmod-usb-acm \
 	kmod-usb-serial-simple
+
+# util packages
+UTIL_PACKAGES := \
+	usbutils \
+	nano \
+	tcpdump \
+	iperf \
+	socat 
+
+# x86 spezifisch
+X86_PACKAGES :=\
+	kmod-usb-ohci-pci
 
 # main combination 
 MAIN_COMBO_PACKAGES := \
@@ -130,8 +149,10 @@ ifeq ($(GLUON_TARGET),x86-generic)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
 	$(USB_KEYBOARD_PACKAGES) \
+	$(USB_SERIAL_PACKAGES) \
 	$(UTIL_PACKAGES) \
-	$(PCI_PACKAGES_NET)
+	$(PCI_PACKAGES_NET) \
+	$(X86_PACKAGES)
 endif
 
 # x86-64
@@ -141,8 +162,10 @@ ifeq ($(GLUON_TARGET),x86-64)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
 	$(USB_KEYBOARD_PACKAGES) \
+	$(USB_SERIAL_PACKAGES) \
 	$(UTIL_PACKAGES) \
-	$(PCI_PACKAGES_NET)
+	$(PCI_PACKAGES_NET) \
+	$(X86_PACKAGES)
 endif
 
 # Raspberry Pi A/B/B+
@@ -150,6 +173,7 @@ ifeq ($(GLUON_TARGET),brcm2708-bcm2708)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
 	$(USB_KEYBOARD_PACKAGES) \
+	$(USB_SERIAL_PACKAGES) \
 	$(UTIL_PACKAGES)
 endif
 
@@ -158,6 +182,7 @@ ifeq ($(GLUON_TARGET),brcm2708-bcm2709)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
 	$(USB_KEYBOARD_PACKAGES) \
+	$(USB_SERIAL_PACKAGES) \
 	$(UTIL_PACKAGES)
 endif
 
@@ -166,6 +191,7 @@ ifeq ($(GLUON_TARGET),sunxi)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
 	$(USB_KEYBOARD_PACKAGES) \
+	$(USB_SERIAL_PACKAGES) \
 	$(UTIL_PACKAGES)
 endif
 
