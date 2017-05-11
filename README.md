@@ -1,11 +1,19 @@
 ## Frankfurter Test Version
 
+### v2.1.3-test-0511
+- Gebaut 11.05.2017
+- Das Package ffffm-additional-wifi-json-info wurde entfernt (wegen Problemen mit der Map)
+- TL-WR841N/ND v12 Unterstützung
+
 ### v2.1.2-test-0509
 - Gebaut 09.05.2017
 - 802.11s eingebunden, aber noch standardmäßig deaktiviert
 - 802.11s Mesh-SSID ist "ffffm-mesh".
 - Erstmalige Unterstützung des TL-WR841 v12
 - Weitere USB-NICs, PCI-NICs und SW-Tools im x86-Image
+
+#### Known Issues
+- Die Map (speziell Yanic) hat Probleme die respond-Daten der Router zu parsen
 
 ### v2.1.1-test-0502
 - Gebaut 02.05.2017
