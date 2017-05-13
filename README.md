@@ -85,7 +85,6 @@ Wenn Du Dir z.B. eine eigene **'Test'**-Firmware für das Frankfurter Freifunk-N
    * brcm2708-bcm2709
    * sunxi #BROKEN
    * ar71xx-mikrotik #BROKEN
-   * sunxi #BROKEN
    * ramips-mt7621 #BROKEN
    * ramips-rt305x #BROKEN
 
