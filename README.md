@@ -88,7 +88,7 @@ Wenn Du Dir z.B. eine eigene **'Test'**-Firmware für das Frankfurter Freifunk-N
    * ramips-mt7621 #BROKEN
    * ramips-rt305x #BROKEN
 
-8) Den Bau-Prozess anschmeissen für z.B. ein ar71xx-generic Hardware-Target
+8) Den Bau-Prozess anschmeissen für z.B. ar71xx-generic Hardware-Targets
 
 ```
    make GLUON_TARGET=ar71xx-generic -j4 V=s  BROKEN=1
