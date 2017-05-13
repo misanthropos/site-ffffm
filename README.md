@@ -45,13 +45,13 @@ Wenn Du Dir z.B. eine eigene **'Test'**-Firmware für das Frankfurter Freifunk-N
 
 2) Alle Dependencies aus o.g. Dokument müssen auf deinem PC installiert sein.
 
-3) Clonen des Frankfurter Gluon 'stable' Branches in das Verzeichnis ./gluon :
+3) Clonen des Frankfurter Gluon 'test' Branches in das Verzeichnis ./gluon :
 
 ```
    git clone https://github.com/freifunk-ffm/gluon.git -b test gluon
 ```
 
-4) Clonen der Frankfurter Site-Konfiguration in das Verzeichnis ./gluon/site
+4) Clonen der Frankfurter Site-Konfiguration aus dem 'test' Branch in das Verzeichnis ./gluon/site
 
 ```
    cd gluon
