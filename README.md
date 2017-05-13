@@ -7,7 +7,7 @@
 
 ### v2.1.2-test-0509
 - Gebaut 09.05.2017
-- 802.11s eingebunden, aber noch standardmäßig deaktiviert
+- 802.11s eingebunden, aber standardmäßig noch deaktiviert
 - 802.11s Mesh-SSID ist "ffffm-mesh".
 - Erstmalige Unterstützung des TL-WR841 v12
 - Weitere USB-NICs, PCI-NICs und SW-Tools im x86-Image
