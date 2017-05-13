@@ -66,7 +66,7 @@ Wenn Du Dir z.B. eine eigene **'Test'**-Firmware für das Frankfurter Freifunk-N
    cd ..
    ```
 
-6) Veranlassen, das alle notwendigen Source-Packete geholt werden (OpenWrt, Frankfurter Packages etc.)
+6) Veranlassen, dass alle notwendigen Source-Packete geholt werden (OpenWrt, Frankfurter Packages etc.)
 
 ```
    make update
