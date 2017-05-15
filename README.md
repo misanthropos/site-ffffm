@@ -2,7 +2,7 @@
 
 ### v2.1.3-test-0511
 - Gebaut 11.05.2017
-- Das Package ffffm-additional-wifi-json-info wurde entfernt (wegen Problemen mit der Map)
+- Das Package [ffffm-additional-wifi-json-info](https://github.com/freifunk-ffm/packages/tree/master/ffffm-additional-wifi-json-info) wurde entfernt (wegen Problemen mit der Map)
 - Volle Unterstützung des TL-WR841N/ND v12
 
 ### v2.1.2-test-0509
