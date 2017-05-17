@@ -1,5 +1,9 @@
 ## Frankfurter Test Version
 
+### v2.1.4-test-0514
+- Gebaut 14.05.2017
+- 802.11s Mesh-SSID ist jetzt "ffffm-mesh-bat14"
+
 ### v2.1.3-test-0511
 - Gebaut 11.05.2017
 - Das Package [ffffm-additional-wifi-json-info](https://github.com/freifunk-ffm/packages/tree/master/ffffm-additional-wifi-json-info) wurde entfernt (wegen Problemen mit der Map)
@@ -8,7 +12,7 @@
 ### v2.1.2-test-0509
 - Gebaut 09.05.2017
 - 802.11s eingebunden, aber standardmäßig noch deaktiviert
-- 802.11s Mesh-SSID ist "ffffm-mesh".
+- 802.11s Mesh-SSID ist "ffffm-mesh"
 - Testweise Unterstützung des TL-WR841 v12
 - Weitere USB-NICs, PCI-NICs und SW-Tools im x86-Image
 
