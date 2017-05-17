@@ -1,5 +1,10 @@
 ## Frankfurter Development Version
 
+### v2.1.4.1-dev-0517
+- Gebaut 17.05.2017
+- Basis ist die v2.1.4-test-0514
+- fastd-Verbindungen zu den Supernodes jetzt hoffentlich über IPv4 und IPv6 möglich.
+
 ### v2.0.7.3-dev-0219
 - Gebaut 19.02.2017
 - Umstellung fastd-MTU (1312 und 1374 Byte) jetzt komplett
