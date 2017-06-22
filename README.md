@@ -1,7 +1,12 @@
 ## Frankfurter Development Version
 
+### v2.1.4.2-dev-06XY
+- Gebaut XY.06.2017
+- Basis ist Gluon 2016.2.6
+- Nur noch eine einzige fastd-Verbindungen zu den Supernodes.
+
 ### v2.1.4.1-dev-0516
-- Gebaut 17.05.2016
+- Gebaut 17.05.2017
 - Basis ist die v2.1.4-test-0514
 - fastd-Verbindungen zu den Supernodes jetzt hoffentlich über IPv4 und IPv6 möglich.
 
