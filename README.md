@@ -1,7 +1,7 @@
 ## Frankfurter Development Version
 
 ### v2.1.4.2-dev-0623
-- Gebaut XY.06.2017
+- Gebaut 23.06.2017
 - Basis ist Gluon 2016.2.6
 - Nur noch eine einzige fastd-Verbindungen zu den Supernodes.
 
