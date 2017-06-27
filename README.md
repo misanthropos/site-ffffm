@@ -1,5 +1,11 @@
 ## Frankfurter Test Version
 
+### v2.1.4-test-0627
+- Gebaut 27.06.2017
+- Basis ist Gluon 2016.2.6
+- Nur noch eine einzige fastd-Verbindungen zu den Supernodes.
+- 802.11s Mess wieder entfernt
+
 ### v2.1.4-test-0514
 - Gebaut 14.05.2017
 - 802.11s Mesh-SSID ist jetzt "ffffm-mesh-bat14"
