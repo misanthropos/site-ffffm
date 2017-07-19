@@ -20,7 +20,6 @@ GLUON_SITE_PACKAGES := \
     ffffm-keep-radio-channel \
     ffffm-banner \
     ffffm-autoupdater-use-site-conf-branch \
-    ffffm-additional-wifi-json-info \
     ffffm-ath9k-broken-wifi-workaround \
     ffffm-button-bind \
     gluon-mesh-vpn-fastd \
