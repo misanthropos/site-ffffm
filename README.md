@@ -1,6 +1,13 @@
 ## Frankfurter Test Version
 
-### v2.1.4-test-0627
+### v2.1.6-test-0721
+- Gebaut 21.07.2017
+- Basis ist Gluon 2016.2.6
+- Es wird jetzt der DNS-Cache aus dem Gluon-Core verwendet
+- IP-Adresse des DNS-Caches angepasst
+- Kleine Anpasungen am "help"-Skript
+
+### v2.1.5-test-0627
 - Gebaut 27.06.2017
 - Basis ist Gluon 2016.2.6
 - Nur noch eine einzige fastd-Verbindungen zu den Supernodes.
