@@ -26,7 +26,6 @@ GLUON_SITE_PACKAGES := \
     gluon-next-node \
     gluon-radvd \
     gluon-status-page \
-    gluon-dns-config \
     iwinfo \
     iptables \
     haveged
