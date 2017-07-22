@@ -11,7 +11,7 @@
  - IP-Adresse des DNS-Caches wurde angepasst
 
 ### v2.1-stable-0220
- - Gebaut 20.02.2017
+ - Erstellt 20.02.2017
  - Basis Gluon 2016.2.3 -> Änderungshistorie: [Gluon 2016.2](http://gluon.readthedocs.io/en/latest/releases/v2016.2.html), [Gluon 2016.2.1](http://gluon.readthedocs.io/en/latest/releases/v2016.2.1.html), [Gluon 2016.2.2](http://gluon.readthedocs.io/en/latest/releases/v2016.2.2.html), [Gluon 2016.2.3](http://gluon.readthedocs.io/en/latest/releases/v2016.2.3.html)
  - Unterstützung neuer Router-Hardware (z.B. Archer C5/C7, TL-WR841ND v11 EU Version, TL-WR1043ND v4, TL-WR842ND v3, TL-WR940N v4, TL-WA901ND v4, TL-WR710N v2.1, CPE210/510 EU Version, WA801ND v3, UniFi AP AC Lite/Pro, Raspberry Pi 1 und 2)
  - Region-Code abhängige Images werden jetzt als Europa-Versionen gebaut
@@ -33,7 +33,7 @@
  - opkg sollte mit angepasster Backbone-Infrastruktur demnächst auch auf IPv6-Mesh-Routern funktionieren 
  
 ### v2.0-stable-34
-- Gebaut 31.07.2016
+- Erstellt 31.07.2016
 - Freigegebenes Gluon v2016.1.5
 - OpenWrt Chaos Calmer 15.05
 - Basis bzw. Übernahme der Site-Konfiguration aus v1.10.4-test-96 
@@ -64,7 +64,7 @@
 - Das Skript 'v4up' funktioniert nicht mehr
 
 ### ffmstable-1.10
-- Gebaut Ende 2015
+- Erstellt Ende 2015
 - Gluon 2014.1
 - OpenWrt Barrier Breaker 
 
