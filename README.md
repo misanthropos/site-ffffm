@@ -1,5 +1,9 @@
 ## Frankfurter Stable Version
 
+### v2.2-stable-0728
+ - Erstellt 28.07.2017
+ - Release-Bezeichnung korrigiert -> v2.2-stable-0728/gluon-2016.2.6
+
 ### v2.2-stable-0721
  - Erstellt 21.07.2017
  - Basis Gluon 2016.2.6 -> Änderungshistorie: [Gluon 2016.2.4](http://gluon.readthedocs.io/en/latest/releases/v2016.2.4.html), [Gluon 2016.2.5](http://gluon.readthedocs.io/en/latest/releases/v2016.2.5.html), [Gluon 2016.2.6](http://gluon.readthedocs.io/en/latest/releases/v2016.2.6.html)
