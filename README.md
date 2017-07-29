@@ -1,8 +1,8 @@
 ## Frankfurter Stable Version
 
-### v2.2-stable-0728
- - Erstellt 28.07.2017
- - Release-Bezeichnung korrigiert -> v2.2-stable-0728/gluon-2016.2.6
+### v2.2-stable-0729
+ - Erstellt 29.07.2017
+ - Lediglich die Release-Bezeichnung wurde korrigiert -> v2.2-stable-0728/gluon-2016.2.6
 
 ### v2.2-stable-0721
  - Erstellt 21.07.2017
