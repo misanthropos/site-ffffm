@@ -1,11 +1,7 @@
 ## Frankfurter Stable Version
 
-### v2.2-stable-0729
- - Erstellt 29.07.2017
- - Lediglich die Release-Bezeichnung wurde korrigiert -> v2.2-stable-0728/gluon-2016.2.6
-
-### v2.2-stable-0721
- - Erstellt 21.07.2017
+### v2.2-stable-0731
+ - Erstellt 31.07.2017
  - Basis Gluon 2016.2.6 -> Änderungshistorie: [Gluon 2016.2.4](http://gluon.readthedocs.io/en/latest/releases/v2016.2.4.html), [Gluon 2016.2.5](http://gluon.readthedocs.io/en/latest/releases/v2016.2.5.html), [Gluon 2016.2.6](http://gluon.readthedocs.io/en/latest/releases/v2016.2.6.html)
  - Unterstützung neuer Hardware: TL-WR841N/ND v12
  - Entfernung des Packages ffffm-fastd-auto-mtu. Jetzt nur noch eine feste fastd-MTU
@@ -13,6 +9,15 @@
  - Weitere USB-NICs, PCI-NICs und SW-Tools für das x86-Image
  - Es wird jetzt der DNS-Cache aus dem Gluon-Core verwendet
  - IP-Adresse des DNS-Caches wurde angepasst
+
+### v2.2-stable-0729
+ - Erstellt 29.07.2017
+ - Release-Candidate
+ - Release-Bezeichnung wurde korrigiert -> v2.2-stable-0729/gluon-2016.2.6
+ 
+### v2.2-stable-0721
+ - Erstellt 21.07.2017
+ - Release-Candidate
 
 ### v2.1-stable-0220
  - Erstellt 20.02.2017
