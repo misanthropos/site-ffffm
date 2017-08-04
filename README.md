@@ -1,8 +1,8 @@
 ## Frankfurter Stable Version
 
 ### v2.2-stable-0731
- - Erstellt 31.07.2017
- - Basis Gluon 2016.2.6 -> Änderungshistorie: [Gluon 2016.2.4](http://gluon.readthedocs.io/en/latest/releases/v2016.2.4.html), [Gluon 2016.2.5](http://gluon.readthedocs.io/en/latest/releases/v2016.2.5.html), [Gluon 2016.2.6](http://gluon.readthedocs.io/en/latest/releases/v2016.2.6.html)
+ - Erstellt am 31.07.2017
+ - Basis ist Gluon 2016.2.6 -> Änderungshistorie: [Gluon 2016.2.4](http://gluon.readthedocs.io/en/latest/releases/v2016.2.4.html), [Gluon 2016.2.5](http://gluon.readthedocs.io/en/latest/releases/v2016.2.5.html), [Gluon 2016.2.6](http://gluon.readthedocs.io/en/latest/releases/v2016.2.6.html)
  - Unterstützung neuer Hardware: TL-WR841N/ND v12
  - Entfernung des Packages ffffm-fastd-auto-mtu. Jetzt nur noch eine feste fastd-MTU
  - Die fastd-MTU hat eine Größe von 1374 Byte (über Port 10003).
@@ -10,6 +10,7 @@
  - Es wird jetzt der DNS-Cache aus dem Gluon-Core verwendet
  - IP-Adresse des DNS-Caches wurde angepasst
 
+<!--
 ### v2.2-stable-0729
  - Erstellt 29.07.2017
  - Release-Candidate
@@ -18,6 +19,7 @@
 ### v2.2-stable-0721
  - Erstellt 21.07.2017
  - Release-Candidate
+-->
 
 ### v2.1-stable-0220
  - Erstellt 20.02.2017
