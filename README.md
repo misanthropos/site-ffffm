@@ -9,8 +9,11 @@
  - Weitere USB-NICs, PCI-NICs und SW-Tools für das x86-Image
  - Es wird jetzt der DNS-Cache aus dem Gluon-Core verwendet
  - IP-Adresse des DNS-Caches wurde angepasst
+ - Kleine Anpassungen an den 'help'-Skripten
 
-<!--
+#### Known Issues
+ - Router, welche nur per Mesh angebunden sind, können zur Zeit auf der Konsole keine IPv4-Verbindungen aufbauen. Wenn wir wieder ein NAT64 im Backbone haben, wird dieses jedoch wieder möglich sein.
+
 ### v2.2-stable-0729
  - Erstellt 29.07.2017
  - Release-Candidate
