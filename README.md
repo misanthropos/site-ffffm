@@ -13,7 +13,8 @@
 
 #### Known Issues
  - Router, welche nur per Mesh angebunden sind, können zur Zeit auf der Konsole keine IPv4-Verbindungen aufbauen. Wenn wir wieder ein NAT64 im Backbone haben, wird dieses jedoch wieder möglich sein.
-
+ 
+<!--
 ### v2.2-stable-0729
  - Erstellt 29.07.2017
  - Release-Candidate
