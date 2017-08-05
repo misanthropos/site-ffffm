@@ -1,5 +1,9 @@
 ## Frankfurter Test Version
 
+### v2.1.7-test-0804
+- Erstellt am 04.08.2017
+- Dieses ist eine "hau raus aus der Test, rein in die Stable" Firmware
+
 ### v2.1.6-test-0721
 - Erstellt 21.07.2017
 - Basis ist Gluon 2016.2.6
