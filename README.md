@@ -1,5 +1,12 @@
 ## Frankfurter Stable Version
 
+### v2.3-stable-0917
+- Erstellt am 17.09.2017
+- Basis ist Gluon 2016.2.7
+- Zusätzlicher Patch: "TL-WR1043NDv4: Falsche MAC-Adressen bei Geräten mit sehr neuer Stock-Firmware (ab ca. Mai 2017)"
+- Diese Firmware wird nicht komplett ausgerollt. Lediglich das Factory-Binarie für den TP-Link Router TL-WR1043v4 wird auf dem Download-Server bereitgestellt.
+
+
 ### v2.2-stable-0731
  - Erstellt am 31.07.2017
  - Basis ist Gluon 2016.2.6 -> Änderungshistorie: [Gluon 2016.2.4](http://gluon.readthedocs.io/en/latest/releases/v2016.2.4.html), [Gluon 2016.2.5](http://gluon.readthedocs.io/en/latest/releases/v2016.2.5.html), [Gluon 2016.2.6](http://gluon.readthedocs.io/en/latest/releases/v2016.2.6.html)
