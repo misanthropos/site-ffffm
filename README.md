@@ -1,6 +1,6 @@
 ## Frankfurter Stable Version
 
-### v2.3-stable-0917
+### v2.3-stable-0916
 - Erstellt am 16.09.2017
 - Basis ist Gluon 2016.2.7
 - Zusätzlicher Patch: "TL-WR1043NDv4: Falsche MAC-Adressen bei Geräten mit sehr neuer Stock-Firmware (ab ca. Mai 2017)"
