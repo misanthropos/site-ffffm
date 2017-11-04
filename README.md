@@ -32,7 +32,7 @@ Firmware-Varianten und Git-Branches haben zur Vereinfachung den gleichen Namen b
 
 ---
 
-# Eine eigene Firmware bauen
+# Eine eigene Frankfurter Firmware bauen
 
 ---
 
