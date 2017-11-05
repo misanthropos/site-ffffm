@@ -85,7 +85,9 @@ USB_PACKAGES_NET := \
 	kmod-usb-net-rndis \
 	kmod-usb-net-rtl8152 \
 	kmod-usb-net-sierrawireless \
-	kmod-usb-net-smsc95xx
+	kmod-usb-net-smsc95xx \
+	kmod-rt2800-lib \
+	kmod-rt2500-lib
 
 # USB serial packages
 USB_SERIAL_PACKAGES := \
