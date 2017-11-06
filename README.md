@@ -1,5 +1,5 @@
-### Firmware Versionen
-Für die Frankfurter Firmware-Varianten werden die unten aufgeführten Bezeichnungen verwendet.
+### Freifunk-Firmware in Frankfurt
+Für die Frankfurter Firmware-Varianten werden die unten aufgeführten Bezeichnungen verwendet.  
 Firmware-Varianten und Git-Branches haben zur Vereinfachung den gleichen Namen bekommen.
 
 **stable:**
