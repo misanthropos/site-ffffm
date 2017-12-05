@@ -1,5 +1,5 @@
 #####################################################################################################################
-# Hier werden targetspezifisch und devicespezifisch weitere Packages eingebunden.
+# Hier werden weitere Target- und Device-spezifische Packages eingebunden.
 #####################################################################################################################
 
 
@@ -99,8 +99,9 @@ USB_SERIAL_PACKAGES := \
 # USB Keyboard packages
 USB_KEYBOARD_PACKAGES := \
 	kmod-usb-hid \
-	kmod-hid-generic \
-	kmod-ledtrig-usbdev
+	kmod-hid-generic
+
+#	kmod-ledtrig-usbdev
 
 # support for USB GPS devices
 USB_PACKAGES_GPS := \
@@ -128,6 +129,7 @@ UTIL_PACKAGES := \
 	nano \
 	tcpdump \
 	iperf \
+	iperf3 \
 	socat 
 
 # x86 spezifisch
