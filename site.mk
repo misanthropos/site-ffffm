@@ -24,15 +24,19 @@ GLUON_SITE_PACKAGES := \
 	iwinfo \
 	iptables \
 	haveged \
-	\
-	ffffm-banner \
-	ffffm-restart-respondd \
-	ffffm-ath9k-broken-wifi-workaround
+	ffffm-banner
+
+#	ffffm-restart-respondd \
+#	ffffm-ath9k-broken-wifi-workaround
 
 #	respondd-module-airtime 
 
 #        gluon-web-mesh-vpn-fastd \
 
+#        gluon-ebtables-filter-multicast \
+#        gluon-ebtables-filter-ra-dhcp \
+#        gluon-ebtables-segment-mld \
+#        gluon-ebtables-source-filter \
 
 include $(GLUON_SITEDIR)/specific_site.mk 
 
