@@ -87,8 +87,7 @@ USB_PACKAGES_NET := \
 	kmod-usb-net-sierrawireless \
 	kmod-usb-net-smsc95xx \
 	kmod-rt2800-usb \
-	kmod-rt2500-usb \
-	kmod-mt76
+	kmod-rt2500-usb
 
 # USB serial packages
 USB_SERIAL_PACKAGES := \
