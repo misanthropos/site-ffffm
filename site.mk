@@ -24,7 +24,8 @@ GLUON_SITE_PACKAGES := \
 	iwinfo \
 	iptables \
 	haveged \
-	ffffm-banner
+	ffffm-banner \
+	ffffm-keep-radio-channel
 
 #	ffffm-restart-respondd \
 #	ffffm-ath9k-broken-wifi-workaround
