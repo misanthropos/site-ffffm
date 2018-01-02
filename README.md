@@ -3,7 +3,7 @@
 ### v2.4-stable-0102
 - Erstellt am 02.01.2018
 - Basis ist Gluon 2016.2.7
-- Versuch, das Grundrauschen im Netz zu reduzieren. Das neu hinzugefügte Gluon-Package ['gluon-ebtables-segment-mld'](http://gluon.readthedocs.io/en/stable/package/gluon-ebtables-segment-mld.html) wird die Anteile der "Multicast Listener Discovery v2 (MLDv2)"-Datenpakete bereits im Node ausfiltern. 
+- Das Grundrauschen im Netz muß reduziert werden. Das neu hinzugefügte Gluon-Package ['gluon-ebtables-segment-mld'](http://gluon.readthedocs.io/en/stable/package/gluon-ebtables-segment-mld.html) filter dafür im Node die Anteile der "Multicast Listener Discovery v2 (MLDv2)"-Datenpakete heraus. 
 
 
 ### v2.3-stable-0916
