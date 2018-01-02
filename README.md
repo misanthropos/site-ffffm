@@ -1,5 +1,11 @@
 ## Frankfurter Stable Version
 
+### v2.4-stable-0102
+- Erstellt am 02.01.2018
+- Basis ist Gluon 2016.2.7
+- Versuch, das Grundrauschen im Netz zu reduzieren. Das neu hinzugefügte Gluon-Package ['gluon-ebtables-segment-mld'](http://gluon.readthedocs.io/en/stable/package/gluon-ebtables-segment-mld.html) wird die Anteile der "Multicast Listener Discovery v2 (MLDv2)"-Datenpakete bereits im Node ausfiltern. 
+
+
 ### v2.3-stable-0916
 - Erstellt am 16.09.2017
 - Basis ist Gluon 2016.2.7
