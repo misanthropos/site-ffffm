@@ -1,5 +1,10 @@
 ## Frankfurter Development Version
 
+### v2.2.1.3-dev-1230
+- Erstellt am 30.12.2017
+- Gluon 2017.1.4 mit BROKEN=1
+- Kleine Lede-Optimierungen an den frankfurter Packages
+
 ### v2.2.1.1-dev-1210
 - Erstellt am 10.12.2017
 - Umstellung auf LEDE
