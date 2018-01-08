@@ -1,5 +1,10 @@
 ## Frankfurter Development Version
 
+### v2.2.1.4-dev-0108
+- Erstellt am 08.01.2018
+- Gluon 2017.1.x vom 01.08.2017
+- Neu: PoE support for UBNT EdgeRouter X (-SFP)
+
 ### v2.2.1.3-dev-1230
 - Erstellt am 30.12.2017
 - Gluon 2017.1.4 mit BROKEN=1
