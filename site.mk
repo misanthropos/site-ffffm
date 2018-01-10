@@ -13,7 +13,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-admin \
 	gluon-web-network \
 	gluon-web-wifi-config \
-	gluon-web-autoupdater \
 	gluon-web-private-wifi \
 	gluon-radvd \
 	gluon-status-page \
@@ -25,7 +24,8 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged \
 	ffffm-banner \
-	ffffm-keep-radio-channel
+	ffffm-keep-radio-channel \
+	ffffm-autoupdater-use-site-conf-branch
 
 #	ffffm-restart-respondd \
 #	ffffm-ath9k-broken-wifi-workaround
