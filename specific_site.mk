@@ -1,12 +1,13 @@
 #####################################################################################################################
-# Hier werden targetspezifisch und devicespezifisch weitere Packages eingebunden.
+# Hier werden weitere Target- und Device-spezifische Packages eingebunden.
 #####################################################################################################################
 
 
 # basic support for USB stack
 USB_PACKAGES_BASIC := \
 	kmod-usb-core \
-	kmod-usb2
+	kmod-usb2 \
+	usbutils
 
 # storage support for USB devices
 USB_PACKAGES_STORAGE := \
@@ -99,8 +100,9 @@ USB_SERIAL_PACKAGES := \
 # USB Keyboard packages
 USB_KEYBOARD_PACKAGES := \
 	kmod-usb-hid \
-	kmod-hid-generic \
-	kmod-ledtrig-usbdev
+	kmod-hid-generic
+
+#	kmod-ledtrig-usbdev
 
 # support for USB GPS devices
 USB_PACKAGES_GPS := \
@@ -124,14 +126,14 @@ MISC_PACKAGES := \
 
 # util packages
 UTIL_PACKAGES := \
-	usbutils \
 	nano \
 	tcpdump \
 	iperf \
+	iperf3 \
 	socat 
 
 # x86 spezifisch
-X86_PACKAGES :=\
+PCI_X86_PACKAGES :=\
 	kmod-usb-ohci-pci
 
 # main combination 
@@ -139,6 +141,7 @@ MAIN_COMBO_PACKAGES := \
 	$(USB_PACKAGES_BASIC) \
 	$(USB_PACKAGES_STORAGE) \
 	$(USB_PACKAGES_NET) \
+	$(UTIL_PACKAGES)
 
 #####################################################################################################################
 # GLUON-Target specific settings:
@@ -152,9 +155,8 @@ GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
 	$(USB_KEYBOARD_PACKAGES) \
 	$(USB_SERIAL_PACKAGES) \
-	$(UTIL_PACKAGES) \
 	$(PCI_PACKAGES_NET) \
-	$(X86_PACKAGES)
+	$(PCI_X86_PACKAGES)
 endif
 
 # x86-64
@@ -165,9 +167,8 @@ GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
 	$(USB_KEYBOARD_PACKAGES) \
 	$(USB_SERIAL_PACKAGES) \
-	$(UTIL_PACKAGES) \
 	$(PCI_PACKAGES_NET) \
-	$(X86_PACKAGES)
+	$(PCI_X86_PACKAGES)
 endif
 
 # Raspberry Pi A/B/B+
@@ -175,8 +176,7 @@ ifeq ($(GLUON_TARGET),brcm2708-bcm2708)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
 	$(USB_KEYBOARD_PACKAGES) \
-	$(USB_SERIAL_PACKAGES) \
-	$(UTIL_PACKAGES)
+	$(USB_SERIAL_PACKAGES)
 endif
 
 # Raspberry Pi 2
@@ -184,8 +184,7 @@ ifeq ($(GLUON_TARGET),brcm2708-bcm2709)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
 	$(USB_KEYBOARD_PACKAGES) \
-	$(USB_SERIAL_PACKAGES) \
-	$(UTIL_PACKAGES)
+	$(USB_SERIAL_PACKAGES)
 endif
 
 # Banana Pi
@@ -193,11 +192,14 @@ ifeq ($(GLUON_TARGET),sunxi)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
 	$(USB_KEYBOARD_PACKAGES) \
-	$(USB_SERIAL_PACKAGES) \
-	$(UTIL_PACKAGES)
+	$(USB_SERIAL_PACKAGES)
 endif
 
-
+# Ubiquiti EdgeRouter X (SFP)
+ifeq ($(GLUON_TARGET),ramips-mt7621)
+GLUON_SITE_PACKAGES += \
+	$(MAIN_COMBO_PACKAGES)
+endif
 
 #####################################################################################################################
 # GLUON-Device specific settings:
