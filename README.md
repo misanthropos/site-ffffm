@@ -1,8 +1,13 @@
 ## Frankfurter Development Version
 
+### v2.2.1.5-dev-0111
+- Erstellt am 11.01.2018
+- Gluon 2017.1.x vom 08.01.2017
+- Die site.conf wurde angepasst. IPv6 sollte jetzt Client-seitig richtig funktionieren
+
 ### v2.2.1.4-dev-0108
 - Erstellt am 08.01.2018
-- Gluon 2017.1.x vom 01.08.2017
+- Gluon 2017.1.x vom 08.01.2017
 - Neu: PoE support for UBNT EdgeRouter X (-SFP)
 
 ### v2.2.1.3-dev-1230
