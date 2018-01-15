@@ -1,5 +1,10 @@
 ## Frankfurter Development Version
 
+### v2.2.1.9-dev-0115
+- Erstellt am 15.01.2018
+- Gluon 2017.1.x vom 08.01.2017
+- site.conf: Anpassungen der Links für 'autoupdate' und 'opkg'
+
 ### v2.2.1.6-dev-0114
 - Erstellt am 14.01.2018
 - Gluon 2017.1.x vom 08.01.2017
