@@ -22,7 +22,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-ebtables-source-filter \
 	ffffm-banner_legacy \
 	ffffm-keep-radio-channel \
-	ffffm-autoupdater-use-site-conf-branch
+	ffffm-autoupdater-use-site-conf-branch \
 	iwinfo \
 	iptables \
 	haveged \
