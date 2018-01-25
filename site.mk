@@ -13,7 +13,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-admin \
 	gluon-web-network \
 	gluon-web-wifi-config \
-	gluon-web-autoupdater \
 	gluon-web-private-wifi \
 	gluon-radvd \
 	gluon-status-page \
@@ -21,23 +20,18 @@ GLUON_SITE_PACKAGES := \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-ebtables-segment-mld \
 	gluon-ebtables-source-filter \
+	ffffm-banner_legacy \
+	ffffm-keep-radio-channel \
+	ffffm-autoupdater-use-site-conf-branch
 	iwinfo \
 	iptables \
 	haveged \
-	ffffm-banner \
-	ffffm-keep-radio-channel
 
+#	gluon-web-autoupdater \
 #	ffffm-restart-respondd \
-#	ffffm-ath9k-broken-wifi-workaround
+#	ffffm-ath9k-broken-wifi-workaround 
+#	gluon-web-mesh-vpn-fastd \
 
-#	respondd-module-airtime 
-
-#   gluon-web-mesh-vpn-fastd \
-
-#   gluon-ebtables-filter-multicast \
-#   gluon-ebtables-filter-ra-dhcp \
-#   gluon-ebtables-segment-mld \
-#   gluon-ebtables-source-filter \
 
 include $(GLUON_SITEDIR)/specific_site.mk 
 
