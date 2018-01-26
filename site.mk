@@ -23,9 +23,11 @@ GLUON_SITE_PACKAGES := \
 	iwinfo \
 	iptables \
 	haveged \
+	gluon-config-mode-geo-location \
+	gluon-config-mode-contact-info \
 	ffffm-banner \
 	ffffm-keep-radio-channel \
-	ffffm-autoupdater-use-site-conf-branch
+	ffffm-autoupdater-use-site-conf-branch 
 
 #	ffffm-restart-respondd \
 #	ffffm-ath9k-broken-wifi-workaround
