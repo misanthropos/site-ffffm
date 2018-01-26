@@ -14,6 +14,8 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-network \
 	gluon-web-wifi-config \
 	gluon-web-private-wifi \
+	gluon-config-mode-geo-location \
+	gluon-config-mode-contact-info \
 	gluon-radvd \
 	gluon-status-page \
 	gluon-ebtables-filter-multicast \
