@@ -1,5 +1,24 @@
 ## Frankfurter Test Version
 
+### v2.4.1-test-0126
+- Erstellt am 26.01.2018
+- Basis ist Gluon 2017.1.x (LEDE 17.01)
+- Neue Router-Unterstützung: 
+   - TP-Link 
+     - TL-WR1043N v5
+     - RE450
+     - WBS210 v1.20
+     - WBS510 v1.20, 
+   - Ubiquiti
+     -  EdgeRouter X
+     -  EdgeRouter X-SFP
+     -  AirGateway LR
+     -  AirGateway PRO
+     -  Rocket M2/M5 Ti
+     -  UniFi AP LR
+   - GL Innovations 
+     - GL-AR300M
+   
 ### v2.2.1-test-0915
 - Erstellt am 15.09.2017
 - Basis ist Gluon 2016.2.7
