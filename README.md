@@ -1,8 +1,9 @@
 ## Frankfurter Test Version
 
-### v2.4.1-test-0126
-- Erstellt am 26.01.2018
+### v2.4.2-test-0127
+- Erstellt am 27.01.2018
 - Basis ist Gluon 2017.1.x (LEDE 17.01)
+- Umstellung der Frankfurter Gluon-Packages auf LEDE
 - Neue Router-Unterstützung: 
    - TP-Link 
      - TL-WR1043N v5
@@ -10,8 +11,7 @@
      - WBS210 v1.20
      - WBS510 v1.20, 
    - Ubiquiti
-     -  EdgeRouter X
-     -  EdgeRouter X-SFP
+     -  EdgeRouter X / X-SFP
      -  AirGateway LR
      -  AirGateway PRO
      -  Rocket M2/M5 Ti
