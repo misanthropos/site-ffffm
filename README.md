@@ -18,7 +18,9 @@
      -  UniFi AP LR
    - GL Innovations 
      - GL-AR300M
-   
+
+#### Known Issues
+Es gibt ein "Out Of Memor" (OOM) Problem. Siehe: [Gluon-Wiki Out of Memory](https://github.com/freifunk-gluon/gluon/wiki/Out-of-Memory)
 ### v2.2.1-test-0915
 - Erstellt am 15.09.2017
 - Basis ist Gluon 2016.2.7
