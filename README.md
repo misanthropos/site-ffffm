@@ -78,19 +78,21 @@ Wenn Du Dir z.B. eine eigene **'Test'**-Firmware für das Frankfurter Freifunk-N
 
 7) Daran denken, dass ein Build für ein Hardware-Target in etwa **15 GByte** Platz auf deinem Datenträger benötigt. Es gibt mehrere Hardware-Targets. 
 
+   * ar71xx-tiny
    * ar71xx-generic
    * ar71xx-nand
    * mpc85xx-generic
    * x86-generic
-   * x86-kvm_guest
    * x86-64
-   * x86-xen_domu
+   * x86-geode
    * brcm2708-bcm2708
    * brcm2708-bcm2709
-   * sunxi #BROKEN
-   * ar71xx-mikrotik #BROKEN
-   * ramips-mt7621 #BROKEN
-   * ramips-rt305x #BROKEN
+   * sunxi
+   * ar71xx-mikrotik
+   * ramips-mt7621
+   * ramips-rt305x
+   * mvebu 
+   * ipq806x
 
 8) Den Bau-Prozess anschmeissen für z.B. ar71xx-generic Hardware-Targets
 
