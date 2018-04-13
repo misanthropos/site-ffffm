@@ -18,7 +18,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
-	gluon-ebtables-segment-mld \
 	gluon-ebtables-source-filter \
 	iwinfo \
 	iptables \
