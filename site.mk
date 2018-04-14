@@ -15,6 +15,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-wifi-config \
 	gluon-web-private-wifi \
 	gluon-radvd \
+	gluon-status-page-mesh-batman-adv \
 	gluon-status-page \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
