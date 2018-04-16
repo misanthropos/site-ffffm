@@ -14,6 +14,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-network \
 	gluon-web-wifi-config \
 	gluon-web-private-wifi \
+	gluon-web-autoupdater \	
 	gluon-config-mode-geo-location \
 	gluon-config-mode-contact-info \
 	gluon-radvd \
@@ -29,7 +30,7 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged \
 
-#	gluon-web-autoupdater \
+
 #	ffffm-restart-respondd \
 #	ffffm-ath9k-broken-wifi-workaround 
 #	gluon-web-mesh-vpn-fastd \
