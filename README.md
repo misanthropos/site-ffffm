@@ -30,6 +30,10 @@ Firmware-Varianten und Git-Branches haben zur Vereinfachung den gleichen Namen b
 
 * aktuelle Babel-Entwicklung
 
+**n_babel-work:**
+
+* veralterte Babel-Entwicklung
+
 **master:**
 
 * Dummy Branch (wird nicht verwendet)
