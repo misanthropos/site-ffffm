@@ -1,5 +1,10 @@
 ## Frankfurter Test Version
 
+### v2.4.3-test-0417
+- Erstellt am 17.04.2018
+- Basis ist das Gluon-Release v2017.1.6 
+- Gluon-Bugfixes siehe: [Gluon-Doku zur v2017.1.6](https://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.6.html#gluon-2017-1-6)
+
 ### v2.4.2-test-0127
 - Erstellt am 27.01.2018
 - Basis ist Gluon 2017.1.x (LEDE 17.01)
