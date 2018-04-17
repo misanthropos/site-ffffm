@@ -26,7 +26,7 @@ Firmware-Varianten und Git-Branches haben zur Vereinfachung den gleichen Namen b
 * System- und Integrationstest unter Realbedingungen
 * Diese Firmware ist als nicht funktionsfähig einzustufen. Bitte nicht verwenden!
 
-**n_babel-work:**
+**christf_next:**
 
 * aktuelle Babel-Entwicklung
 
