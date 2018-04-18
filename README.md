@@ -2,6 +2,7 @@
 
 ### v2.4.3-test-0417
 - Erstellt am 17.04.2018
+- Es handelt sich um ein reines Serviceupdate
 - Basis ist das Gluon-Release v2017.1.6 
 - Gluon-Bugfixes siehe: [Gluon-Doku zur v2017.1.6](https://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.6.html#gluon-2017-1-6)
 
