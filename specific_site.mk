@@ -112,15 +112,19 @@ PCI_X86_PACKAGES :=\
 # Util packages
 UTIL_PACKAGES := \
 	nano \
-	iperf3 \
-	tcpdump 
+	iperf3
 
 # Debug packages
 DEBUG_PACKAGES := \
+	tcpdump \
+	libnl \
+	gdb \
+	valgrind \	
 	iftop \
 	binutils \
 	strace \
-    socat
+	screen \
+	kmod-cfg80211
 
 # Main combination 
 MAIN_COMBO_PACKAGES := \
@@ -128,6 +132,11 @@ MAIN_COMBO_PACKAGES := \
 	$(USB_PACKAGES_STORAGE) \
 	$(USB_PACKAGES_NET) \
 	$(UTIL_PACKAGES)
+
+ifeq ($(GLUON_DEBUG),1)
+GLUON_SITE_PACKAGES += \
+	$(DEBUG_PACKAGES)
+endif
 
 #####################################################################################################################
 # GLUON-Target specific settings:
@@ -160,8 +169,7 @@ GLUON_SITE_PACKAGES += \
 	$(USB_KEYBOARD_PACKAGES) \
 	$(USB_SERIAL_PACKAGES) \
 	$(PCI_PACKAGES_NET) \
-	$(PCI_X86_PACKAGES) \
-	$(DEBUG_PACKAGES)
+	$(PCI_X86_PACKAGES)
 endif
 
 # x86-64
@@ -173,8 +181,7 @@ GLUON_SITE_PACKAGES += \
 	$(USB_KEYBOARD_PACKAGES) \
 	$(USB_SERIAL_PACKAGES) \
 	$(PCI_PACKAGES_NET) \
-	$(PCI_X86_PACKAGES) \
-	$(DEBUG_PACKAGES)
+	$(PCI_X86_PACKAGES)
 endif
 
 # x86-geode
@@ -187,7 +194,6 @@ ifeq ($(GLUON_TARGET),x86-geode)
 	$(USB_SERIAL_PACKAGES) \
 	$(PCI_PACKAGES_NET) \
 	$(PCI_X86_PACKAGES) \
-	$(DEBUG_PACKAGES) \
 	-kmod-e1000e
 endif
 
