@@ -5,6 +5,8 @@
 - Es handelt sich um ein reines Serviceupdate
 - Basis ist das Gluon-Release v2017.1.6 
 - Gluon-Bugfixes siehe: [Gluon-Doku zur v2017.1.6](https://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.6.html#gluon-2017-1-6)
+#### Known Issues
+Es gibt wahrscheinlich immer noch "Out Of Memor" (OOM) Probleme. Siehe: [Gluon-Wiki Out of Memory](https://github.com/freifunk-gluon/gluon/wiki/Out-of-Memory)
 
 ### v2.4.2-test-0127
 - Erstellt am 27.01.2018
