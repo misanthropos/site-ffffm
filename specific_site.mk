@@ -120,7 +120,7 @@ DEBUG_PACKAGES := \
 	iftop \
 	binutils \
 	strace \
-    socat
+	socat
 
 # Main combination 
 MAIN_COMBO_PACKAGES := \
