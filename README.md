@@ -1,5 +1,13 @@
 ## Frankfurter Test Version
 
+### v2.4.4-test-04XY
+- Erstellt am xy.04.2018
+- Es handelt sich um ein reines Serviceupdate
+- Basis ist das Gluon-Release v2017.1.7
+- Gluon-Bugfixes siehe: [Gluon-Doku zur v2017.1.7](https://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.7.html#gluon-2017-1-7)
+#### Known Issues
+Es gibt wahrscheinlich immer noch "Out Of Memor" (OOM) Probleme. Siehe: [Gluon-Wiki Out of Memory](https://github.com/freifunk-gluon/gluon/wiki/Out-of-Memory)
+
 ### v2.4.3-test-0417
 - Erstellt am 17.04.2018
 - Es handelt sich um ein reines Serviceupdate
