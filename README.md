@@ -1,7 +1,7 @@
 ## Frankfurter Test Version
 
-### v2.4.4-test-04XY
-- Erstellt am xy.04.2018
+### v2.4.4-test-0430
+- Erstellt am 30.04.2018
 - Es handelt sich um ein reines Serviceupdate
 - Basis ist das Gluon-Release v2017.1.7
 - Gluon-Bugfixes siehe: [Gluon-Doku zur v2017.1.7](https://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.7.html#gluon-2017-1-7)
