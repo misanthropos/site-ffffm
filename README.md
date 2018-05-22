@@ -54,7 +54,7 @@ Wenn Du Dir z.B. eine eigene **'Test'**-Firmware für das Frankfurter Freifunk-N
 2) Alle Dependencies aus o.g. Dokument müssen auf deinem PC installiert sein.  
 Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 05.2018):
 ```
-   apt install git subversion python build-essential gawk unzip libncurses5-dev zlib1g-dev libssl-dev wget
+   sudo apt install git subversion python build-essential gawk unzip libncurses5-dev zlib1g-dev libssl-dev wget
 ```
 
 3) Clonen des Frankfurter Gluon 'test' Branches in das Verzeichnis ./gluon :
