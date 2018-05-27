@@ -1,4 +1,18 @@
-## Frankfurter Test Version
+## Test Branch der Frankfurter Freifunk-Firmware
+
+### v2.4.5-test-0527
+- Erstellt am 27.05.2018
+- Basis ist Gluon v2017.1.x vom 27.05.2018
+- Neue Router-Unterstützung:
+   - TP-Link
+      - Archer C7 v4
+      - TL-WR940N v5 & v6
+   - GL.iNet
+      - GL-AR750
+- Die Hardwareerkennung des UBNT AC-Mesh sollte jetzt korrekt funktionieren.
+
+#### Known Issues
+Es gibt bei einigen Routern immer noch ein Problem mit sehr hoher System-Load. Siehe: [High load on some devices after v2017.1.x update](https://github.com/freifunk-gluon/gluon/issues/1243)
 
 ### v2.4.4-test-0430
 - Erstellt am 30.04.2018
