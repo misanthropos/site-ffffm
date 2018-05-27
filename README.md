@@ -5,7 +5,7 @@
 - Basis ist Gluon v2017.1.x vom 27.05.2018
 - Neue Router-Unterstützung:
    - TP-Link
-      - Archer C7 v4
+      - Archer C7 AC1750 v4
       - TL-WR940N v5 & v6
    - GL.iNet
       - GL-AR750
