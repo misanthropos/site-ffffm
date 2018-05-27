@@ -112,7 +112,8 @@ PCI_X86_PACKAGES :=\
 # Util packages
 UTIL_PACKAGES := \
 	nano \
-	iperf3
+	iperf3 \
+	tcpdump 
 
 # Debug packages
 DEBUG_PACKAGES := \
@@ -124,7 +125,9 @@ DEBUG_PACKAGES := \
 	binutils \
 	strace \
 	screen \
+	socat \
 	kmod-cfg80211
+
 
 # Main combination 
 MAIN_COMBO_PACKAGES := \
