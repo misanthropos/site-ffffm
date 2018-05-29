@@ -15,7 +15,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-wifi-config \
 	gluon-web-private-wifi \
 	gluon-radvd \
-	gluon-status-page-mesh-batman-adv \
 	gluon-status-page \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
@@ -27,20 +26,13 @@ GLUON_SITE_PACKAGES := \
 	iwinfo \
 	iptables \
 	haveged \
-
-
+ 
+#	gluon-status-page-mesh-batman-adv \
+	
 #	ffffm-restart-respondd \
 #	ffffm-ath9k-broken-wifi-workaround
 
 #	respondd-module-airtime 
-
-#        gluon-web-mesh-vpn-fastd \
-
-#        gluon-ebtables-filter-multicast \
-#        gluon-ebtables-filter-ra-dhcp \
-#        gluon-ebtables-segment-mld \
-#        gluon-ebtables-source-filter \
-
 include $(GLUON_SITEDIR)/specific_site.mk 
 
 
