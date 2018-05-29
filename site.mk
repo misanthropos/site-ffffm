@@ -19,13 +19,15 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
+	gluon-ebtables-segment-mld \
 	gluon-ebtables-source-filter \
+	ffffm-banner_legacy \
+	ffffm-keep-radio-channel \
+	ffffm-autoupdater-use-site-conf-branch \
 	iwinfo \
 	iptables \
 	haveged \
-	ffffm-banner \
-	ffffm-keep-radio-channel \
-	ffffm-autoupdater-use-site-conf-branch 
+
 
 #	ffffm-restart-respondd \
 #	ffffm-ath9k-broken-wifi-workaround

@@ -117,10 +117,16 @@ UTIL_PACKAGES := \
 
 # Debug packages
 DEBUG_PACKAGES := \
+	tcpdump \
+	libnl \
+	gdb \
+	valgrind \
 	iftop \
 	binutils \
 	strace \
-	socat
+	screen \
+	socat \
+	kmod-cfg80211
 
 # Main combination 
 MAIN_COMBO_PACKAGES := \
@@ -128,6 +134,11 @@ MAIN_COMBO_PACKAGES := \
 	$(USB_PACKAGES_STORAGE) \
 	$(USB_PACKAGES_NET) \
 	$(UTIL_PACKAGES)
+
+ifeq ($(GLUON_DEBUG),1)
+GLUON_SITE_PACKAGES += \
+	$(DEBUG_PACKAGES)
+endif
 
 #####################################################################################################################
 # GLUON-Target specific settings:
