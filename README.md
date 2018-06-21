@@ -3,7 +3,7 @@
 ### v2.4.6-test-0621
 - Erstellt am 21.06.2018
 - Basis ist das Gluon-Release v2017.1.8
-- Gluon-Bugfixes siehe: [Gluon-Doku zur v2017.1.8](https://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.8.html#gluon-2017-1-8)
+- Gluon-Änderungshistorie siehe: [Gluon-Doku zur v2017.1.8](https://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.8.html#gluon-2017-1-8)
 
 ### v2.4.5-test-0527
 - Erstellt am 27.05.2018
