@@ -1,4 +1,4 @@
-GLUON_SITE_PACKAGES := \
+GLUON_FEATURES := \
 	gluon-mesh-vpn-fastd \
 	gluon-mesh-batman-adv-14 \
 	gluon-respondd \
@@ -29,8 +29,7 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged \
  
-#	gluon-status-page-mesh-batman-adv \
-	
+#	gluon-status-page-mesh-batman-adv \	
 #	ffffm-restart-respondd \
 #	ffffm-ath9k-broken-wifi-workaround
 
