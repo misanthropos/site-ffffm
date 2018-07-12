@@ -23,6 +23,8 @@ GLUON_SITE_PACKAGES := \
 	ffffm-banner_legacy \
 	ffffm-keep-radio-channel \
 	ffffm-autoupdater-use-site-conf-branch \
+	ffffm-button-bind \
+	respondd-module-airtime \
 	iwinfo \
 	iptables \
 	haveged \
