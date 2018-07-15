@@ -10,7 +10,9 @@ GLUON_FEATURES := \
 	respondd \
 	status-page \
 	web-advanced \
-	web-wizard
+	web-wizard \
+	web-private-wifi \
+	web-logging \
 
 #	radv-filterd
 
@@ -22,11 +24,9 @@ GLUON_SITE_PACKAGES := \
 	ffffm-keep-radio-channel \
 	ffffm-autoupdater-use-site-conf-branch \
 	ffffm-button-bind \
+	-gluon-web-autoupdater \
 
 #	respondd-module-airtime
-
-include $(GLUON_SITEDIR)/specific_site.mk 
-
 
 include $(GLUON_SITEDIR)/specific_site.mk 
 
