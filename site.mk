@@ -7,11 +7,12 @@ GLUON_FEATURES := \
 	mesh-batman-adv-14 \
 	mesh-vpn-fastd \
 	radvd \
-	radv-filterd \
 	respondd \
 	status-page \
 	web-advanced \
 	web-wizard
+
+#	radv-filterd
 
 GLUON_SITE_PACKAGES := \
 	iwinfo \
