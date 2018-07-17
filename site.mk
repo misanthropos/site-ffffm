@@ -23,15 +23,9 @@ GLUON_SITE_PACKAGES := \
 	ffffm-banner \
 	ffffm-keep-radio-channel \
 	kmod-nat46 \
-	babeldev \
 	haveged \
 	iwinfo \
-	ddhcpd \
-	gluon-ddhcpd \
-	prefixd \
-	gluon-web-prefixd \
 	iptables \
-	nodealert \
 	gluon-web-logging
 
 
