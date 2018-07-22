@@ -1,39 +1,32 @@
+GLUON_FEATURES := \
+	autoupdater \
+	ebtables-filter-multicast \
+	ebtables-filter-ra-dhcp \
+	ebtables-limit-arp \
+	ebtables-source-filter \
+	mesh-batman-adv-14 \
+	mesh-vpn-fastd \
+	radvd \
+	respondd \
+	status-page \
+	web-advanced \
+	web-wizard \
+	web-private-wifi \
+	web-logging \
+
+#	radv-filterd
+
 GLUON_SITE_PACKAGES := \
-	gluon-mesh-vpn-fastd \
-	gluon-mesh-batman-adv-14 \
-	gluon-respondd \
-	gluon-autoupdater \
-	gluon-setup-mode \
-	gluon-config-mode-core \
-	gluon-config-mode-hostname \
-	gluon-config-mode-geo-location \
-	gluon-config-mode-contact-info \
-	gluon-config-mode-autoupdater \
-	gluon-config-mode-mesh-vpn \
-	gluon-web-admin \
-	gluon-web-network \
-	gluon-web-wifi-config \
-	gluon-web-private-wifi \
-	gluon-radvd \
-	gluon-status-page \
-	gluon-ebtables-filter-multicast \
-	gluon-ebtables-filter-ra-dhcp \
-	gluon-ebtables-segment-mld \
-	gluon-ebtables-source-filter \
+	iwinfo \
+	iptables \
+	haveged \
 	ffffm-banner_legacy \
 	ffffm-keep-radio-channel \
 	ffffm-autoupdater-use-site-conf-branch \
 	ffffm-button-bind \
-	respondd-module-airtime \
-	iwinfo \
-	iptables \
-	haveged \
+	-gluon-web-autoupdater \
 
-#	gluon-web-autoupdater \
-#	ffffm-restart-respondd \
-#	ffffm-ath9k-broken-wifi-workaround 
-#	gluon-web-mesh-vpn-fastd \
-
+#	respondd-module-airtime
 
 include $(GLUON_SITEDIR)/specific_site.mk 
 
@@ -65,4 +58,4 @@ GLUON_LANGS ?= de
 GLUON_REGION ?= eu
 
 # Prefer ath10k firmware with given mesh support (ibss or 11s)
-GLUON_ATH10K_MESH ?= ibss
+GLUON_WLAN_MESH ?= ibss
