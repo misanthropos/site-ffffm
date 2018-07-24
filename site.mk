@@ -7,6 +7,7 @@ GLUON_FEATURES := \
 	mesh-batman-adv-14 \
 	mesh-vpn-fastd \
 	radvd \
+	radv-filterd \
 	respondd \
 	status-page \
 	web-advanced \
@@ -14,7 +15,6 @@ GLUON_FEATURES := \
 	web-private-wifi \
 	web-logging \
 
-#	radv-filterd
 
 GLUON_SITE_PACKAGES := \
 	iwinfo \
