@@ -1,7 +1,7 @@
 ## Frankfurter Development Version
 
 ### v2.4.6.5-dev-0724
-- Erstellt am 22.07.2018
+- Erstellt am 24.07.2018
 - Gluon 2018.1
 - Lokale Anpassungen
   - site.conf umgestellt
