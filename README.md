@@ -1,5 +1,22 @@
 ## Frankfurter Development Version
 
+### v2.4.6.5-dev-0724
+- Erstellt am 22.07.2018
+- Gluon 2018.1
+- Lokale Anpassungen
+  - site.conf umgestellt
+  - site.mk umgestellt 
+- Domain-Seed generiert: f3a8cea77298c398d3edca83e8f786637dc6533d94f45a9401691ff8c1be7e22
+  - Aus Mesh-Kompatibilitätsgründen aber VxLAN noch deaktiviert
+- 802.11s testweise parallel neben ibss-AP aktiviert
+  - Neue 802.11s mesh-ID: "802.11s:FFFFM:BATMAN"
+- Neue Gluon Filter-Packages aktiviert
+- alle FFFFM-eigene Packages sind für den Einsatz unter Gluon 2018.x vorbereitet
+ 
+#### Bekannte Probleme
+- respondd-module-airtime wird noch nicht eingesetzt, da es Probleme in Kombination mit der aktuellen Map gibt.
+
+
 ### v2.2.1.9-dev-0115
 - Erstellt am 15.01.2018
 - Gluon 2017.1.x vom 08.01.2017
