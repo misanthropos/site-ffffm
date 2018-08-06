@@ -52,9 +52,9 @@ Wenn Du Dir z.B. eine eigene **'Test'**-Firmware für das Frankfurter Freifunk-N
 1) Aktuell (Juli 2018) basiert die Test-Fw auf dem neuesten Gluon 2017.1.x, daher Lesen von https://gluon.readthedocs.io/en/v2017.1.x
 
 2) Alle Dependencies aus o.g. Dokument müssen auf deinem PC installiert sein.  
-Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 05.2018):
+Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 08.2018):
 ```
-   sudo apt install git subversion python build-essential gawk unzip libncurses5-dev zlib1g-dev libssl-dev wget
+   sudo apt install git subversion python build-essential gawk unzip libncurses5-dev zlib1g-dev libssl-dev wget time
 ```
 
 3) Clonen des Frankfurter Gluon 'test' Branches in das Verzeichnis ./gluon :
