@@ -1,5 +1,15 @@
 ## Frankfurter Development Version
 
+### v2.4.6.8-dev-0828
+- Erstellt am 28.08.2018
+- Basis ist Gluon 2018.1.1
+  - Bugfix: "Konfigurationsverlust nach Update" behoben
+  - Linux-Kernel aktualisiert auf v4.4.148
+- Gluon-Änderungshistorie siehe: [Gluon-Doku zur v2018.1.1](https://gluon.readthedocs.io/en/v2018.1.x/releases/v2018.1.1.html)
+
+#### Bekannte Probleme
+- respondd-module-airtime wird noch nicht eingesetzt, da es Probleme in Kombination mit der aktuellen Map gibt.
+
 ### v2.4.6.5-dev-0724
 - Erstellt am 24.07.2018
 - Gluon 2018.1
