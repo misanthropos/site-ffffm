@@ -1,5 +1,20 @@
 ## Test Branch der Frankfurter Freifunk-Firmware
 
+
+### v2.4.8-test-0909
+- Erstellt am 09.09.2018
+- Basis ist das Gluon-Release v2018.1.1
+- Viele neue Features. Siehe [Gluon-Doku zur v2018.1.1](https://gluon.readthedocs.io/en/v2018.1.1/releases/v2018.1.html)
+- Linux-Kernel 4.4.148
+- Speichernutzung verbessert 
+- Unterstützung neuer Router-Hardware
+  - siehe [ Neue Hardwareunterstützung durch Gluon 2018.1](https://gluon.readthedocs.io/en/v2018.1.1/releases/v2018.1.html#added-hardware-support)
+  - und siehe [ Neue Hardwareunterstützung durch Gluon 2018.1.1](https://gluon.readthedocs.io/en/v2018.1.1/releases/v2018.1.1.html#added-hardware-support)
+#### Known Issues
+Hohe Systemlast. Es wird weiter daran entwickelt.
+
+### v2.4.7-test (übersprungen)
+
 ### v2.4.6-test-0621
 - Erstellt am 21.06.2018
 - Basis ist das Gluon-Release v2017.1.8
