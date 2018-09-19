@@ -1,5 +1,13 @@
 ## Test Branch der Frankfurter Freifunk-Firmware
 
+### v2.4.9-test-0919
+- Erstellt am 19.09.2018
+- Es handelt sich um ein Serviceupdate mit kleinen Erweiterungen
+- Basis ist das Gluon-Release [v2018.1.x](https://gluon.readthedocs.io/en/v2018.1.x/) vom 04.09.2018
+- Neues Package [gluon-ssid-changer](https://github.com/Freifunk-Nord/gluon-ssid-changer) hinzu
+- Das bereits in der Stable eingesetzte Package [ffffm-ath9k-broken-wifi-workaround](https://github.com/freifunk-ffm/packages/tree/master/ffffm-ath9k-broken-wifi-workaround) wurde wieder eingebunden
+#### Known Issues
+Hohe Systemlast. Es wird weiter daran entwickelt.
 
 ### v2.4.8-test-0909
 - Erstellt am 09.09.2018
