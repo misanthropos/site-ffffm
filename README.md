@@ -1,5 +1,11 @@
 ## Test Branch der Frankfurter Freifunk-Firmware
 
+### v2.4.10-test-1110
+- Erstellt am 20.11.2018
+- Basis ist das Gluon-Release v2018.1.3
+  - Änderungshistorie siehe [v2018.1.3](https://gluon.readthedocs.io/en/v2018.1.x/releases/v2018.1.3.html) und [v2018.1.2](https://gluon.readthedocs.io/en/v2018.1.x/releases/v2018.1.2.html)
+  - Linux-kernel 4.4.153
+
 ### v2.4.9-test-0919
 - Erstellt am 19.09.2018
 - Es handelt sich um ein Serviceupdate mit kleinen Erweiterungen
