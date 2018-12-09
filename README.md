@@ -5,6 +5,9 @@
 - Basis ist das Gluon-Release v2018.1.3
   - Änderungshistorie siehe [v2018.1.3](https://gluon.readthedocs.io/en/v2018.1.x/releases/v2018.1.3.html) und [v2018.1.2](https://gluon.readthedocs.io/en/v2018.1.x/releases/v2018.1.2.html)
   - Linux-kernel 4.4.153
+#### Known Issues
+ - Hohe Systemlast. Es wird weiter daran entwickelt.  
+ - Es gibt Probleme mit 5GHz-Meshverbindungen.
 
 ### v2.4.9-test-0919
 - Erstellt am 19.09.2018
