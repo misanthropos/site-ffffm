@@ -3,10 +3,11 @@
 ### v2.5-stable-1230
 - Erstellt am 30.12.2018
 - Basis ist Gluon 2016.2.x in der Version vom 10.04.2018 ([siehe Gluon Git-Repo](https://github.com/freifunk-gluon/gluon/commits/v2016.2.x))
-- Es handelt sich um eine **wichtiges** Serviceupdate speziell für TP-Link CPE210/510 Router.
+- Es handelt sich um ein **wichtiges** Serviceupdate speziell für TP-Link CPE210/510 Router.
 
 Um Frankfurter CPE210/510 Router mit aufgespielter Stable-Firmware <= v2.4 in Zukunft mit neuerlicher Firmware aktualisieren zu können, muß im Vorfeld **zwingend** diese Firmware aufgespielt worden sein. 
-Frankfurter CPE210/510 Router mit aufgespielter Test-Firmware sind nicht betroffen.
+
+Frankfurter CPE210/510 Router mit aufgespielter **Test**-Firmware sind nicht betroffen.
 
 Andere Frankfurter Router müssen nicht auf dieses Version aktualisiert werden.
   
