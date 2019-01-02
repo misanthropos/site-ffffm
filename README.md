@@ -1,10 +1,32 @@
 ## Test Branch der Frankfurter Freifunk-Firmware
 
+### v2.5.1-test-0102
+- Erstellt am 02.01.2019
+- Basis ist das Gluon-Release v2018.2
+   - Änderungshistorie siehe [Gluon v2018.2](https://gluon.readthedocs.io/en/v2018.2/releases/v2018.2.html)
+   - Linux-Kernel ist 4.9.146 oder 4.14.89 (abhängig vom Routertyp)
+- Neue Router-Unterstützung:
+   - AVM
+     - Fritz!WLAN Repeater 450E
+   - OCEDO
+     - Koala
+   - TP-Link
+     - Archer C7 v5
+     - TL-WR810N v1
+   - Ubiquiti
+     - UniFi AC Mesh Pro
+   - ZyXEL
+     - NBG6616
+
+#### Known Issues
+ - Hohe Systemlast. Es wird weiter daran entwickelt.  
+ - Es gibt Probleme mit 5GHz-Meshverbindungen.
+
 ### v2.4.10-test-1127
 - Erstellt am 27.11.2018
 - Basis ist das Gluon-Release v2018.1.3
   - Änderungshistorie siehe [v2018.1.3](https://gluon.readthedocs.io/en/v2018.1.x/releases/v2018.1.3.html) und [v2018.1.2](https://gluon.readthedocs.io/en/v2018.1.x/releases/v2018.1.2.html)
-  - Linux-kernel 4.4.153
+  - Linux-Kernel 4.4.153
 #### Known Issues
  - Hohe Systemlast. Es wird weiter daran entwickelt.  
  - Es gibt Probleme mit 5GHz-Meshverbindungen.
