@@ -233,7 +233,7 @@ GLUON_SITE_PACKAGES += \
 endif
 
 # Banana Pi
-ifeq ($(GLUON_TARGET),sunxi)
+ifeq ($(GLUON_TARGET),sunxi-cortexa7)
 GLUON_SITE_PACKAGES += \
 	$(MAIN_COMBO_PACKAGES) \
 	$(USB_KEYBOARD_PACKAGES) \
@@ -251,8 +251,8 @@ GLUON_SITE_PACKAGES += \
 $(UTIL_PACKAGES)
 endif
 
-# ramips-mt7628
-ifeq ($(GLUON_TARGET),ramips-mt7628)
+# ramips-mt76x8
+ifeq ($(GLUON_TARGET),ramips-mt76x8)
 GLUON_SITE_PACKAGES +=
 endif
 
