@@ -60,4 +60,4 @@ GLUON_LANGS ?= de
 GLUON_REGION ?= eu
 
 # Prefer ath10k firmware with given mesh support (ibss or 11s)
-GLUON_WLAN_MESH ?= ibss
+GLUON_WLAN_MESH ?= 11s
