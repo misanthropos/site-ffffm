@@ -93,17 +93,18 @@ Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 08.2018):
    * brcm2708-bcm2709
    * mpc85xx-generic
    * ramips-mt7621
-   * sunxi
+   * sunxi-cortexa7
    * x86-generic
    * x86-geode
    * x86-64
-   * ipq806x
-   * ramips-mt7620
-   * ramips-mt7628
-   * ramips-rt305x
-   * ar71xx-mikrotik
-   * brcm2708-bcm2710
-   * mvebu
+   * ipq806x (BROKEN)
+   * ipq40xx (BROKEN)
+   * ramips-mt7620 (BROKEN)
+   * ramips-mt76x8 (BROKEN)
+   * ramips-rt305x (BROKEN)
+   * ar71xx-mikrotik (BROKEN)
+   * brcm2708-bcm2710 (BROKEN)
+   * mvebu-cortexa9 (BROKEN)
 
 8) Den Bau-Prozess anschmeissen für z.B. ar71xx-generic Hardware-Targets
 
