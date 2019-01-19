@@ -27,8 +27,7 @@ GLUON_SITE_PACKAGES := \
 	ffffm-ath9k-broken-wifi-workaround \
 	gluon-ssid-changer \
 	-gluon-web-autoupdater \
-
-#	respondd-module-airtime
+	respondd-module-airtime
 
 include $(GLUON_SITEDIR)/specific_site.mk 
 
