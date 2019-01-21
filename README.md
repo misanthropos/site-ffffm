@@ -1,5 +1,13 @@
 ## Frankfurter Development Version
 
+### v2.5.1.2-dev-0121
+- Erstellt am 21.01.2019
+- Das Package [respondd-module-airtime](https://github.com/freifunk-gluon/packages/tree/master/net/respondd-module-airtime) wurde wieder hinzugefügt
+- Nach wie vor ist 802.11s-Mesh aktiviert
+
+#### Bekannte Probleme
+Der Befehl '[nodeinfo](https://github.com/freifunk-ffm/packages/blob/master/ffffm-banner_legacy/files/usr/bin/nodeinfo)' gibt ein falsches Build-Datum aus.
+
 ### v2.5.1.1-dev-0103
 - Erstellt am 03.01.2018
 - Basis ist die Test-Firmware [v2.5.1-test-0102](https://github.com/freifunk-ffm/site-ffffm/tree/test#v251-test-0102)
