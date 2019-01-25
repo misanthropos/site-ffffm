@@ -9,8 +9,8 @@
 Der Befehl '[nodeinfo](https://github.com/freifunk-ffm/packages/blob/master/ffffm-banner_legacy/files/usr/bin/nodeinfo)' gibt ein falsches Build-Datum aus.
 
 ### v2.5.1.1-dev-0103
-- Erstellt am 03.01.2018
-- Basis ist die Test-Firmware [v2.5.1-test-0102](https://github.com/freifunk-ffm/site-ffffm/tree/test#v251-test-0102)
+- Erstellt am 03.01.2019
+- Basis ist die Test-Firmware [v2.5.1-test-0102](https://github.com/freifunk-ffm/site-ffffm/tree/test#v251-test-0102) (Gluon 2018.2)
 - IBSS-Mesh deaktiviert
 - 802.11s-Mesh aktiviert
 
