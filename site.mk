@@ -1,41 +1,38 @@
+GLUON_FEATURES := \
+	autoupdater \
+	ebtables-filter-multicast \
+	ebtables-filter-ra-dhcp \
+	ebtables-limit-arp \
+	ebtables-source-filter \
+	mesh-batman-adv-14 \
+	mesh-vpn-fastd \
+	radvd \
+	radv-filterd \
+	respondd \
+	status-page \
+	web-advanced \
+	web-wizard \
+	web-private-wifi \
+	web-logging \
+
+
 GLUON_SITE_PACKAGES := \
-    gluon-mesh-batman-adv-14 \
-    gluon-respondd \
-    gluon-autoupdater \
-    gluon-setup-mode \
-    gluon-config-mode-core \
-    gluon-config-mode-autoupdater \
-    gluon-config-mode-hostname \
-    gluon-config-mode-mesh-vpn \
-    gluon-config-mode-geo-location \
-    gluon-config-mode-contact-info \
-    gluon-ebtables-filter-multicast \
-    gluon-ebtables-filter-ra-dhcp \
-    gluon-ebtables-segment-mld \
-    gluon-luci-admin \
-    gluon-luci-autoupdater \
-    gluon-luci-portconfig \
-    gluon-luci-private-wifi \
-    gluon-luci-wifi-config \
-    ffffm-ebtables-net-rules \
-    ffffm-keep-radio-channel \
-    ffffm-banner \
-    ffffm-autoupdater-use-site-conf-branch \
-    ffffm-ath9k-broken-wifi-workaround \
-    ffffm-button-bind \
-    gluon-mesh-vpn-fastd \
-    gluon-next-node \
-    gluon-radvd \
-    gluon-status-page \
-    iwinfo \
-    iptables \
-    haveged
+	iwinfo \
+	iptables \
+	haveged \
+	ffffm-banner_legacy \
+	ffffm-keep-radio-channel \
+	ffffm-button-bind \
+	ffffm-ath9k-broken-wifi-workaround \
+	gluon-ssid-changer \
+	respondd-module-airtime \
+
 
 include $(GLUON_SITEDIR)/specific_site.mk 
 
 #####################################################################################################################
 
-# This is the stable branch
+# This is the Stable branch
 
 # Gluon Base Release
 DEFAULT_GLUON_RELEASE := vHomebrew-stable
@@ -60,4 +57,4 @@ GLUON_LANGS ?= de
 GLUON_REGION ?= eu
 
 # Prefer ath10k firmware with given mesh support (ibss or 11s)
-GLUON_ATH10K_MESH ?= ibss
+GLUON_WLAN_MESH ?= ibss
