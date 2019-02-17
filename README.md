@@ -1,5 +1,26 @@
 ## Test Branch der Frankfurter Freifunk-Firmware
 
+
+
+### v2.5.2-test-0217
+- Erstellt am 17.02.2019
+- Basis ist [Gluon v2018.2.x] (https://github.com/freifunk-gluon/gluon/commits/v2018.2.x) vom 12.02.2019
+  - Linux-Kernel ist 4.9.153 oder 4.14.97 (abhängig vom Routertyp)
+- Es handelt sich um ein Service-Update mit kleinen Erweiterungen.
+- Als Upgrade-Branch ist in dieser Firmware "stable" eingestellt. Hierdurch werden sich die Knoten mit Test-Firmware auf die neu anstehende Stable-Firmware aktualisieren. 
+- Unterstützung neuer Router-Hardware:
+   - AVM
+     - Fritz!WLAN Repeater 300E
+   - Nexx 
+     - WT3020AD
+     - WT3020F
+     - WT3020H
+ 
+ #### Known Issues
+ - Es kann Probleme mit 5GHz-Meshverbindungen geben.
+ - Teilweise doppelte Anzeige von IPv6-Adressen auf der Map- bzw. Statusseite.
+ - Flapping der Anzahl der verbundenen Wifi-Clients.
+
 ### v2.5.1-test-0102
 - Erstellt am 02.01.2019
 - Basis ist das Gluon-Release v2018.2
