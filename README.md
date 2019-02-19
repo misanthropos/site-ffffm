@@ -2,8 +2,8 @@
 
 
 
-### v2.5.2-test-0217
-- Erstellt am 17.02.2019
+### v2.5.2-test-0219
+- Erstellt am 19.02.2019
 - Basis ist [Gluon v2018.2.x] (https://github.com/freifunk-gluon/gluon/commits/v2018.2.x) vom 12.02.2019
   - Linux-Kernel ist 4.9.153 oder 4.14.97 (abhängig vom Routertyp)
 - Es handelt sich um ein Service-Update mit kleinen Erweiterungen.
