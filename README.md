@@ -1,5 +1,22 @@
 ## Frankfurter Stable Version
 
+### v3.0-stable-0219
+- Erstellt am 19.02.2019
+- Es handelt sich um ein umfangreiches Technologie-Upgrade auf OpenWrt 18.06 .
+- Basis ist [Gluon v2018.2.x](https://gluon.readthedocs.io/en/v2018.2/index.html) in der Version vom 12.02.2019 ([siehe Gluon Git-Repo](https://github.com/freifunk-gluon/gluon/commits/v2018.2.x)).
+  - Linux-Kernel 4.9 oder 4.14 (abhängig vom Routertyp).
+- Die Nutzung des Arbeitsspeichers wurde verbessert.
+- Der Autoupdater ist deutlich robuster. 
+- Netzstabilisierung durch Filterung von [ARP-Paketen](https://gluon.readthedocs.io/en/v2018.2/package/gluon-ebtables-limit-arp.html#gluon-ebtables-limit-arp).
+- Unterstützung [vielfältiger Hardware](https://gluon.readthedocs.io/en/v2018.2/#supported-devices-architectures) (Achtung: nur für IBSS, nicht für reine 802.11s Hardware).
+- Neues Package [gluon-ssid-changer](https://github.com/freifunk-nord/gluon-ssid-changer).
+- Weiterhin Übernahme aller Feature, wie sie in der [Test-Firmware v2.5.2](https://github.com/freifunk-ffm/site-ffffm/blob/test/README.md#v252-test-0219) enthalten und beschrieben sind.
+
+#### Known Issues
+- Teilweise doppelte Anzeige von IPv6-Adressen auf der Map- bzw. Statusseite.
+- Teilweise leichtes Flapping der Anzahl der verbundenen Wifi-Clients.
+- Es kann zu Probleme mit 5GHz-Meshverbindungen kommen.
+
 ### v2.5-stable-1230
 - Erstellt am 30.12.2018
 - Basis ist Gluon 2016.2.x in der Version vom 10.04.2018 ([siehe Gluon Git-Repo](https://github.com/freifunk-gluon/gluon/commits/v2016.2.x))
@@ -9,7 +26,7 @@ Um Frankfurter CPE210/510 Router mit aufgespielter Stable-Firmware <= v2.4 in Zu
 
 Frankfurter CPE210/510 Router mit aufgespielter **Test**-Firmware sind nicht betroffen.
 
-Andere Frankfurter Router müssen nicht auf dieses Version aktualisiert werden.
+Andere Frankfurter Router müssen nicht auf diese Version aktualisiert werden.
   
 ### v2.4-stable-0102
 - Erstellt am 02.01.2018
