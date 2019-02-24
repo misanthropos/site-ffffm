@@ -1,4 +1,4 @@
-## Frankfurter Stable Version
+## Stable-Version der Frankfurter Freifunkfirmware
 
 ### v3.0-stable-0219
 - Erstellt am 19.02.2019
