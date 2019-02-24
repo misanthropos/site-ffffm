@@ -1,6 +1,4 @@
-## Test Branch der Frankfurter Freifunk-Firmware
-
-
+## Test-Version der Frankfurter Freifunkfirmware
 
 ### v2.5.2-test-0219
 - Erstellt am 19.02.2019
