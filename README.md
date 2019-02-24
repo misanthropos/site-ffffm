@@ -1,4 +1,4 @@
-## Frankfurter Development Version
+## Development-Version der Frankfurter Freifunkfirmware
 
 ### v2.5.1.2-dev-0121
 - Erstellt am 21.01.2019
