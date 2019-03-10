@@ -93,6 +93,7 @@ Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 01/2019):
    * brcm2708-bcm2709
    * mpc85xx-generic
    * ramips-mt7621
+   * ramips-mt76x8
    * sunxi-cortexa7
    * x86-generic
    * x86-geode
@@ -100,7 +101,6 @@ Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 01/2019):
    * ipq806x (BROKEN)
    * ipq40xx (BROKEN)
    * ramips-mt7620 (BROKEN)
-   * ramips-mt76x8 (BROKEN)
    * ramips-rt305x (BROKEN)
    * ar71xx-mikrotik (BROKEN)
    * brcm2708-bcm2710 (BROKEN)
