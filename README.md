@@ -1,5 +1,15 @@
 ## Development-Version der Frankfurter Freifunkfirmware
 
+### v2.5.2.2-dev-0310
+- Erstellt am 10.03.2019
+- Basis ist Gluon 2018.2.x vom 26.02.2019
+- Neues Target ramips-mt76x8 (u.a. TP-Link Archer C50)
+- SSID ist nun 'ffm.freifunk.net'
+- Nach wie vor ist 802.11s-Mesh aktiviert
+
+#### Bekannte Probleme
+Die SSID des 5GHz-Interfaces ist noch 'dev.ffm.freifunk.net'
+
 ### v2.5.1.2-dev-0121
 - Erstellt am 21.01.2019
 - Das Package [respondd-module-airtime](https://github.com/freifunk-gluon/packages/tree/master/net/respondd-module-airtime) wurde wieder hinzugefügt
