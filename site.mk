@@ -20,20 +20,18 @@ GLUON_SITE_PACKAGES := \
 	gluon-iptables-clamp-mss-to-pmtu \
 	ffffm-banner \
 	ffffm-keep-radio-channel \
+	kmod-nat46 \
 	babeldev \
 	haveged \
 	iwinfo \
+	ddhcpd \
+	gluon-ddhcpd \
 	prefixd \
 	gluon-web-prefixd \
 	iptables \
 	gluon-ddhcpd \
+	gluon-xlat464-clat \
 	gluon-mesh-vpn-wireguard
-
-#	nodealert \  # breaks respondd response from yanic?
-
-#       kmod-nat46 \
-#	ddhcpd \
-#	gluon-ddhcpd \
 
 #	gluon-web-mesh-vpn-wireguard
 
