@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2016-02-20 16:00+0100\n"
+"PO-Revision-Date: 2019-03-16 16:00+0100\n"
 "Last-Translator: Juergen S. <GitHub@s3i.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
-"MIME-Version: 1.0\n"
+"MIME-Version: 1.1\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -14,6 +14,15 @@ msgid "gluon-config-mode:welcome"
 msgstr ""
 "Willkommen auf deinem Frankfurter "
 "Freifunk-Knoten."
+
+msgid "gluon-config-mode:domain"
+msgstr "Mesh-Technologie"
+
+msgid "gluon-config-mode:domain-select"
+msgstr ""
+"Hier hast du die Möglichkeit auszuwählen, welche Mesh-Technologie dein Knoten "
+"verwenden soll. Bitte denke daran, dass sich dein Knoten nur mit anderen Knoten "
+"mit identischer Mesh-Technologie verbinden kann."
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
@@ -30,48 +39,4 @@ msgstr ""
 "Mode neu aufstarten. Danach ist er, per Netzwerkkabel an einem LAN-Port (gelb), unter "
 "<a href=\"http://192.168.1.1\">http://192.168.1.1</a> zu erreichen.</p>"
 "<p>Viel Spaß mit deinem neuen Freifunk-Knoten und der Erkundung von Freifunk!</p>"
-
-msgid "gluon-luci-node-role:role:normal"
-msgstr ""
-"Normal Node"
-
-msgid "gluon-luci-node-role:role:outdoor"
-msgstr ""
-"Outdoor Node"
-
-msgid "gluon-luci-node-role:role:uplink"
-msgstr ""
-"Uplink Node"
-
-msgid "gluon-luci-node-role:role:offloader"
-msgstr ""
-"Offloader"
-
-msgid "gluon-luci-node-role:role:bridge"
-msgstr ""
-"Bridge Node"
-
-msgid "gluon-luci-node-role:role:relay"
-msgstr ""
-"Relay Node"
-
-msgid "gluon-luci-node-role:role:service"
-msgstr ""
-"Service Node"
-
-msgid "gluon-luci-node-role:role:backbone"
-msgstr ""
-"Backbone Node"
-
-msgid "gluon-luci-node-role:role:special"
-msgstr ""
-"Special Node"
-
-msgid "gluon-luci-node-role:role:temporary"
-msgstr ""
-"Temporary Node"
-
-msgid "gluon-luci-node-role:role:test"
-msgstr ""
-"Test Node"
 

@@ -1,5 +1,12 @@
 ## Development-Version der Frankfurter Freifunkfirmware
 
+### v3.0.0.1-dev-XYZ
+- Erstellt am XYZ
+- Basis ist GLuon 2018.2.1
+- Gluon-Änderungshistorie siehe: [Gluon-Doku zur v2018.2.1](https://gluon.readthedocs.io/en/v2018.2.x/releases/v2018.2.1.html)
+- Multidomain aktiviert
+- Erste Versuche IBSS und 11s per Multidomain umschaltbar zu machen.
+
 ### v2.5.2.2-dev-0310
 - Erstellt am 10.03.2019
 - Basis ist Gluon 2018.2.x vom 26.02.2019
