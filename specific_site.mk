@@ -112,6 +112,7 @@ PCI_X86_PACKAGES :=\
 # Util packages
 UTIL_PACKAGES := \
 	nano \
+	joe \
 	iperf3 \
 	tcpdump 
 
