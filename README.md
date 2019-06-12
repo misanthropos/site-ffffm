@@ -99,9 +99,9 @@ Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 01/2019):
    * x86-geode
    * x86-64
    * ipq40xx
+   * ramips-mt7620
+   * ramips-rt305x
    * ipq806x (BROKEN)
-   * ramips-mt7620 (BROKEN)
-   * ramips-rt305x (BROKEN)
    * ar71xx-mikrotik (BROKEN)
    * brcm2708-bcm2710 (BROKEN)
    * mvebu-cortexa9 (BROKEN)
