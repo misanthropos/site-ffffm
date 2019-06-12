@@ -98,8 +98,8 @@ Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 01/2019):
    * x86-generic
    * x86-geode
    * x86-64
+   * ipq40xx
    * ipq806x (BROKEN)
-   * ipq40xx (BROKEN)
    * ramips-mt7620 (BROKEN)
    * ramips-rt305x (BROKEN)
    * ar71xx-mikrotik (BROKEN)
