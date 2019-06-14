@@ -1,5 +1,43 @@
 ## Test-Version der Frankfurter Freifunkfirmware
 
+### v3.0.1-test-0615
+- Erstellt am 15.06.2019
+- Basis ist [Gluon v2018.2.x](https://github.com/freifunk-gluon/gluon/commits/v2018.2.x) vom 09.06.2019. Dadurch ist [Gluon v2018.2.1](https://github.com/freifunk-gluon/gluon/commits/v2018.2.1) enthalten.
+- IBSS-Mesh deaktiviert
+- 802.11s-Mesh aktiviert
+- Unterstützung neuer Router-Hardware gegenüber der Stable v3.0 (Listung wahrscheinlich nicht vollständig)
+  - AVM
+     - FRITZ!Box 4040
+  - Nexx
+     - WT3020
+  - Gl.iNet
+     - MT300N (v2)
+     - GL-MT300
+     - GL-MT750 
+     - GL-B1300
+  - Netgear
+     - R6120
+     - EX6100 (v2)
+     - EX6150 (v2)
+  - OpenMesh
+     - A42
+     - A62
+  - ZBT
+     - WG3526
+  - D-Link
+     - DIR-860L (B1)
+     - DIR-615 (D1, D2, D3, D4, H1)
+  - VoCore2
+     - VoCore (8M, 16M)
+     - VoCore2
+  - TP-Link
+     - Archer C50 (v3, v4)
+     - TL-WR841N (v13)
+     - Archer C59 (v1)
+
+#### Known Issues
+Flapping der Anzahl der verbundenen Wifi-Clients.
+
 ### v2.5.2-test-0219
 - Erstellt am 19.02.2019
 - Basis ist [Gluon v2018.2.x] (https://github.com/freifunk-gluon/gluon/commits/v2018.2.x) vom 12.02.2019
