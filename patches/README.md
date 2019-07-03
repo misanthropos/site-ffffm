@@ -10,17 +10,17 @@ angewendet werden.
 
 
 ### Geübte Git-User
-Geübte Git-User konnen die hier enthaltenen Patches einzeln mittels der folgenden Befehlsfolge anwenden: 
+Geübte Git-User können die hier enthaltenen Patches einzeln mittels der folgenden Befehlsfolge anwenden: 
 
-    git -c user.name='Frankfurter FirmwareReleaseBuilder' -c user.email='ffffm-FRB@void.example.com' -c commit.gpgsign=false am --whitespace=nowarn --committer-date-is-author-date ./site/patches/NameDesPatches.patch
+    git -c user.name='Homebrew Bro' -c user.email='HomebrewBro@void.example.com' -c commit.gpgsign=false am --whitespace=nowarn --committer-date-is-author-date ./site/patches/NameDesPatches.patch
 
 Mittels der folgenden Befehlsfolge werden alle Patches in einem Rutsch angewendet:
  
-    git -c user.name='Frankfurter FirmwareReleaseBuilder' -c user.email='ffffm-FRB@void.example.com' -c commit.gpgsign=false am --whitespace=nowarn --committer-date-is-author-date ./site/patches/*.patch
+    git -c user.name='Homebrew Bro' -c user.email='HomebrewBro@void.example.com' -c commit.gpgsign=false am --whitespace=nowarn --committer-date-is-author-date ./site/patches/*.patch
 
 Falls es zu Problemen kommt, kann folgende Befehlszeile recht hilfreich sein:
 
-    git -c user.name='Frankfurter FirmwareReleaseBuilder' -c user.email='ffffm-FRB@void.example.com' -c commit.gpgsign=false am --abort
+    git -c user.name='Homebrew Bro' -c user.email='HomebrewBro@void.example.com' -c commit.gpgsign=false am --abort
 
 Wenn nichts mehr geht, dann hilft:
 
