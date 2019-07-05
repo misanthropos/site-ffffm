@@ -13,8 +13,9 @@ GLUON_FEATURES := \
 	web-advanced \
 	web-wizard \
 	web-private-wifi \
-	web-logging \
-	config-mode-domain-select \
+	web-logging
+
+#	config-mode-domain-select \
 
 
 GLUON_SITE_PACKAGES := \
@@ -33,7 +34,7 @@ GLUON_SITE_PACKAGES := \
 include $(GLUON_SITEDIR)/specific_site.mk 
 
 # Multidomain support
-GLUON_MULTIDOMAIN=1
+#GLUON_MULTIDOMAIN=1
 
 #####################################################################################################################
 
