@@ -3,7 +3,7 @@
 ### v3.0.1.1-dev-XYZ
 - Erstellt am XYZ
 - Basis ist Gluon 2018.2.2
-- Gluon-Änderungshistorie siehe: [Gluon-Doku zur v2018.2.1](https://gluon.readthedocs.io/en/v2018.2.x/releases/v2018.2.2.html)
+- Gluon-Änderungshistorie siehe: [Gluon-Doku zur v2018.2.2](https://gluon.readthedocs.io/en/v2018.2.x/releases/v2018.2.2.html)
 
 
 ### v2.5.2.2-dev-0310
