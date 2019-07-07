@@ -34,7 +34,7 @@ GLUON_SITE_PACKAGES := \
 include $(GLUON_SITEDIR)/specific_site.mk 
 
 # Multidomain support
-#GLUON_MULTIDOMAIN=1
+GLUON_MULTIDOMAIN=1
 
 #####################################################################################################################
 
