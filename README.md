@@ -4,7 +4,7 @@
 - Erstellt am 11.07.2019
 - Es handelt sich um ein reines Sicherheits-Update
 - Basis ist Gluon [v2018.2.2](https://gluon.readthedocs.io/en/v2018.2.2/)
-- Das verwendeten Gluon-Release enthält [Bugfixes](https://gluon.readthedocs.io/en/v2018.2.2/releases/v2018.2.2.html#bugfixes) für die Sicherheitslücken [CVE-2019-11477](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11477), [CVE-2019-11478](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11478) und
+- Das verwendete Gluon-Release enthält [Bugfixes](https://gluon.readthedocs.io/en/v2018.2.2/releases/v2018.2.2.html#bugfixes) für die Sicherheitslücken [CVE-2019-11477](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11477), [CVE-2019-11478](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11478) und
 [CVE-2019-11479](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11479).
  
 
