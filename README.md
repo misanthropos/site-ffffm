@@ -1,5 +1,13 @@
 ## Test-Version der Frankfurter Freifunkfirmware
 
+### v3.1.1-test-0712
+- Erstellt am 12.07.2019
+- Es handelt sich um ein Sicherheits-Update
+- Basis ist Gluon [v2018.2.2](https://gluon.readthedocs.io/en/v2018.2.2/)
+- Das verwendete Gluon-Release enthält [Bugfixes](https://gluon.readthedocs.io/en/v2018.2.2/releases/v2018.2.2.html#bugfixes) für die Sicherheitslücken [CVE-2019-11477](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11477), [CVE-2019-11478](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11478) und
+[CVE-2019-11479](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11479).
+- 802.11s-Mesh only
+
 ### v3.0.1-test-0615
 - Erstellt am 15.06.2019
 - Basis ist [Gluon v2018.2.x](https://github.com/freifunk-gluon/gluon/commits/v2018.2.x) vom 09.06.2019. Dadurch ist [Gluon v2018.2.1](https://github.com/freifunk-gluon/gluon/commits/v2018.2.1) enthalten.
