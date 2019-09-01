@@ -9,6 +9,7 @@ GLUON_FEATURES := \
 	radvd \
 	radv-filterd \
 	respondd \
+	scheduled-domain-switch \
 	status-page \
 	web-advanced \
 	web-wizard \
@@ -30,7 +31,7 @@ GLUON_SITE_PACKAGES := \
 	-gluon-web-autoupdater \
 	respondd-module-airtime
 
-include $(GLUON_SITEDIR)/specific_site.mk 
+include $(GLUON_SITEDIR)/specific_site.mk
 
 # Multidomain support
 GLUON_MULTIDOMAIN=1
@@ -42,7 +43,7 @@ GLUON_MULTIDOMAIN=1
 # Gluon Base Release
 DEFAULT_GLUON_RELEASE := vHomebrew-dev
 
-# For homebrew development add e.g. date and time 
+# For homebrew development add e.g. date and time
 # (Note: Don't use the ':' char. It will break the build)
 DEFAULT_GLUON_RELEASE := $(DEFAULT_GLUON_RELEASE)-$(shell date '+%Y.%m.%d')
 
