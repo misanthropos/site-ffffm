@@ -26,10 +26,11 @@ GLUON_SITE_PACKAGES := \
 	ffffm-button-bind \
 	ffffm-ath9k-broken-wifi-workaround \
 	gluon-ssid-changer \
+	ffffm-autoupdater-use-site-conf-branch \
 	-gluon-web-autoupdater \
 	respondd-module-airtime
 
-include $(GLUON_SITEDIR)/specific_site.mk 
+include $(GLUON_SITEDIR)/specific_site.mk
 
 
 #####################################################################################################################
@@ -39,7 +40,7 @@ include $(GLUON_SITEDIR)/specific_site.mk
 # Gluon Base Release
 DEFAULT_GLUON_RELEASE := vHomebrew-test
 
-# For homebrew development add e.g. date and time 
+# For homebrew development add e.g. date and time
 # (Note: Don't use the ':' char. It will break the build)
 DEFAULT_GLUON_RELEASE := $(DEFAULT_GLUON_RELEASE)-$(shell date '+%Y.%m.%d')
 
