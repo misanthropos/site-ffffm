@@ -17,6 +17,14 @@ Firmware-Varianten und Git-Branches haben zur Vereinfachung den gleichen Namen b
 * Vorab-Feldtest stabiler Gluon Releases
 * Diese Firmware kann noch fehlerbehaftet sein. Bitte nur mit Bedacht verwenden!
 
+**next:**
+
+* Bezeichnungsschema: 'a.b.c-test-d'
+* SSID: 'ffm.freifunk.net'
+* Vorab-Feldtest stabiler Gluon Releases
+* Diese Firmware kann noch fehlerbehaftet sein. Bitte nur mit Bedacht verwenden!
+* Wie Test, basiert aber auf stable mit gemeinsamer History
+
 **dev:**
 
 * Bezeichnungsschema: 'a.b.c.d-dev-f'
