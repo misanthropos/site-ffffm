@@ -40,13 +40,13 @@ GLUON_MULTIDOMAIN := 1
 # Gluon Base Release
 DEFAULT_GLUON_RELEASE := v3.3
 
-# Allow overriding the release number from the command line
-GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
-
 # Development branch information
 GLUON_BRANCH ?= test
 
 DEFAULT_GLUON_RELEASE := $(DEFAULT_GLUON_RELEASE)-$(GLUON_BRANCH)-$(shell date '+%m%d')
+
+# Allow overriding the release number from the command line
+GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
