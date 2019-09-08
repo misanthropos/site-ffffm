@@ -1,12 +1,19 @@
 ## Stable-Version der Frankfurter Freifunkfirmware
 
+### v3.2-stable-0903
+- Erstellt am 03.09.2019
+- Migriert von IBSS auf 11s (Domain legacybat_ibss -> legacybat_11s)
+- erstes Release mit multidomain
+- Scheduled Domain Switch am 09.09.
+- Basis ist Gluon [v2018.2.2](https://gluon.readthedocs.io/en/v2018.2.2/)
+
 ### v3.1-stable-0711
 - Erstellt am 11.07.2019
 - Es handelt sich um ein reines Sicherheits-Update
 - Basis ist Gluon [v2018.2.2](https://gluon.readthedocs.io/en/v2018.2.2/)
 - Das verwendete Gluon-Release enthält [Bugfixes](https://gluon.readthedocs.io/en/v2018.2.2/releases/v2018.2.2.html#bugfixes) für die Sicherheitslücken [CVE-2019-11477](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11477), [CVE-2019-11478](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11478) und
 [CVE-2019-11479](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11479).
- 
+
 
 ### v3.0-stable-0219
 - Erstellt am 19.02.2019
@@ -14,7 +21,7 @@
 - Basis ist [Gluon v2018.2.x](https://gluon.readthedocs.io/en/v2018.2/index.html) in der Version vom 12.02.2019 ([siehe Gluon Git-Repo](https://github.com/freifunk-gluon/gluon/commits/v2018.2.x)).
   - Linux-Kernel 4.9 oder 4.14 (abhängig vom Routertyp).
 - Die Nutzung des Arbeitsspeichers wurde verbessert.
-- Der Autoupdater ist deutlich robuster. 
+- Der Autoupdater ist deutlich robuster.
 - Netzstabilisierung durch Filterung von [ARP-Paketen](https://gluon.readthedocs.io/en/v2018.2/package/gluon-ebtables-limit-arp.html#gluon-ebtables-limit-arp).
 - Unterstützung [vielfältiger Hardware](https://gluon.readthedocs.io/en/v2018.2/#supported-devices-architectures) (Achtung: nur für IBSS, nicht für reine 802.11s Hardware).
 - Neues Package [gluon-ssid-changer](https://github.com/freifunk-nord/gluon-ssid-changer).
@@ -30,16 +37,16 @@
 - Basis ist Gluon 2016.2.x in der Version vom 10.04.2018 ([siehe Gluon Git-Repo](https://github.com/freifunk-gluon/gluon/commits/v2016.2.x))
 - Es handelt sich um ein **wichtiges** Serviceupdate speziell für TP-Link CPE210/510 Router.
 
-Um Frankfurter CPE210/510 Router mit aufgespielter Stable-Firmware <= v2.4 in Zukunft mit neuerlicher Firmware aktualisieren zu können, muß im Vorfeld **zwingend** diese Firmware aufgespielt worden sein. 
+Um Frankfurter CPE210/510 Router mit aufgespielter Stable-Firmware <= v2.4 in Zukunft mit neuerlicher Firmware aktualisieren zu können, muß im Vorfeld **zwingend** diese Firmware aufgespielt worden sein.
 
 Frankfurter CPE210/510 Router mit aufgespielter **Test**-Firmware sind nicht betroffen.
 
 Andere Frankfurter Router müssen nicht auf diese Version aktualisiert werden.
-  
+
 ### v2.4-stable-0102
 - Erstellt am 02.01.2018
 - Basis ist Gluon 2016.2.7
-- Das Grundrauschen im Netz muß reduziert werden. Das neu hinzugefügte Gluon-Package ['gluon-ebtables-segment-mld'](http://gluon.readthedocs.io/en/stable/package/gluon-ebtables-segment-mld.html) filter dafür im Node die Anteile der "Multicast Listener Discovery v2 (MLDv2)"-Datenpakete heraus. 
+- Das Grundrauschen im Netz muß reduziert werden. Das neu hinzugefügte Gluon-Package ['gluon-ebtables-segment-mld'](http://gluon.readthedocs.io/en/stable/package/gluon-ebtables-segment-mld.html) filter dafür im Node die Anteile der "Multicast Listener Discovery v2 (MLDv2)"-Datenpakete heraus.
 
 
 ### v2.3-stable-0916
@@ -62,13 +69,13 @@ Andere Frankfurter Router müssen nicht auf diese Version aktualisiert werden.
 
 #### Known Issues
  - Router, welche nur per Mesh angebunden sind, können zur Zeit auf der Konsole keine IPv4-Verbindungen aufbauen. Wenn wir wieder ein NAT64 im Backbone haben, wird dieses jedoch wieder möglich sein.
- 
+
 <!--
 ### v2.2-stable-0729
  - Erstellt 29.07.2017
  - Release-Candidate
  - Release-Bezeichnung wurde korrigiert -> v2.2-stable-0729/gluon-2016.2.6
- 
+
 ### v2.2-stable-0721
  - Erstellt 21.07.2017
  - Release-Candidate
@@ -80,7 +87,7 @@ Andere Frankfurter Router müssen nicht auf diese Version aktualisiert werden.
  - Unterstützung neuer Router-Hardware (z.B. Archer C5/C7, TL-WR841ND v11 EU Version, TL-WR1043ND v4, TL-WR842ND v3, TL-WR940N v4, TL-WA901ND v4, TL-WR710N v2.1, CPE210/510 EU Version, WA801ND v3, UniFi AP AC Lite/Pro, Raspberry Pi 1 und 2)
  - Region-Code abhängige Images werden jetzt als Europa-Versionen gebaut
  - Images für ath10k-Devices werden gebaut
- - x86-Images nur noch als x86-generic und x86-64. Da ist jetzt alles Notwendige zur Virtualisierung dabei ([siehe hier](http://gluon.readthedocs.io/en/v2016.2.3/user/x86.html)). 
+ - x86-Images nur noch als x86-generic und x86-64. Da ist jetzt alles Notwendige zur Virtualisierung dabei ([siehe hier](http://gluon.readthedocs.io/en/v2016.2.3/user/x86.html)).
  - Um Airtime zu sparen wurde 80211b deaktiviert
  - Vorbereitung erweiterte IPv6-Nutzung für Clients
  - Durchsatzoptimierungen bei Unitymedia-Uplinks mittles größerer fastd-MTUs (1312 und 1374 Byte)
@@ -94,13 +101,13 @@ Andere Frankfurter Router müssen nicht auf diese Version aktualisiert werden.
    - Unterstützung von USB-Speichermedien (falls USB-Port vorhanden)
    - 'nano' als zusätzlichen Editor
    - tcpdump-mini
- - opkg sollte mit angepasster Backbone-Infrastruktur demnächst auch auf IPv6-Mesh-Routern funktionieren 
- 
+ - opkg sollte mit angepasster Backbone-Infrastruktur demnächst auch auf IPv6-Mesh-Routern funktionieren
+
 ### v2.0-stable-34
 - Erstellt 31.07.2016
 - Freigegebenes Gluon v2016.1.5
 - OpenWrt Chaos Calmer 15.05
-- Basis bzw. Übernahme der Site-Konfiguration aus v1.10.4-test-96 
+- Basis bzw. Übernahme der Site-Konfiguration aus v1.10.4-test-96
 - Neues Bezeichnungsschema der Firmware
 - Announced und Alfred entfernt.
 - radvd für öffentliches IPv6-Netz deaktiviert und für ULA-Netz aktiviert
@@ -130,5 +137,4 @@ Andere Frankfurter Router müssen nicht auf diese Version aktualisiert werden.
 ### ffmstable-1.10
 - Erstellt Ende 2015
 - Gluon 2014.1
-- OpenWrt Barrier Breaker 
-
+- OpenWrt Barrier Breaker
