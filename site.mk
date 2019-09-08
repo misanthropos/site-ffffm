@@ -24,6 +24,7 @@ GLUON_SITE_PACKAGES := \
 	ffffm-keep-radio-channel \
 	ffffm-button-bind \
 	ffffm-ath9k-broken-wifi-workaround \
+	ffffm-autoupdater-use-site-conf-branch \
 	gluon-ssid-changer \
 	respondd-module-airtime \
 
