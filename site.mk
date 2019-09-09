@@ -9,7 +9,6 @@ GLUON_FEATURES := \
 	radvd \
 	radv-filterd \
 	respondd \
-	scheduled-domain-switch \
 	status-page \
 	web-advanced \
 	web-wizard \
@@ -39,17 +38,15 @@ GLUON_MULTIDOMAIN := 1
 # This is the Stable branch
 
 # Gluon Base Release
-DEFAULT_GLUON_RELEASE := v3.2
+DEFAULT_GLUON_RELEASE := v3.3
 
-# For homebrew development add e.g. date and time
-# (Note: Don't use the ':' char. It will break the build)
+# Development branch information
+GLUON_BRANCH ?= stable
+
 DEFAULT_GLUON_RELEASE := $(DEFAULT_GLUON_RELEASE)-$(GLUON_BRANCH)-$(shell date '+%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
-
-# Development branch information
-GLUON_BRANCH ?= stable
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
@@ -61,4 +58,4 @@ GLUON_LANGS ?= de
 GLUON_REGION ?= eu
 
 # Prefer ath10k firmware with given mesh support (ibss or 11s)
-GLUON_WLAN_MESH ?= ibss
+GLUON_WLAN_MESH ?= 11s
