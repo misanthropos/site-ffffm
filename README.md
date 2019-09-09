@@ -1,7 +1,7 @@
 ## Stable-Version der Frankfurter Freifunkfirmware
 
-### v3.3-stable-09??
-- Erstellt am ??.09.2019
+### v3.3-stable-0909
+- Erstellt am 09.09.2019
 - erstes 11s-only-release
 - Neue Hardware: Alle Devices, die nur 11s Unterstützen, siehe Gluon-Doku. Highlights u.a.: FritzBox 4040, Netgear EX6150
 - Basis ist Gluon [v2018.2.2](https://gluon.readthedocs.io/en/v2018.2.2/)
