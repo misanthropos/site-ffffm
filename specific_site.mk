@@ -259,7 +259,7 @@ endif
 
 # ramips-mt76x8
 ifeq ($(GLUON_TARGET),ramips-mt76x8)
-GLUON_SITE_PACKAGES +=
+GLUON_SITE_PACKAGES += \
 	$(UTIL_PACKAGES)
 endif
 
