@@ -1,5 +1,10 @@
 ## Test-Version der Frankfurter Freifunkfirmware
 
+### v3.2.1-test-0917
+- Erstellt am 16.09.2019, rollout ab dem 17.09.2019
+- Basis ist noch Gluon [v2018.2.2](https://gluon.readthedocs.io/en/v2018.2.2/)
+- stellt die Test-Nodes auf Stable um, die nun auch 802.11s only ist
+
 ### v3.1.1-test-0712
 - Erstellt am 12.07.2019
 - Es handelt sich um ein Sicherheits-Update
@@ -21,7 +26,7 @@
   - Gl.iNet
      - MT300N (v2)
      - GL-MT300
-     - GL-MT750 
+     - GL-MT750
      - GL-B1300
   - Netgear
      - R6120
@@ -51,15 +56,15 @@ Flapping der Anzahl der verbundenen Wifi-Clients.
 - Basis ist [Gluon v2018.2.x] (https://github.com/freifunk-gluon/gluon/commits/v2018.2.x) vom 12.02.2019
   - Linux-Kernel ist 4.9.153 oder 4.14.97 (abhängig vom Routertyp)
 - Es handelt sich um ein Service-Update mit kleinen Erweiterungen.
-- Als Upgrade-Branch ist in dieser Firmware "stable" eingestellt. Hierdurch werden sich die Knoten mit Test-Firmware auf die neu anstehende Stable-Firmware aktualisieren. 
+- Als Upgrade-Branch ist in dieser Firmware "stable" eingestellt. Hierdurch werden sich die Knoten mit Test-Firmware auf die neu anstehende Stable-Firmware aktualisieren.
 - Unterstützung neuer Router-Hardware:
    - AVM
      - Fritz!WLAN Repeater 300E
-   - Nexx 
+   - Nexx
      - WT3020AD
      - WT3020F
      - WT3020H
- 
+
  #### Known Issues
  - Es kann Probleme mit 5GHz-Meshverbindungen geben.
  - Teilweise doppelte Anzeige von IPv6-Adressen auf der Map- bzw. Statusseite.
@@ -110,7 +115,7 @@ Hohe Systemlast. Es wird weiter daran entwickelt.
 - Basis ist das Gluon-Release v2018.1.1
 - Viele neue Features. Siehe [Gluon-Doku zur v2018.1.1](https://gluon.readthedocs.io/en/v2018.1.1/releases/v2018.1.html)
 - Linux-Kernel 4.4.148
-- Speichernutzung verbessert 
+- Speichernutzung verbessert
 - Unterstützung neuer Router-Hardware
   - siehe [ Neue Hardwareunterstützung durch Gluon 2018.1](https://gluon.readthedocs.io/en/v2018.1.1/releases/v2018.1.html#added-hardware-support)
   - und siehe [ Neue Hardwareunterstützung durch Gluon 2018.1.1](https://gluon.readthedocs.io/en/v2018.1.1/releases/v2018.1.1.html#added-hardware-support)
@@ -133,7 +138,7 @@ Hohe Systemlast. Es wird weiter daran entwickelt.
       - TL-WR940N v5 & v6
    - GL.iNet
       - GL-AR750
-   - Ubiquiti 
+   - Ubiquiti
       - UniFi AC Mesh
 
 #### Known Issues
@@ -150,7 +155,7 @@ Es gibt wahrscheinlich immer noch "Out Of Memor" (OOM) Probleme. Siehe: [Gluon-W
 ### v2.4.3-test-0417
 - Erstellt am 17.04.2018
 - Es handelt sich um ein reines Serviceupdate
-- Basis ist das Gluon-Release v2017.1.6 
+- Basis ist das Gluon-Release v2017.1.6
 - Gluon-Bugfixes siehe: [Gluon-Doku zur v2017.1.6](https://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.6.html#gluon-2017-1-6)
 #### Known Issues
 Es gibt wahrscheinlich immer noch "Out Of Memor" (OOM) Probleme. Siehe: [Gluon-Wiki Out of Memory](https://github.com/freifunk-gluon/gluon/wiki/Out-of-Memory)
@@ -159,19 +164,19 @@ Es gibt wahrscheinlich immer noch "Out Of Memor" (OOM) Probleme. Siehe: [Gluon-W
 - Erstellt am 27.01.2018
 - Basis ist Gluon 2017.1.x (LEDE 17.01)
 - Umstellung der Frankfurter Gluon-Packages auf LEDE
-- Neue Router-Unterstützung: 
-   - TP-Link 
+- Neue Router-Unterstützung:
+   - TP-Link
      - TL-WR1043N v5
      - RE450
      - WBS210 v1.20
-     - WBS510 v1.20, 
+     - WBS510 v1.20,
    - Ubiquiti
      -  EdgeRouter X / X-SFP
      -  AirGateway LR
      -  AirGateway PRO
      -  Rocket M2/M5 Ti
      -  UniFi AP LR
-   - GL Innovations 
+   - GL Innovations
      - GL-AR300M
 
 #### Known Issues
@@ -278,7 +283,7 @@ Es gibt ein "Out Of Memor" (OOM) Problem. Siehe: [Gluon-Wiki Out of Memory](http
 
 ### v2.0.3-test-1227
 - Erstellt 27.12.2016
-- Fix: Autoupdate bei Up-Link-Knoten wieder möglich. 
+- Fix: Autoupdate bei Up-Link-Knoten wieder möglich.
 
 #### Known Issues
 - opkg-Pfad zum OpenWrt Repository ist IPv4
@@ -288,10 +293,10 @@ Es gibt ein "Out Of Memor" (OOM) Problem. Siehe: [Gluon-Wiki Out of Memory](http
 - Freigegebenes Gluon v2016.2.2 + TL-WR940N v4 Unterstützung
 - Region-Code abhängige Images werden jetzt als Europa Versionen gebaut
 - Das Package 'ffffm-disable-80211b' wurde wegen neuem Gluon-Main-Package entfernt.
-- Das Package "ffffm-banner" optimiert. 
-- Vorbereitung erweitertes IPv6 für Clients 
+- Das Package "ffffm-banner" optimiert.
+- Vorbereitung erweitertes IPv6 für Clients
 - Anzahl Backbone-Supernodes von 20 auf 10 reduziert
-- Wegen dem DL-Server-Umzug, den Link auf den Updateserver angepasst 
+- Wegen dem DL-Server-Umzug, den Link auf den Updateserver angepasst
 - Für einige Router mit mehr als 4MB Flash gibt es jetzt:
   - Unterstützung von vielen USB-NICs (falls USB-Port vorhanden)
   - Unterstützung von USB-Speichermedien (falls USB-Port vorhanden)
@@ -301,7 +306,7 @@ Es gibt ein "Out Of Memor" (OOM) Problem. Siehe: [Gluon-Wiki Out of Memory](http
 - Autoupdate wird automatisch aktiviert
 
 #### Known Issues
-- Auf Up-Link-Knoten kein Autoupdate mehr möglich. Die DNS-Namensauflösung funktioniert dort nicht. 
+- Auf Up-Link-Knoten kein Autoupdate mehr möglich. Die DNS-Namensauflösung funktioniert dort nicht.
 - opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v2.0.1-test-1219 (gesperrt)
@@ -310,7 +315,7 @@ Es gibt ein "Out Of Memor" (OOM) Problem. Siehe: [Gluon-Wiki Out of Memory](http
 - Autoupdate wird automatisch aktiviert
 
 #### Known Issues
-- Auf Up-Link-Knoten kein Autoupdate mehr möglich. Die DNS-Namensauflösung funktioniert dort nicht. 
+- Auf Up-Link-Knoten kein Autoupdate mehr möglich. Die DNS-Namensauflösung funktioniert dort nicht.
 - opkg-Pfad zum OpenWrt Repository ist IPv4
 
 ### v1.10.6-test-99
@@ -324,14 +329,14 @@ Es gibt ein "Out Of Memor" (OOM) Problem. Siehe: [Gluon-Wiki Out of Memory](http
 
 ### v1.10.5-test-98
 - Erstellt 04.08.2016
-- Bugfix: Das aktuelle und abgeschwächtes Package 'ffffm-ath9k-broken-wifi-workaround' wird verwendet 
+- Bugfix: Das aktuelle und abgeschwächtes Package 'ffffm-ath9k-broken-wifi-workaround' wird verwendet
 - Package 'ffffm-diasable-80211b' hinzu
 - Alfred entfernt
 
 #### Known Issues
 - opkg-Pfad zum OpenWrt Repository ist IPv4
 - Als Gluon-Version wird fälschlicherweise 2015.1.5 ausgegeben. Es ist aber 2016.1.5.
- 
+
 ### v1.10.4-test-96
 - Erstellt 06.07.2016
 - Neues Package 'ffffm-enlarge-dns-cache' hinzu
@@ -353,7 +358,7 @@ Es gibt ein "Out Of Memor" (OOM) Problem. Siehe: [Gluon-Wiki Out of Memory](http
 #### Known Issues
 - Der Links zu dem Updateserver ist falsch gesetzt. Eine Aktualisierung auf eine neuere Version ist wohl nur noch händisch möglich! :o(
 - opkg-Pfad zum OpenWrt Repository ist IPv4
- 
+
 
 ### v1.10.3-test-83 (nicht automatisch ausgerollt)
 - Erstellt 05.05.2016
@@ -381,7 +386,7 @@ Es gibt ein "Out Of Memor" (OOM) Problem. Siehe: [Gluon-Wiki Out of Memory](http
 - Das Package ffffm-ebtables-net-rules wieder aktiviert
 - Neues Package 'ffffm-banner' hinzu
 - Konfigmode-Seite "Auto-MTU" entfernt
-- Bugfix: Auto-MTU-Erkennung bei x86-Images 
+- Bugfix: Auto-MTU-Erkennung bei x86-Images
 
 #### Known Issues
 - Das WLAN hängt sich bei einigen wenigen Routern manchmal auf
@@ -419,5 +424,3 @@ Es gibt ein "Out Of Memor" (OOM) Problem. Siehe: [Gluon-Wiki Out of Memory](http
 
 ## Bekannte Probleme
 Mit Gluon v2016.1.x ist das Aktivieren des Konfigurationsmoduses etwas hakelig. Die optische Reboot-Rückmeldung über die Router-LEDs kommt erst nach ca. 10 Sekunden.
-
-
