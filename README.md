@@ -4,7 +4,7 @@ Firmware-Varianten und Git-Branches haben zur Vereinfachung den gleichen Namen b
 
 **stable:**
 
-* Bezeichnungsschema: 'a.b-stable-b'
+* Bezeichnungsschema: 'a.b(.c)-stable-b'
 * SSID: 'ffm.freifunk.net'
 * Stabiles Gluon Release
 * **Diese Firmware sollte standardmäßig in Frankfurt verwendet werden.**
