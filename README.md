@@ -57,7 +57,7 @@ Firmware-Varianten und Git-Branches haben zur Vereinfachung den gleichen Namen b
     
 Wenn Du Dir z.B. eine eigene **'Test'**-Firmware für das Frankfurter Freifunk-Netz bauen möchtest, dann gehe wie folgt vor:
 
-1) Aktuell (Stand 01/2019) basiert die Test-Firmware-Konfiguration auf dem Gluon-Framework 2018.2, daher evtl. etwas einlesen -> https://gluon.readthedocs.io/en/v2018.2.x/index.html
+1) Aktuell (Stand 09/2019) basiert die Test-Firmware-Konfiguration auf dem Gluon-Framework v2019.1, daher evtl. etwas einlesen -> https://gluon.readthedocs.io/en/v2019.1
 
 2) Alle Dependencies aus o.g. Dokument müssen auf deinem PC installiert sein.  
 Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 01/2019):
