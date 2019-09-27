@@ -1,9 +1,9 @@
 GLUON_FEATURES := \
 	autoupdater \
-	ebtables-filter-multicast \
-	ebtables-filter-ra-dhcp \
-	ebtables-limit-arp \
-	ebtables-source-filter \
+#	ebtables-filter-multicast \
+#	ebtables-filter-ra-dhcp \
+#	ebtables-limit-arp \
+#	ebtables-source-filter \
 	mesh-batman-adv-14 \
 	mesh-vpn-fastd \
 	radvd \
@@ -20,6 +20,8 @@ GLUON_SITE_PACKAGES := \
 	iwinfo \
 	iptables \
 	haveged \
+	kmod-zram \
+	zram-swap \
 	ffffm-banner_legacy \
 	ffffm-keep-radio-channel \
 	ffffm-button-bind \
