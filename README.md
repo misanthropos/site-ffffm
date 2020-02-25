@@ -55,30 +55,32 @@ Firmware-Varianten und Git-Branches haben zur Vereinfachung den gleichen Namen b
 ## Beispiel anhand der Frankfurter Test-Firmware
 
     
-Wenn Du Dir z.B. eine eigene **'Test'**-Firmware für das Frankfurter Freifunk-Netz bauen möchtest, dann gehe wie folgt vor:
+Wenn Du Dir z.B. eine eigene **'Test'**-Firmware für das Frankfurter Freifunk-Netz selber bauen möchtest, dann gehe wie folgt vor:
 
 1) Aktuell (Stand 02/2020) basiert die Test-Firmware-Konfiguration auf dem Gluon-Framework v2020.1.x, daher evtl. etwas einlesen -> https://gluon.readthedocs.io/en/v2020.1.x
 
-2) Alle Dependencies aus o.g. Dokument müssen auf deinem PC installiert sein.  
-Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 01/2019):
+2) Eine Linux-Build-Maschine bereitstellen, möglichst mit Debian. Daran denken, dass ein Build für **ein** Hardware-Target bis zu 15 GByte freien Speicher auf dem Datenträger der Build-Maschine benötigt. Sollen **alle** Hardware-Targets gebaut werden, so werden ca. 140 GB benötigt (Stand 02/2020).
+
+3) Alle Dependencies aus o.g. Gluon-Dokument müssen auf der Build-Maschine installierz sein.  
+Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 02/2020):
 ```
    sudo apt install git subversion python build-essential gawk unzip libncurses5-dev zlib1g-dev libssl-dev wget time
 ```
 
-3) Clonen des Frankfurter Gluon 'test' Branches in das Verzeichnis ./gluon :
+4) Clonen des Frankfurter Gluon 'test' Branches in das Verzeichnis ./gluon :
 
 ```
    git clone https://github.com/freifunk-ffm/gluon.git -b test gluon
 ```
 
-4) Clonen der Frankfurter Site-Konfiguration aus dem 'test' Branch in das Verzeichnis ./gluon/site
+5) Clonen der Frankfurter Site-Konfiguration aus dem 'test' Branch in das Verzeichnis ./gluon/site
 
 ```
    cd gluon
    git clone https://github.com/freifunk-ffm/site-ffffm.git -b test site 
 ```
 
-5) Ggf. in der Datei **site.mk** etwas rumschrauben
+6) Ggf. in der Datei **site.mk** etwas rumschrauben
 
    ```
    cd site
@@ -86,13 +88,13 @@ Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 01/2019):
    cd ..
    ```
 
-6) Veranlassen, dass alle notwendigen Source-Packete geholt werden (OpenWrt, Frankfurter Packages etc.)
+7) Veranlassen, dass alle notwendigen Source-Packete geholt werden (OpenWrt, Frankfurter Packages etc.)
 
 ```
    make update
 ```
 
-7) Daran denken, dass ein Build für ein Hardware-Target in etwa **15 GByte** Platz auf deinem Datenträger benötigt. Es gibt mehrere Hardware-Targets. 
+8) Es gibt mehrere Hardware-Targets: 
 
    * ar71xx-generic
    * ar71xx-tiny
@@ -115,7 +117,7 @@ Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 01/2019):
    * x86-geode
    * x86-64
 
-8) Den Bau-Prozess anschmeissen für z.B. ar71xx-generic Hardware-Targets
+9) Den Bau-Prozess anschmeissen für z.B. ar71xx-generic Hardware-Targets
 
 ```
    make GLUON_TARGET=ar71xx-generic -j4 V=s
@@ -124,7 +126,7 @@ Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 01/2019):
    * -j4 bedeutet, es werden bis zu vier Make-Threads verwendet.<br> 
    * V=s (optional) erzeugt eine ausführliche Bildschirmausgabe.<br>
 
-9) Wenn alles gut ging, dann findest Du nach ca. 30-120 Minuten im Verzeichnis **./output** die Target-Binaries deiner eigenen Frankfurter 'Homebrew' Firmware.
+10) Wenn alles gut ging, dann findest Du nach ca. 30-120 Minuten im Verzeichnis **./output** die Target-Binaries deiner eigenen Frankfurter 'Homebrew' Firmware.
 
 ---
 
