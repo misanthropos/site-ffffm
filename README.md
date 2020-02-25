@@ -61,7 +61,7 @@ Wenn Du Dir z.B. eine eigene **'Test'**-Firmware für das Frankfurter Freifunk-N
 
 2) Eine Linux-Build-Maschine bereitstellen, möglichst mit Debian. Daran denken, dass ein Build für **ein** Hardware-Target bis zu 15 GByte freien Speicher auf dem Datenträger der Build-Maschine benötigt. Sollen **alle** Hardware-Targets gebaut werden, so werden ca. 140 GB benötigt (Stand 02/2020).
 
-3) Alle Dependencies aus o.g. Gluon-Dokument müssen auf der Build-Maschine installierz sein.  
+3) Alle Dependencies aus o.g. Gluon-Dokument müssen auf der Build-Maschine installiert sein.  
 Unter Debian oder Ubuntu sollte folgendes ausreichen (Stand 02/2020):
 ```
    sudo apt install git subversion python build-essential gawk unzip libncurses5-dev zlib1g-dev libssl-dev wget time
